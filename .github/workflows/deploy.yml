@@ -37,6 +37,5 @@ jobs:
           git add -f dist/
           git commit -m "deploy: ${{ github.sha }}"
           git push -f origin gh-pages
-          git checkout master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
