@@ -29,9 +29,8 @@ jobs:
           # Move dist contents to repo root
           rm -f .summary.md
           rm -rf .github
+          mv football-site/dist/* .
           rm -rf football-site
-          mv build/* .
-          rmdir build 2>/dev/null || true
 
           git add -A
           git commit -m "deploy: ${{ github.sha }}" --allow-empty || echo "No changes"
