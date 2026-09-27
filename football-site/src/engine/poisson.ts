@@ -1,4 +1,5 @@
 import { Prediction } from '../data/types'
+import { HOME_ADVANTAGE, DRAW_INFLATION, MAX_GOALS, CONFIDENCE_CAP } from '../data/teams'
 
 export function poissonPMF(lambda: number, k: number): number {
   if (lambda <= 0) return k === 0 ? 1 : 0
@@ -19,11 +20,6 @@ export function predictMatch(
   const home = strengths[match.home]
   const away = strengths[match.away]
   if (!home || !away) return null
-
-  const HOME_ADVANTAGE = 1.12
-  const DRAW_INFLATION = 1.08
-  const MAX_GOALS = 8
-  const CONFIDENCE_CAP = 0.78
 
   const homeForm = form[match.home]?.score ?? 0.5
   const awayForm = form[match.away]?.score ?? 0.5
@@ -61,6 +57,16 @@ export function predictMatch(
   const games = home.games + away.games
   const confidence = Math.min(CONFIDENCE_CAP, 0.5 + Math.min(games, 40) / 40 * 0.28)
 
+  // Recommended market (highest prob outcome)
+  const maxProb = Math.max(probHomeWin, probDraw, probAwayWin)
+  const outcome = maxProb === probHomeWin ? 'home' : maxProb === probAwayWin ? 'away' : 'draw'
+
+  // Generate narrative
+  const homeName = match.home
+  const awayName = match.away
+  const favorite = maxProb >= 0.45 ? (outcome === 'home' ? homeName : awayName) : '勢均力敵'
+  const narrative = `${homeName} 主場迎戰 ${awayName}。泊松模型顯示 ${homeName} 期望進球 ${lambdaHome.toFixed(2)} 球，${awayName} ${lambdaAway.toFixed(2)} 球。最可能結果為${outcome === 'home' ? '主勝' : outcome === 'away' ? '客勝' : '平局'}，信心度 ${(confidence * 100).toFixed(0)}%。`
+
   return {
     matchId: match.id,
     home: match.home,
@@ -75,7 +81,7 @@ export function predictMatch(
     probBTTS,
     matrix,
     confidence,
-    suggestedStake: '',
-    narrative: `${match.home} vs ${match.away}`,
+    suggestedStake: confidence > 0.65 ? 'high' : confidence > 0.5 ? 'medium' : 'low',
+    narrative,
   }
 }
