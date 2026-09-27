@@ -136,7 +136,7 @@ export default function MatchPage() {
             <div className="stat-label">信心度</div>
           </div>
           <div className="stat-card">
-            <div className="stat-value" style={{ fontSize: 24, WebkitTextFillColor: 'var(--gold)' }}>              {pred.suggestedStake ? fmtStake(pred.suggestedStake) : '观望'}</div>
+            <div className="stat-value" style={{ fontSize: 24, WebkitTextFillColor: 'var(--gold)' }}>{pred.suggestedStake ? fmtStake(pred.suggestedStake) : '观望'}</div>
             <div className="stat-label">建议仓位</div>
           </div>
         </div>
