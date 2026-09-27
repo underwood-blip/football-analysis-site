@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { EplProvider } from './data/EplData'
 import Layout from './ui/Layout'
 import EplPage from './pages/EplPage'
@@ -8,7 +8,7 @@ import MethodPage from './pages/MethodPage'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <EplProvider>
         <Layout>
           <Routes>
