@@ -1,381 +1,381 @@
 Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
-2017-08-11,15:00,Arsenal,Wolves,TBD,2,0,H,1
-2017-08-13,17:30,Aston Villa,West Ham,TBD,0,1,A,1
-2017-08-15,17:30,Bournemouth,Tottenham,TBD,2,2,D,1
-2017-08-17,17:30,Brentford,Southampton,TBD,1,0,H,1
-2017-08-19,17:30,Brighton,Nott'm Forest,TBD,1,1,D,1
-2017-08-21,17:30,Chelsea,Newcastle,TBD,2,1,H,1
-2017-08-23,17:30,Crystal Palace,Man United,TBD,1,1,D,1
-2017-08-25,17:30,Everton,Man City,TBD,0,1,A,1
-2017-08-27,17:30,Fulham,Liverpool,TBD,1,0,H,1
-2017-08-29,17:30,Ipswich,Leicester,TBD,0,0,D,1
-2017-08-18,15:00,Arsenal,West Ham,TBD,3,2,H,2
-2017-08-20,17:30,Wolves,Tottenham,TBD,0,2,A,2
-2017-08-22,17:30,Aston Villa,Southampton,TBD,0,2,A,2
-2017-08-24,17:30,Bournemouth,Nott'm Forest,TBD,0,0,D,2
-2017-08-26,17:30,Brentford,Newcastle,TBD,1,0,H,2
-2017-08-28,17:30,Brighton,Man United,TBD,0,1,A,2
-2017-08-30,17:30,Chelsea,Man City,TBD,0,2,A,2
-2017-09-01,17:30,Crystal Palace,Liverpool,TBD,1,2,A,2
-2017-09-03,17:30,Everton,Leicester,TBD,1,0,H,2
-2017-09-05,17:30,Fulham,Ipswich,TBD,0,0,D,2
-2017-08-25,15:00,Arsenal,Tottenham,TBD,3,1,H,3
-2017-08-27,17:30,West Ham,Southampton,TBD,0,0,D,3
-2017-08-29,17:30,Wolves,Nott'm Forest,TBD,2,1,H,3
-2017-08-31,17:30,Aston Villa,Newcastle,TBD,2,1,H,3
-2017-09-02,17:30,Bournemouth,Man United,TBD,0,0,D,3
-2017-09-04,17:30,Brentford,Man City,TBD,0,1,A,3
-2017-09-06,17:30,Brighton,Liverpool,TBD,1,0,H,3
-2017-09-08,17:30,Chelsea,Leicester,TBD,0,0,D,3
-2017-09-10,17:30,Crystal Palace,Ipswich,TBD,0,1,A,3
-2017-09-12,17:30,Everton,Fulham,TBD,1,0,H,3
-2017-09-01,15:00,Arsenal,Southampton,TBD,1,0,H,4
-2017-09-03,17:30,Tottenham,Nott'm Forest,TBD,1,0,H,4
-2017-09-05,17:30,West Ham,Newcastle,TBD,2,1,H,4
-2017-09-07,17:30,Wolves,Man United,TBD,1,1,D,4
-2017-09-09,17:30,Aston Villa,Man City,TBD,1,1,D,4
-2017-09-11,17:30,Bournemouth,Liverpool,TBD,0,2,A,4
-2017-09-13,17:30,Brentford,Leicester,TBD,0,0,D,4
-2017-09-15,17:30,Brighton,Ipswich,TBD,1,0,H,4
-2017-09-17,17:30,Chelsea,Fulham,TBD,1,1,D,4
-2017-09-19,17:30,Crystal Palace,Everton,TBD,1,0,H,4
-2017-09-08,15:00,Arsenal,Nott'm Forest,TBD,1,0,H,5
-2017-09-10,17:30,Southampton,Newcastle,TBD,1,1,D,5
-2017-09-12,17:30,Tottenham,Man United,TBD,1,1,D,5
-2017-09-14,17:30,West Ham,Man City,TBD,0,3,A,5
-2017-09-16,17:30,Wolves,Liverpool,TBD,0,2,A,5
-2017-09-18,17:30,Aston Villa,Leicester,TBD,1,1,D,5
-2017-09-20,17:30,Bournemouth,Ipswich,TBD,2,0,H,5
-2017-09-22,17:30,Brentford,Fulham,TBD,0,0,D,5
-2017-09-24,17:30,Brighton,Everton,TBD,2,0,H,5
-2017-09-26,17:30,Chelsea,Crystal Palace,TBD,0,0,D,5
-2017-09-15,15:00,Arsenal,Newcastle,TBD,0,0,D,6
-2017-09-17,17:30,Nott'm Forest,Man United,TBD,0,0,D,6
-2017-09-19,17:30,Southampton,Man City,TBD,0,0,D,6
-2017-09-21,17:30,Tottenham,Liverpool,TBD,1,2,A,6
-2017-09-23,17:30,West Ham,Leicester,TBD,2,1,H,6
-2017-09-25,17:30,Wolves,Ipswich,TBD,1,0,H,6
-2017-09-27,17:30,Aston Villa,Fulham,TBD,0,1,A,6
-2017-09-29,17:30,Bournemouth,Everton,TBD,2,0,H,6
-2017-10-01,17:30,Brentford,Crystal Palace,TBD,0,0,D,6
-2017-10-03,17:30,Brighton,Chelsea,TBD,2,1,H,6
-2017-09-22,15:00,Arsenal,Man United,TBD,2,1,H,7
-2017-09-24,17:30,Newcastle,Man City,TBD,1,2,A,7
-2017-09-26,17:30,Nott'm Forest,Liverpool,TBD,2,3,A,7
-2017-09-28,17:30,Southampton,Leicester,TBD,0,1,A,7
-2017-09-30,17:30,Tottenham,Ipswich,TBD,1,0,H,7
-2017-10-02,17:30,West Ham,Fulham,TBD,0,1,A,7
-2017-10-04,17:30,Wolves,Everton,TBD,2,0,H,7
-2017-10-06,17:30,Aston Villa,Crystal Palace,TBD,0,0,D,7
-2017-10-08,17:30,Bournemouth,Chelsea,TBD,2,1,H,7
-2017-10-10,17:30,Brentford,Brighton,TBD,0,1,A,7
-2017-09-29,15:00,Arsenal,Man City,TBD,1,2,A,8
-2017-10-01,17:30,Man United,Liverpool,TBD,2,2,D,8
-2017-10-03,17:30,Newcastle,Leicester,TBD,2,0,H,8
-2017-10-05,17:30,Nott'm Forest,Ipswich,TBD,0,0,D,8
-2017-10-07,17:30,Southampton,Fulham,TBD,0,0,D,8
-2017-10-09,17:30,Tottenham,Everton,TBD,1,0,H,8
-2017-10-11,17:30,West Ham,Crystal Palace,TBD,1,0,H,8
-2017-10-13,17:30,Wolves,Chelsea,TBD,0,1,A,8
-2017-10-15,17:30,Aston Villa,Brighton,TBD,0,1,A,8
-2017-10-17,17:30,Bournemouth,Brentford,TBD,0,0,D,8
-2017-10-06,15:00,Arsenal,Liverpool,TBD,0,2,A,9
-2017-10-08,17:30,Man City,Leicester,TBD,2,1,H,9
-2017-10-10,17:30,Man United,Ipswich,TBD,0,0,D,9
-2017-10-12,17:30,Newcastle,Fulham,TBD,0,0,D,9
-2017-10-14,17:30,Nott'm Forest,Everton,TBD,1,1,D,9
-2017-10-16,17:30,Southampton,Crystal Palace,TBD,1,1,D,9
-2017-10-18,17:30,Tottenham,Chelsea,TBD,2,1,H,9
-2017-10-20,17:30,West Ham,Brighton,TBD,2,2,D,9
-2017-10-22,17:30,Wolves,Brentford,TBD,0,0,D,9
-2017-10-24,17:30,Aston Villa,Bournemouth,TBD,0,0,D,9
-2017-10-13,15:00,Arsenal,Leicester,TBD,3,1,H,10
-2017-10-15,17:30,Liverpool,Ipswich,TBD,1,0,H,10
-2017-10-17,17:30,Man City,Fulham,TBD,2,0,H,10
-2017-10-19,17:30,Man United,Everton,TBD,1,0,H,10
-2017-10-21,17:30,Newcastle,Crystal Palace,TBD,1,1,D,10
-2017-10-23,17:30,Nott'm Forest,Chelsea,TBD,1,1,D,10
-2017-10-25,17:30,Southampton,Brighton,TBD,1,0,H,10
-2017-10-27,17:30,Tottenham,Brentford,TBD,0,0,D,10
-2017-10-29,17:30,West Ham,Bournemouth,TBD,2,1,H,10
-2017-10-31,17:30,Wolves,Aston Villa,TBD,1,2,A,10
-2017-10-20,15:00,Arsenal,Ipswich,TBD,1,1,D,11
-2017-10-22,17:30,Leicester,Fulham,TBD,0,0,D,11
-2017-10-24,17:30,Liverpool,Everton,TBD,2,1,H,11
-2017-10-26,17:30,Man City,Crystal Palace,TBD,2,0,H,11
-2017-10-28,17:30,Man United,Chelsea,TBD,0,1,A,11
-2017-10-30,17:30,Newcastle,Brighton,TBD,0,0,D,11
-2017-11-01,17:30,Nott'm Forest,Brentford,TBD,0,0,D,11
-2017-11-03,17:30,Southampton,Bournemouth,TBD,0,0,D,11
-2017-11-05,17:30,Tottenham,Aston Villa,TBD,2,0,H,11
-2017-11-07,17:30,West Ham,Wolves,TBD,2,1,H,11
-2017-10-27,15:00,Arsenal,Fulham,TBD,1,1,D,12
-2017-10-29,17:30,Ipswich,Everton,TBD,0,0,D,12
-2017-10-31,17:30,Leicester,Crystal Palace,TBD,0,0,D,12
-2017-11-02,17:30,Liverpool,Chelsea,TBD,1,1,D,12
-2017-11-04,17:30,Man City,Brighton,TBD,2,2,D,12
-2017-11-06,17:30,Man United,Brentford,TBD,0,1,A,12
-2017-11-08,17:30,Newcastle,Bournemouth,TBD,0,1,A,12
-2017-11-10,17:30,Nott'm Forest,Aston Villa,TBD,0,1,A,12
-2017-11-12,17:30,Southampton,Wolves,TBD,0,0,D,12
-2017-11-14,17:30,Tottenham,West Ham,TBD,1,1,D,12
-2017-11-03,15:00,Arsenal,Everton,TBD,3,0,H,13
-2017-11-05,17:30,Fulham,Crystal Palace,TBD,0,1,A,13
-2017-11-07,17:30,Ipswich,Chelsea,TBD,0,0,D,13
-2017-11-09,17:30,Leicester,Brighton,TBD,0,1,A,13
-2017-11-11,17:30,Liverpool,Brentford,TBD,0,0,D,13
-2017-11-13,17:30,Man City,Bournemouth,TBD,0,0,D,13
-2017-11-15,17:30,Man United,Aston Villa,TBD,1,1,D,13
-2017-11-17,17:30,Newcastle,Wolves,TBD,3,1,H,13
-2017-11-19,17:30,Nott'm Forest,West Ham,TBD,1,1,D,13
-2017-11-21,17:30,Southampton,Tottenham,TBD,1,1,D,13
-2017-11-10,15:00,Arsenal,Crystal Palace,TBD,1,0,H,14
-2017-11-12,17:30,Everton,Chelsea,TBD,2,1,H,14
-2017-11-14,17:30,Fulham,Brighton,TBD,1,2,A,14
-2017-11-16,17:30,Ipswich,Brentford,TBD,0,0,D,14
-2017-11-18,17:30,Leicester,Bournemouth,TBD,1,0,H,14
-2017-11-20,17:30,Liverpool,Aston Villa,TBD,0,1,A,14
-2017-11-22,17:30,Man City,Wolves,TBD,2,1,H,14
-2017-11-24,17:30,Man United,West Ham,TBD,1,0,H,14
-2017-11-26,17:30,Newcastle,Tottenham,TBD,1,1,D,14
-2017-11-28,17:30,Nott'm Forest,Southampton,TBD,1,0,H,14
-2017-11-17,15:00,Arsenal,Chelsea,TBD,1,1,D,15
-2017-11-19,17:30,Crystal Palace,Brighton,TBD,1,2,A,15
-2017-11-21,17:30,Everton,Brentford,TBD,2,1,H,15
-2017-11-23,17:30,Fulham,Bournemouth,TBD,1,1,D,15
-2017-11-25,17:30,Ipswich,Aston Villa,TBD,0,1,A,15
-2017-11-27,17:30,Leicester,Wolves,TBD,0,0,D,15
-2017-11-29,17:30,Liverpool,West Ham,TBD,0,1,A,15
-2017-12-01,17:30,Man City,Tottenham,TBD,2,1,H,15
-2017-12-03,17:30,Man United,Southampton,TBD,0,1,A,15
-2017-12-05,17:30,Newcastle,Nott'm Forest,TBD,2,1,H,15
-2017-11-24,15:00,Arsenal,Brighton,TBD,1,1,D,16
-2017-11-26,17:30,Chelsea,Brentford,TBD,0,1,A,16
-2017-11-28,17:30,Crystal Palace,Bournemouth,TBD,0,0,D,16
-2017-11-30,17:30,Everton,Aston Villa,TBD,2,0,H,16
-2017-12-02,17:30,Fulham,Wolves,TBD,0,1,A,16
-2017-12-04,17:30,Ipswich,West Ham,TBD,0,2,A,16
-2017-12-06,17:30,Leicester,Tottenham,TBD,1,1,D,16
-2017-12-08,17:30,Liverpool,Southampton,TBD,2,0,H,16
-2017-12-10,17:30,Man City,Nott'm Forest,TBD,2,0,H,16
-2017-12-12,17:30,Man United,Newcastle,TBD,1,0,H,16
-2017-12-01,15:00,Arsenal,Brentford,TBD,2,0,H,17
-2017-12-03,17:30,Brighton,Bournemouth,TBD,0,0,D,17
-2017-12-05,17:30,Chelsea,Aston Villa,TBD,3,1,H,17
-2017-12-07,17:30,Crystal Palace,Wolves,TBD,1,0,H,17
-2017-12-09,17:30,Everton,West Ham,TBD,0,1,A,17
-2017-12-11,17:30,Fulham,Tottenham,TBD,1,1,D,17
-2017-12-13,17:30,Ipswich,Southampton,TBD,0,0,D,17
-2017-12-15,17:30,Leicester,Nott'm Forest,TBD,1,1,D,17
-2017-12-17,17:30,Liverpool,Newcastle,TBD,1,1,D,17
-2017-12-19,17:30,Man City,Man United,TBD,1,1,D,17
-2017-12-08,15:00,Arsenal,Bournemouth,TBD,0,0,D,18
-2017-12-10,17:30,Brentford,Aston Villa,TBD,0,1,A,18
-2017-12-12,17:30,Brighton,Wolves,TBD,1,0,H,18
-2017-12-14,17:30,Chelsea,West Ham,TBD,2,1,H,18
-2017-12-16,17:30,Crystal Palace,Tottenham,TBD,1,1,D,18
-2017-12-18,17:30,Everton,Southampton,TBD,0,1,A,18
-2017-12-20,17:30,Fulham,Nott'm Forest,TBD,1,0,H,18
-2017-12-22,17:30,Ipswich,Newcastle,TBD,2,1,H,18
-2017-12-24,17:30,Leicester,Man United,TBD,0,1,A,18
-2017-12-26,17:30,Liverpool,Man City,TBD,2,2,D,18
-2017-12-15,15:00,Arsenal,Aston Villa,TBD,2,1,H,19
-2017-12-17,17:30,Bournemouth,Wolves,TBD,1,0,H,19
-2017-12-19,17:30,Brentford,West Ham,TBD,1,2,A,19
-2017-12-21,17:30,Brighton,Tottenham,TBD,1,1,D,19
-2017-12-23,17:30,Chelsea,Southampton,TBD,1,1,D,19
-2017-12-25,17:30,Crystal Palace,Nott'm Forest,TBD,0,0,D,19
-2017-12-27,17:30,Everton,Newcastle,TBD,1,1,D,19
-2017-12-29,17:30,Fulham,Man United,TBD,1,1,D,19
-2017-12-31,17:30,Ipswich,Man City,TBD,0,1,A,19
-2018-01-02,17:30,Leicester,Liverpool,TBD,0,1,A,19
-2017-12-22,15:00,Wolves,Arsenal,TBD,0,1,A,20
-2017-12-24,17:30,West Ham,Aston Villa,TBD,1,1,D,20
-2017-12-26,17:30,Tottenham,Bournemouth,TBD,1,0,H,20
-2017-12-28,17:30,Southampton,Brentford,TBD,0,1,A,20
-2017-12-30,17:30,Nott'm Forest,Brighton,TBD,0,1,A,20
-2018-01-01,17:30,Newcastle,Chelsea,TBD,0,2,A,20
-2018-01-03,17:30,Man United,Crystal Palace,TBD,1,0,H,20
-2018-01-05,17:30,Man City,Everton,TBD,2,0,H,20
-2018-01-07,17:30,Liverpool,Fulham,TBD,0,1,A,20
-2018-01-09,17:30,Leicester,Ipswich,TBD,0,0,D,20
-2017-12-29,15:00,West Ham,Arsenal,TBD,2,2,D,21
-2017-12-31,17:30,Tottenham,Wolves,TBD,1,1,D,21
-2018-01-02,17:30,Southampton,Aston Villa,TBD,2,1,H,21
-2018-01-04,17:30,Nott'm Forest,Bournemouth,TBD,1,0,H,21
-2018-01-06,17:30,Newcastle,Brentford,TBD,0,1,A,21
-2018-01-08,17:30,Man United,Brighton,TBD,1,2,A,21
-2018-01-10,17:30,Man City,Chelsea,TBD,1,1,D,21
-2018-01-12,17:30,Liverpool,Crystal Palace,TBD,1,1,D,21
-2018-01-14,17:30,Leicester,Everton,TBD,0,1,A,21
-2018-01-16,17:30,Ipswich,Fulham,TBD,0,1,A,21
-2018-01-05,15:00,Tottenham,Arsenal,TBD,1,2,A,22
-2018-01-07,17:30,Southampton,West Ham,TBD,1,0,H,22
-2018-01-09,17:30,Nott'm Forest,Wolves,TBD,0,2,A,22
-2018-01-11,17:30,Newcastle,Aston Villa,TBD,0,1,A,22
-2018-01-13,17:30,Man United,Bournemouth,TBD,1,1,D,22
-2018-01-15,17:30,Man City,Brentford,TBD,4,1,H,22
-2018-01-17,17:30,Liverpool,Brighton,TBD,1,0,H,22
-2018-01-19,17:30,Leicester,Chelsea,TBD,0,0,D,22
-2018-01-21,17:30,Ipswich,Crystal Palace,TBD,0,0,D,22
-2018-01-23,17:30,Fulham,Everton,TBD,2,0,H,22
-2018-01-12,15:00,Southampton,Arsenal,TBD,2,1,H,23
-2018-01-14,17:30,Nott'm Forest,Tottenham,TBD,1,1,D,23
-2018-01-16,17:30,Newcastle,West Ham,TBD,1,0,H,23
-2018-01-18,17:30,Man United,Wolves,TBD,0,0,D,23
-2018-01-20,17:30,Man City,Aston Villa,TBD,0,1,A,23
-2018-01-22,17:30,Liverpool,Bournemouth,TBD,2,2,D,23
-2018-01-24,17:30,Leicester,Brentford,TBD,0,0,D,23
-2018-01-26,17:30,Ipswich,Brighton,TBD,0,0,D,23
-2018-01-28,17:30,Fulham,Chelsea,TBD,1,1,D,23
-2018-01-30,17:30,Everton,Crystal Palace,TBD,2,0,H,23
-2018-01-19,15:00,Nott'm Forest,Arsenal,TBD,0,2,A,24
-2018-01-21,17:30,Newcastle,Southampton,TBD,0,0,D,24
-2018-01-23,17:30,Man United,Tottenham,TBD,0,2,A,24
-2018-01-25,17:30,Man City,West Ham,TBD,1,1,D,24
-2018-01-27,17:30,Liverpool,Wolves,TBD,0,0,D,24
-2018-01-29,17:30,Leicester,Aston Villa,TBD,1,0,H,24
-2018-01-31,17:30,Ipswich,Bournemouth,TBD,0,0,D,24
-2018-02-02,17:30,Fulham,Brentford,TBD,0,0,D,24
-2018-02-04,17:30,Everton,Brighton,TBD,0,0,D,24
-2018-02-06,17:30,Crystal Palace,Chelsea,TBD,1,0,H,24
-2018-01-26,15:00,Newcastle,Arsenal,TBD,1,1,D,25
-2018-01-28,17:30,Man United,Nott'm Forest,TBD,1,0,H,25
-2018-01-30,17:30,Man City,Southampton,TBD,1,1,D,25
-2018-02-01,17:30,Liverpool,Tottenham,TBD,0,1,A,25
-2018-02-03,17:30,Leicester,West Ham,TBD,0,0,D,25
-2018-02-05,17:30,Ipswich,Wolves,TBD,2,0,H,25
-2018-02-07,17:30,Fulham,Aston Villa,TBD,0,0,D,25
-2018-02-09,17:30,Everton,Bournemouth,TBD,0,0,D,25
-2018-02-11,17:30,Crystal Palace,Brentford,TBD,2,2,D,25
-2018-02-13,17:30,Chelsea,Brighton,TBD,2,1,H,25
-2018-02-02,15:00,Man United,Arsenal,TBD,1,2,A,26
-2018-02-04,17:30,Man City,Newcastle,TBD,0,1,A,26
-2018-02-06,17:30,Liverpool,Nott'm Forest,TBD,2,1,H,26
-2018-02-08,17:30,Leicester,Southampton,TBD,0,0,D,26
-2018-02-10,17:30,Ipswich,Tottenham,TBD,0,1,A,26
-2018-02-12,17:30,Fulham,West Ham,TBD,0,1,A,26
-2018-02-14,17:30,Everton,Wolves,TBD,0,0,D,26
-2018-02-16,17:30,Crystal Palace,Aston Villa,TBD,2,1,H,26
-2018-02-18,17:30,Chelsea,Bournemouth,TBD,3,0,H,26
-2018-02-20,17:30,Brighton,Brentford,TBD,1,2,A,26
-2018-02-09,15:00,Man City,Arsenal,TBD,2,1,H,27
-2018-02-11,17:30,Liverpool,Man United,TBD,1,0,H,27
-2018-02-13,17:30,Leicester,Newcastle,TBD,0,2,A,27
-2018-02-15,17:30,Ipswich,Nott'm Forest,TBD,0,0,D,27
-2018-02-17,17:30,Fulham,Southampton,TBD,0,0,D,27
-2018-02-19,17:30,Everton,Tottenham,TBD,0,1,A,27
-2018-02-21,17:30,Crystal Palace,West Ham,TBD,1,1,D,27
-2018-02-23,17:30,Chelsea,Wolves,TBD,1,0,H,27
-2018-02-25,17:30,Brighton,Aston Villa,TBD,0,0,D,27
-2018-02-27,17:30,Brentford,Bournemouth,TBD,0,1,A,27
-2018-02-16,15:00,Liverpool,Arsenal,TBD,2,1,H,28
-2018-02-18,17:30,Leicester,Man City,TBD,1,1,D,28
-2018-02-20,17:30,Ipswich,Man United,TBD,0,1,A,28
-2018-02-22,17:30,Fulham,Newcastle,TBD,0,1,A,28
-2018-02-24,17:30,Everton,Nott'm Forest,TBD,0,0,D,28
-2018-02-26,17:30,Crystal Palace,Southampton,TBD,1,1,D,28
-2018-02-28,17:30,Chelsea,Tottenham,TBD,2,1,H,28
-2018-03-02,17:30,Brighton,West Ham,TBD,1,0,H,28
-2018-03-04,17:30,Brentford,Wolves,TBD,1,2,A,28
-2018-03-06,17:30,Bournemouth,Aston Villa,TBD,0,1,A,28
-2018-02-23,15:00,Leicester,Arsenal,TBD,3,2,H,29
-2018-02-25,17:30,Ipswich,Liverpool,TBD,1,2,A,29
-2018-02-27,17:30,Fulham,Man City,TBD,0,1,A,29
-2018-03-01,17:30,Everton,Man United,TBD,0,0,D,29
-2018-03-03,17:30,Crystal Palace,Newcastle,TBD,1,0,H,29
-2018-03-05,17:30,Chelsea,Nott'm Forest,TBD,1,1,D,29
-2018-03-07,17:30,Brighton,Southampton,TBD,0,1,A,29
-2018-03-09,17:30,Brentford,Tottenham,TBD,1,1,D,29
-2018-03-11,17:30,Bournemouth,West Ham,TBD,0,1,A,29
-2018-03-13,17:30,Aston Villa,Wolves,TBD,1,0,H,29
-2018-03-02,15:00,Ipswich,Arsenal,TBD,0,2,A,30
-2018-03-04,17:30,Fulham,Leicester,TBD,0,0,D,30
-2018-03-06,17:30,Everton,Liverpool,TBD,2,2,D,30
-2018-03-08,17:30,Crystal Palace,Man City,TBD,1,2,A,30
-2018-03-10,17:30,Chelsea,Man United,TBD,1,1,D,30
-2018-03-12,17:30,Brighton,Newcastle,TBD,2,1,H,30
-2018-03-14,17:30,Brentford,Nott'm Forest,TBD,0,1,A,30
-2018-03-16,17:30,Bournemouth,Southampton,TBD,0,0,D,30
-2018-03-18,17:30,Aston Villa,Tottenham,TBD,1,1,D,30
-2018-03-20,17:30,Wolves,West Ham,TBD,1,1,D,30
-2018-03-09,15:00,Fulham,Arsenal,TBD,2,1,H,31
-2018-03-11,17:30,Everton,Ipswich,TBD,0,0,D,31
-2018-03-13,17:30,Crystal Palace,Leicester,TBD,0,0,D,31
-2018-03-15,17:30,Chelsea,Liverpool,TBD,2,2,D,31
-2018-03-17,17:30,Brighton,Man City,TBD,0,1,A,31
-2018-03-19,17:30,Brentford,Man United,TBD,0,1,A,31
-2018-03-21,17:30,Bournemouth,Newcastle,TBD,0,1,A,31
-2018-03-23,17:30,Aston Villa,Nott'm Forest,TBD,0,1,A,31
-2018-03-25,17:30,Wolves,Southampton,TBD,0,1,A,31
-2018-03-27,17:30,West Ham,Tottenham,TBD,0,2,A,31
-2018-03-16,15:00,Everton,Arsenal,TBD,0,1,A,32
-2018-03-18,17:30,Crystal Palace,Fulham,TBD,0,0,D,32
-2018-03-20,17:30,Chelsea,Ipswich,TBD,1,0,H,32
-2018-03-22,17:30,Brighton,Leicester,TBD,1,0,H,32
-2018-03-24,17:30,Brentford,Liverpool,TBD,0,1,A,32
-2018-03-26,17:30,Bournemouth,Man City,TBD,1,1,D,32
-2018-03-28,17:30,Aston Villa,Man United,TBD,1,0,H,32
-2018-03-30,17:30,Wolves,Newcastle,TBD,1,1,D,32
-2018-04-01,17:30,West Ham,Nott'm Forest,TBD,0,0,D,32
-2018-04-03,17:30,Tottenham,Southampton,TBD,0,1,A,32
-2018-03-23,15:00,Crystal Palace,Arsenal,TBD,0,1,A,33
-2018-03-25,17:30,Chelsea,Everton,TBD,1,0,H,33
-2018-03-27,17:30,Brighton,Fulham,TBD,0,0,D,33
-2018-03-29,17:30,Brentford,Ipswich,TBD,1,1,D,33
-2018-03-31,17:30,Bournemouth,Leicester,TBD,0,0,D,33
-2018-04-02,17:30,Aston Villa,Liverpool,TBD,0,2,A,33
-2018-04-04,17:30,Wolves,Man City,TBD,0,2,A,33
-2018-04-06,17:30,West Ham,Man United,TBD,2,0,H,33
-2018-04-08,17:30,Tottenham,Newcastle,TBD,2,0,H,33
-2018-04-10,17:30,Southampton,Nott'm Forest,TBD,0,2,A,33
-2018-03-30,15:00,Chelsea,Arsenal,TBD,0,0,D,34
-2018-04-01,17:30,Brighton,Crystal Palace,TBD,1,0,H,34
-2018-04-03,17:30,Brentford,Everton,TBD,2,2,D,34
-2018-04-05,17:30,Bournemouth,Fulham,TBD,1,0,H,34
-2018-04-07,17:30,Aston Villa,Ipswich,TBD,0,0,D,34
-2018-04-09,17:30,Wolves,Leicester,TBD,0,0,D,34
-2018-04-11,17:30,West Ham,Liverpool,TBD,1,1,D,34
-2018-04-13,17:30,Tottenham,Man City,TBD,1,3,A,34
-2018-04-15,17:30,Southampton,Man United,TBD,1,1,D,34
-2018-04-17,17:30,Nott'm Forest,Newcastle,TBD,1,2,A,34
-2018-04-06,15:00,Brighton,Arsenal,TBD,1,2,A,35
-2018-04-08,17:30,Brentford,Chelsea,TBD,1,1,D,35
-2018-04-10,17:30,Bournemouth,Crystal Palace,TBD,0,1,A,35
-2018-04-12,17:30,Aston Villa,Everton,TBD,0,0,D,35
-2018-04-14,17:30,Wolves,Fulham,TBD,1,2,A,35
-2018-04-16,17:30,West Ham,Ipswich,TBD,2,0,H,35
-2018-04-18,17:30,Tottenham,Leicester,TBD,1,0,H,35
-2018-04-20,17:30,Southampton,Liverpool,TBD,0,1,A,35
-2018-04-22,17:30,Nott'm Forest,Man City,TBD,1,2,A,35
-2018-04-24,17:30,Newcastle,Man United,TBD,0,1,A,35
-2018-04-13,15:00,Brentford,Arsenal,TBD,0,0,D,36
-2018-04-15,17:30,Bournemouth,Brighton,TBD,1,2,A,36
-2018-04-17,17:30,Aston Villa,Chelsea,TBD,0,0,D,36
-2018-04-19,17:30,Wolves,Crystal Palace,TBD,1,1,D,36
-2018-04-21,17:30,West Ham,Everton,TBD,1,1,D,36
-2018-04-23,17:30,Tottenham,Fulham,TBD,1,1,D,36
-2018-04-25,17:30,Southampton,Ipswich,TBD,0,0,D,36
-2018-04-27,17:30,Nott'm Forest,Leicester,TBD,2,0,H,36
-2018-04-29,17:30,Newcastle,Liverpool,TBD,0,1,A,36
-2018-05-01,17:30,Man United,Man City,TBD,1,1,D,36
-2018-04-20,15:00,Bournemouth,Arsenal,TBD,0,1,A,37
-2018-04-22,17:30,Aston Villa,Brentford,TBD,1,0,H,37
-2018-04-24,17:30,Wolves,Brighton,TBD,1,1,D,37
-2018-04-26,17:30,West Ham,Chelsea,TBD,0,1,A,37
-2018-04-28,17:30,Tottenham,Crystal Palace,TBD,1,0,H,37
-2018-04-30,17:30,Southampton,Everton,TBD,0,1,A,37
-2018-05-02,17:30,Nott'm Forest,Fulham,TBD,1,1,D,37
-2018-05-04,17:30,Newcastle,Ipswich,TBD,1,0,H,37
-2018-05-06,17:30,Man United,Leicester,TBD,2,0,H,37
-2018-05-08,17:30,Man City,Liverpool,TBD,2,1,H,37
-2018-04-27,15:00,Aston Villa,Arsenal,TBD,0,1,A,38
-2018-04-29,17:30,Wolves,Bournemouth,TBD,1,1,D,38
-2018-05-01,17:30,West Ham,Brentford,TBD,1,1,D,38
-2018-05-03,17:30,Tottenham,Brighton,TBD,0,1,A,38
-2018-05-05,17:30,Southampton,Chelsea,TBD,0,2,A,38
-2018-05-07,17:30,Nott'm Forest,Crystal Palace,TBD,1,1,D,38
-2018-05-09,17:30,Newcastle,Everton,TBD,0,1,A,38
-2018-05-11,17:30,Man United,Fulham,TBD,2,0,H,38
-2018-05-13,17:30,Man City,Ipswich,TBD,1,0,H,38
-2018-05-15,17:30,Liverpool,Leicester,TBD,2,0,H,38
+2017-08-11,15:00,Arsenal,Leicester,M Dean,4,3,H,1
+2017-08-12,15:00,Brighton,Man City,M Oliver,0,2,A,1
+2017-08-12,15:00,Chelsea,Burnley,C Pawson,2,3,A,1
+2017-08-12,15:00,Crystal Palace,Huddersfield,J Moss,0,3,A,1
+2017-08-12,15:00,Everton,Stoke,N Swarbrick,1,0,H,1
+2017-08-12,15:00,Southampton,Swansea,M Jones,0,0,D,1
+2017-08-12,15:00,Watford,Liverpool,A Taylor,3,3,D,1
+2017-08-12,15:00,West Brom,Bournemouth,R Madley,1,0,H,1
+2017-08-13,15:00,Man United,West Ham,M Atkinson,4,0,H,1
+2017-08-13,15:00,Newcastle,Tottenham,A Marriner,0,2,A,1
+2017-08-19,15:00,Bournemouth,Watford,R East,0,2,A,2
+2017-08-19,15:00,Burnley,West Brom,M Atkinson,0,1,A,2
+2017-08-19,15:00,Leicester,Brighton,L Probert,2,0,H,2
+2017-08-19,15:00,Liverpool,Crystal Palace,K Friend,1,0,H,2
+2017-08-19,15:00,Southampton,West Ham,L Mason,3,2,H,2
+2017-08-19,15:00,Stoke,Arsenal,A Marriner,1,0,H,2
+2017-08-19,15:00,Swansea,Man United,J Moss,0,4,A,2
+2017-08-20,15:00,Huddersfield,Newcastle,C Pawson,1,0,H,2
+2017-08-20,15:00,Tottenham,Chelsea,A Taylor,1,2,A,2
+2017-08-21,15:00,Man City,Everton,R Madley,1,1,D,2
+2017-08-26,15:00,Bournemouth,Man City,M Dean,1,2,A,3
+2017-08-26,15:00,Crystal Palace,Swansea,A Marriner,0,2,A,3
+2017-08-26,15:00,Huddersfield,Southampton,S Attwell,0,0,D,3
+2017-08-26,15:00,Man United,Leicester,M Oliver,2,0,H,3
+2017-08-26,15:00,Newcastle,West Ham,N Swarbrick,3,0,H,3
+2017-08-26,15:00,Watford,Brighton,G Scott,0,0,D,3
+2017-08-27,15:00,Chelsea,Everton,J Moss,2,0,H,3
+2017-08-27,15:00,Liverpool,Arsenal,C Pawson,4,0,H,3
+2017-08-27,15:00,Tottenham,Burnley,L Mason,1,1,D,3
+2017-08-27,15:00,West Brom,Stoke,A Taylor,1,1,D,3
+2017-09-09,15:00,Arsenal,Bournemouth,A Taylor,3,0,H,4
+2017-09-09,15:00,Brighton,West Brom,C Kavanagh,3,1,H,4
+2017-09-09,15:00,Everton,Tottenham,G Scott,0,3,A,4
+2017-09-09,15:00,Leicester,Chelsea,L Mason,1,2,A,4
+2017-09-09,15:00,Man City,Liverpool,J Moss,5,0,H,4
+2017-09-09,15:00,Southampton,Watford,L Probert,0,2,A,4
+2017-09-09,15:00,Stoke,Man United,N Swarbrick,2,2,D,4
+2017-09-10,15:00,Burnley,Crystal Palace,M Oliver,1,0,H,4
+2017-09-10,15:00,Swansea,Newcastle,M Jones,0,1,A,4
+2017-09-11,15:00,West Ham,Huddersfield,K Friend,2,0,H,4
+2017-09-15,15:00,Bournemouth,Brighton,C Pawson,2,1,H,5
+2017-09-16,15:00,Crystal Palace,Southampton,R Madley,0,1,A,5
+2017-09-16,15:00,Huddersfield,Leicester,J Moss,1,1,D,5
+2017-09-16,15:00,Liverpool,Burnley,R East,1,1,D,5
+2017-09-16,15:00,Newcastle,Stoke,S Attwell,2,1,H,5
+2017-09-16,15:00,Tottenham,Swansea,M Dean,0,0,D,5
+2017-09-16,15:00,Watford,Man City,A Taylor,0,6,A,5
+2017-09-16,15:00,West Brom,West Ham,P Tierney,0,0,D,5
+2017-09-17,15:00,Chelsea,Arsenal,M Oliver,0,0,D,5
+2017-09-17,15:00,Man United,Everton,A Marriner,4,0,H,5
+2017-09-23,15:00,Burnley,Huddersfield,C Kavanagh,0,0,D,6
+2017-09-23,15:00,Everton,Bournemouth,M Atkinson,2,1,H,6
+2017-09-23,15:00,Leicester,Liverpool,A Taylor,2,3,A,6
+2017-09-23,15:00,Man City,Crystal Palace,N Swarbrick,5,0,H,6
+2017-09-23,15:00,Southampton,Man United,C Pawson,0,1,A,6
+2017-09-23,15:00,Stoke,Chelsea,M Dean,0,4,A,6
+2017-09-23,15:00,Swansea,Watford,L Mason,1,2,A,6
+2017-09-23,15:00,West Ham,Tottenham,M Oliver,2,3,A,6
+2017-09-24,15:00,Brighton,Newcastle,A Marriner,1,0,H,6
+2017-09-25,15:00,Arsenal,West Brom,R Madley,2,0,H,6
+2017-09-30,15:00,Bournemouth,Leicester,G Scott,0,0,D,7
+2017-09-30,15:00,Chelsea,Man City,M Atkinson,0,1,A,7
+2017-09-30,15:00,Huddersfield,Tottenham,N Swarbrick,0,4,A,7
+2017-09-30,15:00,Man United,Crystal Palace,M Dean,4,0,H,7
+2017-09-30,15:00,Stoke,Southampton,M Jones,2,1,H,7
+2017-09-30,15:00,West Brom,Watford,M Oliver,2,2,D,7
+2017-09-30,15:00,West Ham,Swansea,R East,1,0,H,7
+2017-10-01,15:00,Arsenal,Brighton,K Friend,2,0,H,7
+2017-10-01,15:00,Everton,Burnley,J Moss,0,1,A,7
+2017-10-01,15:00,Newcastle,Liverpool,C Pawson,1,1,D,7
+2017-10-14,15:00,Burnley,West Ham,S Attwell,1,1,D,8
+2017-10-14,15:00,Crystal Palace,Chelsea,A Marriner,2,1,H,8
+2017-10-14,15:00,Liverpool,Man United,M Atkinson,0,0,D,8
+2017-10-14,15:00,Man City,Stoke,C Pawson,7,2,H,8
+2017-10-14,15:00,Swansea,Huddersfield,P Tierney,2,0,H,8
+2017-10-14,15:00,Tottenham,Bournemouth,R Madley,1,0,H,8
+2017-10-14,15:00,Watford,Arsenal,N Swarbrick,2,1,H,8
+2017-10-15,15:00,Brighton,Everton,M Oliver,1,1,D,8
+2017-10-15,15:00,Southampton,Newcastle,K Friend,2,2,D,8
+2017-10-16,15:00,Leicester,West Brom,M Dean,1,1,D,8
+2017-10-20,15:00,West Ham,Brighton,M Atkinson,0,3,A,9
+2017-10-21,15:00,Chelsea,Watford,J Moss,4,2,H,9
+2017-10-21,15:00,Huddersfield,Man United,L Mason,2,1,H,9
+2017-10-21,15:00,Man City,Burnley,R East,3,0,H,9
+2017-10-21,15:00,Newcastle,Crystal Palace,S Attwell,1,0,H,9
+2017-10-21,15:00,Southampton,West Brom,G Scott,1,0,H,9
+2017-10-21,15:00,Stoke,Bournemouth,L Probert,1,2,A,9
+2017-10-21,15:00,Swansea,Leicester,M Oliver,1,2,A,9
+2017-10-22,15:00,Everton,Arsenal,C Pawson,2,5,A,9
+2017-10-22,15:00,Tottenham,Liverpool,A Marriner,4,1,H,9
+2017-10-28,15:00,Arsenal,Swansea,L Mason,2,1,H,10
+2017-10-28,15:00,Bournemouth,Chelsea,C Pawson,0,1,A,10
+2017-10-28,15:00,Crystal Palace,West Ham,R Madley,2,2,D,10
+2017-10-28,15:00,Liverpool,Huddersfield,K Friend,3,0,H,10
+2017-10-28,15:00,Man United,Tottenham,J Moss,1,0,H,10
+2017-10-28,15:00,Watford,Stoke,M Oliver,0,1,A,10
+2017-10-28,15:00,West Brom,Man City,M Jones,2,3,A,10
+2017-10-29,15:00,Brighton,Southampton,N Swarbrick,1,1,D,10
+2017-10-29,15:00,Leicester,Everton,A Marriner,2,0,H,10
+2017-10-30,15:00,Burnley,Newcastle,M Dean,1,0,H,10
+2017-11-04,15:00,Huddersfield,West Brom,R East,1,0,H,11
+2017-11-04,15:00,Newcastle,Bournemouth,P Tierney,0,1,A,11
+2017-11-04,15:00,Southampton,Burnley,L Probert,0,1,A,11
+2017-11-04,15:00,Stoke,Leicester,R Madley,2,2,D,11
+2017-11-04,15:00,Swansea,Brighton,M Dean,0,1,A,11
+2017-11-04,15:00,West Ham,Liverpool,N Swarbrick,1,4,A,11
+2017-11-05,15:00,Chelsea,Man United,A Taylor,1,0,H,11
+2017-11-05,15:00,Everton,Watford,G Scott,3,2,H,11
+2017-11-05,15:00,Man City,Arsenal,M Oliver,3,1,H,11
+2017-11-05,15:00,Tottenham,Crystal Palace,K Friend,1,0,H,11
+2017-11-18,15:00,Arsenal,Tottenham,M Dean,2,0,H,12
+2017-11-18,15:00,Bournemouth,Huddersfield,L Probert,4,0,H,12
+2017-11-18,15:00,Burnley,Swansea,M Atkinson,2,0,H,12
+2017-11-18,15:00,Crystal Palace,Everton,A Taylor,2,2,D,12
+2017-11-18,15:00,Leicester,Man City,G Scott,0,2,A,12
+2017-11-18,15:00,Liverpool,Southampton,M Jones,3,0,H,12
+2017-11-18,15:00,Man United,Newcastle,C Pawson,4,1,H,12
+2017-11-18,15:00,West Brom,Chelsea,J Moss,0,4,A,12
+2017-11-19,15:00,Watford,West Ham,A Marriner,2,0,H,12
+2017-11-20,15:00,Brighton,Stoke,L Mason,2,2,D,12
+2017-11-24,15:00,West Ham,Leicester,M Atkinson,1,1,D,13
+2017-11-25,15:00,Crystal Palace,Stoke,M Dean,2,1,H,13
+2017-11-25,15:00,Liverpool,Chelsea,M Oliver,1,1,D,13
+2017-11-25,15:00,Man United,Brighton,N Swarbrick,1,0,H,13
+2017-11-25,15:00,Newcastle,Watford,C Kavanagh,0,3,A,13
+2017-11-25,15:00,Swansea,Bournemouth,S Attwell,0,0,D,13
+2017-11-25,15:00,Tottenham,West Brom,M Jones,1,1,D,13
+2017-11-26,15:00,Burnley,Arsenal,L Mason,0,1,A,13
+2017-11-26,15:00,Huddersfield,Man City,C Pawson,1,2,A,13
+2017-11-26,15:00,Southampton,Everton,K Friend,4,1,H,13
+2017-11-28,15:00,Brighton,Crystal Palace,A Marriner,0,0,D,14
+2017-11-28,15:00,Leicester,Tottenham,A Taylor,2,1,H,14
+2017-11-28,15:00,Watford,Man United,J Moss,2,4,A,14
+2017-11-28,15:00,West Brom,Newcastle,L Probert,2,2,D,14
+2017-11-29,15:00,Arsenal,Huddersfield,G Scott,5,0,H,14
+2017-11-29,15:00,Bournemouth,Burnley,R East,1,2,A,14
+2017-11-29,15:00,Chelsea,Swansea,N Swarbrick,1,0,H,14
+2017-11-29,15:00,Everton,West Ham,M Oliver,4,0,H,14
+2017-11-29,15:00,Man City,Southampton,P Tierney,2,1,H,14
+2017-11-29,15:00,Stoke,Liverpool,M Atkinson,0,3,A,14
+2017-12-02,15:00,Arsenal,Man United,A Marriner,1,3,A,15
+2017-12-02,15:00,Brighton,Liverpool,G Scott,1,5,A,15
+2017-12-02,15:00,Chelsea,Newcastle,K Friend,3,1,H,15
+2017-12-02,15:00,Everton,Huddersfield,C Kavanagh,2,0,H,15
+2017-12-02,15:00,Leicester,Burnley,P Tierney,1,0,H,15
+2017-12-02,15:00,Stoke,Swansea,C Pawson,2,1,H,15
+2017-12-02,15:00,Watford,Tottenham,M Atkinson,1,1,D,15
+2017-12-02,15:00,West Brom,Crystal Palace,M Oliver,0,0,D,15
+2017-12-03,15:00,Bournemouth,Southampton,J Moss,1,1,D,15
+2017-12-03,15:00,Man City,West Ham,M Dean,2,1,H,15
+2017-12-09,15:00,Burnley,Watford,L Probert,1,0,H,16
+2017-12-09,15:00,Crystal Palace,Bournemouth,K Friend,2,2,D,16
+2017-12-09,15:00,Huddersfield,Brighton,S Attwell,2,0,H,16
+2017-12-09,15:00,Newcastle,Leicester,N Swarbrick,2,3,A,16
+2017-12-09,15:00,Swansea,West Brom,M Dean,1,0,H,16
+2017-12-09,15:00,Tottenham,Stoke,R East,5,1,H,16
+2017-12-09,15:00,West Ham,Chelsea,A Taylor,1,0,H,16
+2017-12-10,15:00,Liverpool,Everton,C Pawson,1,1,D,16
+2017-12-10,15:00,Man United,Man City,M Oliver,1,2,A,16
+2017-12-10,15:00,Southampton,Arsenal,R Madley,1,1,D,16
+2017-12-12,15:00,Burnley,Stoke,M Jones,1,0,H,17
+2017-12-12,15:00,Crystal Palace,Watford,L Mason,2,1,H,17
+2017-12-12,15:00,Huddersfield,Chelsea,A Marriner,1,3,A,17
+2017-12-13,15:00,Liverpool,West Brom,P Tierney,0,0,D,17
+2017-12-13,15:00,Man United,Bournemouth,G Scott,1,0,H,17
+2017-12-13,15:00,Newcastle,Everton,M Atkinson,0,1,A,17
+2017-12-13,15:00,Southampton,Leicester,C Kavanagh,1,4,A,17
+2017-12-13,15:00,Swansea,Man City,A Taylor,0,4,A,17
+2017-12-13,15:00,Tottenham,Brighton,R Madley,2,0,H,17
+2017-12-13,15:00,West Ham,Arsenal,J Moss,0,0,D,17
+2017-12-16,15:00,Arsenal,Newcastle,S Attwell,1,0,H,18
+2017-12-16,15:00,Brighton,Burnley,C Kavanagh,0,0,D,18
+2017-12-16,15:00,Chelsea,Southampton,R East,1,0,H,18
+2017-12-16,15:00,Leicester,Crystal Palace,M Atkinson,0,3,A,18
+2017-12-16,15:00,Man City,Tottenham,C Pawson,4,1,H,18
+2017-12-16,15:00,Stoke,West Ham,G Scott,0,3,A,18
+2017-12-16,15:00,Watford,Huddersfield,M Oliver,1,4,A,18
+2017-12-17,15:00,Bournemouth,Liverpool,A Marriner,0,4,A,18
+2017-12-17,15:00,West Brom,Man United,A Taylor,1,2,A,18
+2017-12-18,15:00,Everton,Swansea,J Moss,3,1,H,18
+2017-12-22,15:00,Arsenal,Liverpool,M Atkinson,3,3,D,19
+2017-12-23,15:00,Brighton,Watford,P Tierney,1,0,H,19
+2017-12-23,15:00,Burnley,Tottenham,M Oliver,0,3,A,19
+2017-12-23,15:00,Everton,Chelsea,R Madley,0,0,D,19
+2017-12-23,15:00,Leicester,Man United,J Moss,2,2,D,19
+2017-12-23,15:00,Man City,Bournemouth,M Jones,4,0,H,19
+2017-12-23,15:00,Southampton,Huddersfield,L Probert,1,1,D,19
+2017-12-23,15:00,Stoke,West Brom,N Swarbrick,3,1,H,19
+2017-12-23,15:00,Swansea,Crystal Palace,C Pawson,1,1,D,19
+2017-12-23,15:00,West Ham,Newcastle,L Mason,2,3,A,19
+2017-12-26,15:00,Bournemouth,West Ham,S Attwell,3,3,D,20
+2017-12-26,15:00,Chelsea,Brighton,M Dean,2,0,H,20
+2017-12-26,15:00,Huddersfield,Stoke,A Taylor,1,1,D,20
+2017-12-26,15:00,Liverpool,Swansea,K Friend,5,0,H,20
+2017-12-26,15:00,Man United,Burnley,M Atkinson,2,2,D,20
+2017-12-26,15:00,Tottenham,Southampton,G Scott,5,2,H,20
+2017-12-26,15:00,Watford,Leicester,C Kavanagh,2,1,H,20
+2017-12-26,15:00,West Brom,Everton,R East,0,0,D,20
+2017-12-27,15:00,Newcastle,Man City,A Marriner,0,1,A,20
+2017-12-28,15:00,Crystal Palace,Arsenal,M Oliver,2,3,A,20
+2017-12-30,15:00,Bournemouth,Everton,L Probert,2,1,H,21
+2017-12-30,15:00,Chelsea,Stoke,K Friend,5,0,H,21
+2017-12-30,15:00,Huddersfield,Burnley,P Tierney,0,0,D,21
+2017-12-30,15:00,Liverpool,Leicester,N Swarbrick,2,1,H,21
+2017-12-30,15:00,Man United,Southampton,C Pawson,0,0,D,21
+2017-12-30,15:00,Newcastle,Brighton,A Taylor,0,0,D,21
+2017-12-30,15:00,Watford,Swansea,M Atkinson,1,2,A,21
+2017-12-31,15:00,Crystal Palace,Man City,J Moss,0,0,D,21
+2017-12-31,15:00,West Brom,Arsenal,M Dean,1,1,D,21
+2018-01-01,15:00,Brighton,Bournemouth,M Oliver,2,2,D,21
+2018-01-01,15:00,Burnley,Liverpool,R East,1,2,A,22
+2018-01-01,15:00,Everton,Man United,A Marriner,0,2,A,22
+2018-01-01,15:00,Leicester,Huddersfield,G Scott,3,0,H,22
+2018-01-01,15:00,Stoke,Newcastle,C Kavanagh,0,1,A,22
+2018-01-02,15:00,Man City,Watford,L Mason,3,1,H,22
+2018-01-02,15:00,Southampton,Crystal Palace,S Attwell,1,2,A,22
+2018-01-02,15:00,Swansea,Tottenham,R Madley,0,2,A,22
+2018-01-02,15:00,West Ham,West Brom,M Jones,2,1,H,22
+2018-01-03,15:00,Arsenal,Chelsea,A Taylor,2,2,D,22
+2018-01-04,15:00,Tottenham,West Ham,M Dean,1,1,D,22
+2018-01-13,15:00,Chelsea,Leicester,M Jones,0,0,D,23
+2018-01-13,15:00,Crystal Palace,Burnley,M Oliver,1,0,H,23
+2018-01-13,15:00,Huddersfield,West Ham,J Moss,1,4,A,23
+2018-01-13,15:00,Newcastle,Swansea,G Scott,1,1,D,23
+2018-01-13,15:00,Tottenham,Everton,C Pawson,4,0,H,23
+2018-01-13,15:00,Watford,Southampton,R East,2,2,D,23
+2018-01-13,15:00,West Brom,Brighton,M Atkinson,2,0,H,23
+2018-01-14,15:00,Bournemouth,Arsenal,K Friend,2,1,H,23
+2018-01-14,15:00,Liverpool,Man City,A Marriner,4,3,H,23
+2018-01-15,15:00,Man United,Stoke,A Taylor,3,0,H,23
+2018-01-20,15:00,Arsenal,Crystal Palace,C Kavanagh,4,1,H,24
+2018-01-20,15:00,Brighton,Chelsea,J Moss,0,4,A,24
+2018-01-20,15:00,Burnley,Man United,M Dean,0,1,A,24
+2018-01-20,15:00,Everton,West Brom,S Attwell,1,1,D,24
+2018-01-20,15:00,Leicester,Watford,L Probert,2,0,H,24
+2018-01-20,15:00,Man City,Newcastle,P Tierney,3,1,H,24
+2018-01-20,15:00,Stoke,Huddersfield,M Oliver,2,0,H,24
+2018-01-20,15:00,West Ham,Bournemouth,M Atkinson,1,1,D,24
+2018-01-21,15:00,Southampton,Tottenham,K Friend,1,1,D,24
+2018-01-22,15:00,Swansea,Liverpool,N Swarbrick,1,0,H,24
+2018-01-30,15:00,Huddersfield,Liverpool,K Friend,0,3,A,25
+2018-01-30,15:00,Swansea,Arsenal,L Mason,3,1,H,25
+2018-01-30,15:00,West Ham,Crystal Palace,N Swarbrick,1,1,D,25
+2018-01-31,15:00,Chelsea,Bournemouth,L Probert,0,3,A,25
+2018-01-31,15:00,Everton,Leicester,C Kavanagh,2,1,H,25
+2018-01-31,15:00,Man City,West Brom,R Madley,3,0,H,25
+2018-01-31,15:00,Newcastle,Burnley,S Hooper,1,1,D,25
+2018-01-31,15:00,Southampton,Brighton,M Dean,1,1,D,25
+2018-01-31,15:00,Stoke,Watford,J Moss,0,0,D,25
+2018-01-31,15:00,Tottenham,Man United,A Marriner,2,0,H,25
+2018-02-03,15:00,Arsenal,Everton,N Swarbrick,5,1,H,26
+2018-02-03,15:00,Bournemouth,Stoke,P Tierney,2,1,H,26
+2018-02-03,15:00,Brighton,West Ham,R East,3,1,H,26
+2018-02-03,15:00,Burnley,Man City,M Atkinson,1,1,D,26
+2018-02-03,15:00,Leicester,Swansea,A Taylor,1,1,D,26
+2018-02-03,15:00,Man United,Huddersfield,S Attwell,2,0,H,26
+2018-02-03,15:00,West Brom,Southampton,M Oliver,2,3,A,26
+2018-02-04,15:00,Crystal Palace,Newcastle,A Marriner,1,1,D,26
+2018-02-04,15:00,Liverpool,Tottenham,J Moss,2,2,D,26
+2018-02-05,15:00,Watford,Chelsea,M Dean,4,1,H,26
+2018-02-10,15:00,Everton,Crystal Palace,J Moss,3,1,H,27
+2018-02-10,15:00,Man City,Leicester,M Jones,5,1,H,27
+2018-02-10,15:00,Stoke,Brighton,R Madley,1,1,D,27
+2018-02-10,15:00,Swansea,Burnley,A Marriner,1,0,H,27
+2018-02-10,15:00,Tottenham,Arsenal,A Taylor,1,0,H,27
+2018-02-10,15:00,West Ham,Watford,G Scott,2,0,H,27
+2018-02-11,15:00,Huddersfield,Bournemouth,M Oliver,4,1,H,27
+2018-02-11,15:00,Newcastle,Man United,C Pawson,1,0,H,27
+2018-02-11,15:00,Southampton,Liverpool,M Atkinson,0,2,A,27
+2018-02-12,15:00,Chelsea,West Brom,L Mason,3,0,H,27
+2018-02-24,15:00,Bournemouth,Newcastle,R East,2,2,D,28
+2018-02-24,15:00,Brighton,Swansea,M Dean,4,1,H,28
+2018-02-24,15:00,Burnley,Southampton,R Madley,1,1,D,28
+2018-02-24,15:00,Leicester,Stoke,M Oliver,1,1,D,28
+2018-02-24,15:00,Liverpool,West Ham,S Attwell,4,1,H,28
+2018-02-24,15:00,Watford,Everton,A Taylor,1,0,H,28
+2018-02-24,15:00,West Brom,Huddersfield,J Moss,1,2,A,28
+2018-02-25,15:00,Crystal Palace,Tottenham,K Friend,0,1,A,28
+2018-02-25,15:00,Man United,Chelsea,M Atkinson,2,1,H,28
+2018-03-01,15:00,Arsenal,Man City,A Marriner,0,3,A,28
+2018-03-03,15:00,Burnley,Everton,C Kavanagh,2,1,H,29
+2018-03-03,15:00,Leicester,Bournemouth,L Probert,1,1,D,29
+2018-03-03,15:00,Liverpool,Newcastle,G Scott,2,0,H,29
+2018-03-03,15:00,Southampton,Stoke,A Taylor,0,0,D,29
+2018-03-03,15:00,Swansea,West Ham,M Atkinson,4,1,H,29
+2018-03-03,15:00,Tottenham,Huddersfield,K Friend,2,0,H,29
+2018-03-03,15:00,Watford,West Brom,P Tierney,1,0,H,29
+2018-03-04,15:00,Brighton,Arsenal,S Attwell,2,1,H,29
+2018-03-04,15:00,Man City,Chelsea,M Oliver,1,0,H,29
+2018-03-05,15:00,Crystal Palace,Man United,N Swarbrick,2,3,A,29
+2018-03-10,15:00,Chelsea,Crystal Palace,A Taylor,2,1,H,30
+2018-03-10,15:00,Everton,Brighton,R East,2,0,H,30
+2018-03-10,15:00,Huddersfield,Swansea,M Oliver,0,0,D,30
+2018-03-10,15:00,Man United,Liverpool,C Pawson,2,1,H,30
+2018-03-10,15:00,Newcastle,Southampton,A Marriner,3,0,H,30
+2018-03-10,15:00,West Brom,Leicester,R Madley,1,4,A,30
+2018-03-10,15:00,West Ham,Burnley,L Mason,0,3,A,30
+2018-03-11,15:00,Arsenal,Watford,M Atkinson,3,0,H,30
+2018-03-11,15:00,Bournemouth,Tottenham,M Dean,1,4,A,30
+2018-03-12,15:00,Stoke,Man City,J Moss,0,2,A,30
+2018-03-17,15:00,Bournemouth,West Brom,G Scott,2,1,H,31
+2018-03-17,15:00,Huddersfield,Crystal Palace,M Dean,0,2,A,31
+2018-03-17,15:00,Liverpool,Watford,A Taylor,5,0,H,31
+2018-03-17,15:00,Stoke,Everton,M Atkinson,1,2,A,31
+2018-03-31,15:00,Brighton,Leicester,C Kavanagh,0,2,A,31
+2018-03-31,15:00,Crystal Palace,Liverpool,N Swarbrick,1,2,A,31
+2018-03-31,15:00,Everton,Man City,P Tierney,1,3,A,31
+2018-03-31,15:00,Man United,Swansea,R Madley,2,0,H,31
+2018-03-31,15:00,Newcastle,Huddersfield,M Atkinson,1,0,H,31
+2018-03-31,15:00,Watford,Bournemouth,A Marriner,2,2,D,31
+2018-03-31,15:00,West Brom,Burnley,L Probert,1,2,A,32
+2018-03-31,15:00,West Ham,Southampton,J Moss,3,0,H,32
+2018-04-01,15:00,Arsenal,Stoke,C Pawson,3,0,H,32
+2018-04-01,15:00,Chelsea,Tottenham,A Marriner,1,3,A,32
+2018-04-07,15:00,Bournemouth,Crystal Palace,J Moss,2,2,D,32
+2018-04-07,15:00,Brighton,Huddersfield,A Taylor,1,1,D,32
+2018-04-07,15:00,Everton,Liverpool,M Oliver,0,0,D,32
+2018-04-07,15:00,Leicester,Newcastle,S Attwell,1,2,A,32
+2018-04-07,15:00,Man City,Man United,M Atkinson,2,3,A,32
+2018-04-07,15:00,Stoke,Tottenham,G Scott,1,2,A,32
+2018-04-07,15:00,Watford,Burnley,P Tierney,1,2,A,33
+2018-04-07,15:00,West Brom,Swansea,R East,1,1,D,33
+2018-04-08,15:00,Arsenal,Southampton,A Marriner,3,2,H,33
+2018-04-08,15:00,Chelsea,West Ham,K Friend,1,1,D,33
+2018-04-14,15:00,Burnley,Leicester,M Atkinson,2,1,H,33
+2018-04-14,15:00,Crystal Palace,Brighton,A Marriner,3,2,H,33
+2018-04-14,15:00,Huddersfield,Watford,C Pawson,1,0,H,33
+2018-04-14,15:00,Liverpool,Bournemouth,C Kavanagh,3,0,H,33
+2018-04-14,15:00,Southampton,Chelsea,M Dean,2,3,A,33
+2018-04-14,15:00,Swansea,Everton,L Mason,1,1,D,33
+2018-04-14,15:00,Tottenham,Man City,J Moss,1,3,A,34
+2018-04-15,15:00,Man United,West Brom,P Tierney,0,1,A,34
+2018-04-15,15:00,Newcastle,Arsenal,A Taylor,2,1,H,34
+2018-04-16,15:00,West Ham,Stoke,M Oliver,1,1,D,34
+2018-04-17,15:00,Brighton,Tottenham,K Friend,1,1,D,34
+2018-04-18,15:00,Bournemouth,Man United,G Scott,0,2,A,34
+2018-04-19,15:00,Burnley,Chelsea,R Madley,1,2,A,34
+2018-04-19,15:00,Leicester,Southampton,R East,0,0,D,34
+2018-04-21,15:00,Watford,Crystal Palace,C Kavanagh,0,0,D,34
+2018-04-21,15:00,West Brom,Liverpool,S Attwell,2,2,D,34
+2018-04-22,15:00,Arsenal,West Ham,L Mason,4,1,H,35
+2018-04-22,15:00,Man City,Swansea,C Pawson,5,0,H,35
+2018-04-22,15:00,Stoke,Burnley,M Dean,1,1,D,35
+2018-04-23,15:00,Everton,Newcastle,R Madley,1,0,H,35
+2018-04-28,15:00,Burnley,Brighton,R East,0,0,D,35
+2018-04-28,15:00,Crystal Palace,Leicester,M Dean,5,0,H,35
+2018-04-28,15:00,Huddersfield,Everton,L Probert,0,2,A,35
+2018-04-28,15:00,Liverpool,Stoke,A Marriner,0,0,D,35
+2018-04-28,15:00,Newcastle,West Brom,D Coote,0,1,A,35
+2018-04-28,15:00,Southampton,Bournemouth,A Taylor,2,1,H,35
+2018-04-28,15:00,Swansea,Chelsea,J Moss,0,1,A,36
+2018-04-29,15:00,Man United,Arsenal,K Friend,2,1,H,36
+2018-04-29,15:00,West Ham,Man City,N Swarbrick,1,4,A,36
+2018-04-30,15:00,Tottenham,Watford,M Oliver,2,0,H,36
+2018-05-04,15:00,Brighton,Man United,C Pawson,1,0,H,36
+2018-05-05,15:00,Bournemouth,Swansea,K Friend,1,0,H,36
+2018-05-05,15:00,Everton,Southampton,J Moss,1,1,D,36
+2018-05-05,15:00,Leicester,West Ham,C Kavanagh,0,2,A,36
+2018-05-05,15:00,Stoke,Crystal Palace,M Atkinson,1,2,A,36
+2018-05-05,15:00,Watford,Newcastle,R East,2,1,H,36
+2018-05-05,15:00,West Brom,Tottenham,M Jones,1,0,H,37
+2018-05-06,15:00,Arsenal,Burnley,A Marriner,5,0,H,37
+2018-05-06,15:00,Chelsea,Liverpool,A Taylor,1,0,H,37
+2018-05-06,15:00,Man City,Huddersfield,M Dean,0,0,D,37
+2018-05-08,15:00,Swansea,Southampton,M Oliver,0,1,A,37
+2018-05-09,15:00,Chelsea,Huddersfield,L Mason,1,1,D,37
+2018-05-09,15:00,Leicester,Arsenal,G Scott,3,1,H,37
+2018-05-09,15:00,Man City,Brighton,P Tierney,3,1,H,37
+2018-05-09,15:00,Tottenham,Newcastle,N Swarbrick,1,0,H,37
+2018-05-10,15:00,West Ham,Man United,J Moss,0,0,D,37
+2018-05-13,15:00,Burnley,Bournemouth,P Tierney,1,2,A,38
+2018-05-13,15:00,Crystal Palace,West Brom,J Moss,2,0,H,38
+2018-05-13,15:00,Huddersfield,Arsenal,M Oliver,0,1,A,38
+2018-05-13,15:00,Liverpool,Brighton,K Friend,4,0,H,38
+2018-05-13,15:00,Man United,Watford,L Mason,1,0,H,38
+2018-05-13,15:00,Newcastle,Chelsea,M Atkinson,3,0,H,38
+2018-05-13,15:00,Southampton,Man City,A Marriner,0,1,A,38
+2018-05-13,15:00,Swansea,Stoke,A Taylor,1,2,A,38
+2018-05-13,15:00,Tottenham,Leicester,C Pawson,5,4,H,38
+2018-05-13,15:00,West Ham,Everton,G Scott,3,1,H,38
