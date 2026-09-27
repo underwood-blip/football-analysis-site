@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useEpl } from '../data/EplData'
 import { TEAMS } from '../data/teams'
-import { Layout } from '../ui/Layout'
+import { Layout, teamDot } from '../ui/Layout'
 
 function pct(n: number) {
   return `${Math.round(n * 100)}%`
@@ -14,13 +14,19 @@ function fmtStake(stake: string) {
   return '觀望'
 }
 
+function confBadge(conf: number) {
+  if (conf > 0.65) return '<span class="conf-badge conf-高">高信心</span>'
+  if (conf > 0.45) return '<span class="conf-badge conf-中">中信心</span>'
+  return '<span class="conf-badge conf-低">低信心</span>'
+}
+
 export default function EplPage({ active }: { active?: string }) {
-  const { predictions, table, matches, loading, historyLoading, meta } = useEpl()
+  const { predictions, table, matches, loading, meta } = useEpl()
 
   if (loading) {
     return (
       <Layout active={active ?? 'epl'}>
-        <div className="disclaimer" style={{ textAlign: 'center', padding: '64px 0' }}>正在載入數據…</div>
+        <div className="empty-note">正在載入數據…</div>
       </Layout>
     )
   }
@@ -34,176 +40,150 @@ export default function EplPage({ active }: { active?: string }) {
 
   return (
     <Layout active={active ?? 'epl'}>
-      {/* Hero section */}
-      <section className="hero">
-        <div className="card">
-          <p className="kicker">EPL 2026/27 · MW {nextGw}</p>
-          <h2>大模型買球分析：第 {nextGw} 輪</h2>
-          <p className="lead">
-            模型吃 {meta.historySeasons + 1} 個賽季、{meta.historyMatches + meta.played} 場賽果做訓練，
-            用加權攻擊/防守強度收斂到本季，再以泊松分布推 1X2、大小球。
+      {/* Hero stats */}
+      <div className="hero">
+        <div className="stat-card">
+          <div className="stat-value">{table.rows[0]?.pts ?? 0}</div>
+          <div className="stat-label">榜首積分</div>
+        </div>
+        <div className="stat-card">
+          <div className="stat-value gold">{table.avgGoals.toFixed(2)}</div>
+          <div className="stat-label">場均總進球</div>
+        </div>
+        <div className="stat-card">
+          <div className="stat-value">{predictions.length}</div>
+          <div className="stat-label">本輪場次</div>
+        </div>
+        <div className="stat-card">
+          <div className="stat-value">{matches.filter(m => m.played).length}</div>
+          <div className="stat-label">訓練樣本</div>
+        </div>
+      </div>
+
+      {/* Featured match */}
+      {featured && (
+        <div className="view-header" style={{ marginTop: 0 }}>
+          <h2>本輪主推 <em>{TEAMS.find(t => t.id === featured.home)?.short ?? featured.home} vs {TEAMS.find(t => t.id === featured.away)?.short ?? featured.away}</em></h2>
+          <p className="view-desc">
+            λ {featured.lambdaHome.toFixed(2)} : {featured.lambdaAway.toFixed(2)} · 信心 {pct(featured.confidence)} · {fmtStake(featured.suggestedStake ?? 'low')}
           </p>
-          <div className="stats">
-            <div className="stat">
-              <b>{table.rows[0]?.pts ?? 0}</b>
-              <span>榜首積分</span>
-            </div>
-            <div className="stat">
-              <b>{table.avgGoals.toFixed(2)}</b>
-              <span>場均總進球</span>
-            </div>
-            <div className="stat">
-              <b>{predictions.length}</b>
-              <span>本輪場次</span>
-            </div>
-            <div className="stat">
-              <b>{matches.filter(m => m.played).length}</b>
-              <span>訓練樣本</span>
-            </div>
-          </div>
         </div>
+      )}
 
-        {/* Featured match */}
-        {featured && (
-          <div className="card">
-            <p className="kicker">本輪主推</p>
-            <h3 style={{ margin: '0 0 6px' }}>
-              {TEAMS.find(t => t.id === featured.home)?.short ?? featured.home} vs{' '}
-              {TEAMS.find(t => t.id === featured.away)?.short ?? featured.away}
-            </h3>
-            <p className="lead" style={{ marginBottom: 10 }}>
-              λ {featured.lambdaHome.toFixed(2)} : {featured.lambdaAway.toFixed(2)}
-            </p>
-            <div className="bars">
-              <div className="bar-row">
-                <span>1X2</span>
-                <div className="track">
-                  <i className="h" style={{ width: `${featured.probHomeWin * 100}%` }} />
-                  <i className="d" style={{ width: `${featured.probDraw * 100}%` }} />
-                  <i className="a" style={{ width: `${featured.probAwayWin * 100}%` }} />
+      {/* Predictions grid */}
+      <div className="view-header">
+        <h2>第 <em>{nextGw}</em> 轮比赛预测</h2>
+      </div>
+      <div className="cards-grid">
+        {predictions.length === 0 ? (
+          <div className="empty-note">暫無預測數據</div>
+        ) : (
+          predictions.map(pred => {
+            const homeName = TEAMS.find(t => t.id === pred.home)?.short ?? pred.home
+            const awayName = TEAMS.find(t => t.id === pred.away)?.short ?? pred.away
+            const homeColor = getTeamColor(pred.home)
+            const awayColor = getTeamColor(pred.away)
+            const maxProb = Math.max(pred.probHomeWin, pred.probDraw, pred.probAwayWin)
+            const rec = maxProb === pred.probHomeWin ? 'home' : maxProb === pred.probAwayWin ? 'away' : 'draw'
+
+            return (
+              <Link to={`/match/${pred.matchId}`} key={pred.matchId} className="match-card">
+                <span className={`rec-tag rec-${rec}`}>
+                  {rec === 'home' ? '主勝' : rec === 'away' ? '客勝' : '平局'}
+                </span>
+                <div className="mc-top">
+                  <span className="mc-round">第 {pred.matchId.split('-')[1]} 輪</span>
+                  {confBadge(pred.confidence)}
                 </div>
-                <span>{pct(featured.probHomeWin)} / {pct(featured.probDraw)} / {pct(featured.probAwayWin)}</span>
-              </div>
-            </div>
-            <div className="meta" style={{ marginTop: 12 }}>
-              <span>信心 <b>{pct(featured.confidence)}</b></span>
-              {featured.suggestedStake && (
-                <span className={`stake ${fmtStake(featured.suggestedStake)}`}>{fmtStake(featured.suggestedStake)}</span>
-              )}
-            </div>
-          </div>
+                <div className="mc-teams">
+                  <div className="mc-team">
+                    <div className="dot" style={{ background: `linear-gradient(135deg,${homeColor},${homeColor}cc)`, width: 38, height: 38, borderRadius: '50%', margin: '0 auto 8px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 800, fontSize: 14, color: '#04121f' }}>
+                      {homeName.slice(-2)}
+                    </div>
+                    <div className="name">{homeName}</div>
+                  </div>
+                  <div className="mc-vs">VS</div>
+                  <div className="mc-team">
+                    <div className="dot" style={{ background: `linear-gradient(135deg,${awayColor},${awayColor}cc)`, width: 38, height: 38, borderRadius: '50%', margin: '0 auto 8px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 800, fontSize: 14, color: '#04121f' }}>
+                      {awayName.slice(-2)}
+                    </div>
+                    <div className="name">{awayName}</div>
+                  </div>
+                </div>
+                <div className="prob-bar">
+                  <div className="prob-seg home" style={{ width: `${pred.probHomeWin * 100}%` }}>
+                    {pred.probHomeWin >= 0.12 ? Math.round(pred.probHomeWin * 100) + '%' : ''}
+                  </div>
+                  <div className="prob-seg draw" style={{ width: `${pred.probDraw * 100}%` }}>
+                    {pred.probDraw >= 0.12 ? Math.round(pred.probDraw * 100) + '%' : ''}
+                  </div>
+                  <div className="prob-seg away" style={{ width: `${pred.probAwayWin * 100}%` }}>
+                    {pred.probAwayWin >= 0.12 ? Math.round(pred.probAwayWin * 100) + '%' : ''}
+                  </div>
+                </div>
+                <div className="prob-legend">
+                  <span><b>主勝</b> {pct(pred.probHomeWin)}</span>
+                  <span><b>平</b> {pct(pred.probDraw)}</span>
+                  <span><b>客勝</b> {pct(pred.probAwayWin)}</span>
+                </div>
+                <div className="mc-meta">
+                  <span className="chip hl">最可能 {(pred.lambdaHome + pred.lambdaAway).toFixed(1)} 球</span>
+                  <span className="chip">大2.5 {pct(pred.probOver25)}</span>
+                  <span className="chip">BTTS {pct(pred.probBTTS)}</span>
+                  {pred.suggestedStake && (
+                    <span className={`stake ${fmtStake(pred.suggestedStake)}`}>{fmtStake(pred.suggestedStake)}</span>
+                  )}
+                </div>
+              </Link>
+            )
+          })
         )}
-      </section>
+      </div>
 
-      {/* Main content grid */}
-      <div className="grid">
-        {/* Predictions list */}
-        <div>
-          <div className="section-title">
-            <h3>本輪賽事預測</h3>
-            <span>{predictions.length} 場</span>
-          </div>
-          <div className="card" style={{ padding: 0 }}>
-            {predictions.length === 0 ? (
-              <div className="disclaimer" style={{ padding: '32px 0', textAlign: 'center' }}>暫無預測數據</div>
-            ) : (
-              predictions.map(pred => {
-                const homeName = TEAMS.find(t => t.id === pred.home)?.short ?? pred.home
-                const awayName = TEAMS.find(t => t.id === pred.away)?.short ?? pred.away
-                return (
-                  <Link
-                    key={pred.matchId}
-                    to={`/match/${pred.matchId}`}
-                    className={`match ${pred.matchId === 'mw6-liv-mci' ? 'focus' : ''}`}
-                  >
-                    <div className="team">
-                      <strong>{homeName}</strong>
-                      <em>主場</em>
-                    </div>
-                    <div className="vs">
-                      <b>λ {pred.lambdaHome.toFixed(1)}:{pred.lambdaAway.toFixed(1)}</b>
-                    </div>
-                    <div className="team right">
-                      <strong>{awayName}</strong>
-                      <em>客場</em>
-                    </div>
-                    <div className="tagwrap">
-                      <span className={`tag ${pred.probHomeWin > pred.probAwayWin ? 'home' : 'away'}`}>
-                        {pct(Math.max(pred.probHomeWin, pred.probAwayWin))}
-                      </span>
-                      {pred.suggestedStake && (
-                        <span className={`stake ${fmtStake(pred.suggestedStake)}`}>
-                          {fmtStake(pred.suggestedStake)}
-                        </span>
-                      )}
-                    </div>
-                  </Link>
-                )
-              })
-            )}
-          </div>
-        </div>
-
-        {/* Last round results */}
-        <div>
-          {maxRound > 0 && (
-            <>
-              <div className="section-title">
-                <h3>上輪賽果</h3>
-                <span>第 {maxRound} 輪</span>
-              </div>
-              <div className="card" style={{ padding: 0 }}>
+      {/* Last round results */}
+      {maxRound > 0 && (
+        <>
+          <div className="section-t" style={{ marginTop: 32 }}>上輪賽果 · 第 {maxRound} 輪</div>
+          <div className="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>主隊</th>
+                  <th className="num">比分</th>
+                  <th>客隊</th>
+                </tr>
+              </thead>
+              <tbody>
                 {lastGw.map(m => {
                   const homeName = TEAMS.find(t => t.id === m.home)?.short ?? m.home
                   const awayName = TEAMS.find(t => t.id === m.away)?.short ?? m.away
                   const homeGoals = m.homeGoals ?? 0
                   const awayGoals = m.awayGoals ?? 0
                   return (
-                    <div key={m.id} className="match">
-                      <div className="team">
-                        <strong className={homeGoals > awayGoals ? 'winner' : ''}>{homeName}</strong>
-                      </div>
-                      <div className="vs">
-                        <b>{homeGoals} : {awayGoals}</b>
-                      </div>
-                      <div className="team right">
-                        <strong className={awayGoals > homeGoals ? 'winner' : ''}>{awayName}</strong>
-                      </div>
-                    </div>
+                    <tr key={m.id}>
+                      <td><strong className={homeGoals > awayGoals ? 'pos' : ''}>{homeName}</strong></td>
+                      <td className="num" style={{ fontWeight: 700, color: 'var(--gold)' }}>{homeGoals} : {awayGoals}</td>
+                      <td><strong className={awayGoals > homeGoals ? 'pos' : ''}>{awayName}</strong></td>
+                    </tr>
                   )
                 })}
-              </div>
-            </>
-          )}
-
-          {/* League averages */}
-          <div style={{ marginTop: 16 }}>
-            <div className="section-title">
-              <h3>聯賽統計</h3>
-            </div>
-            <div className="card">
-              <div className="scores">
-                <div className="scorechip">
-                  <b>{table.avgGoals.toFixed(2)}</b>
-                  <span>總進球/場</span>
-                </div>
-                <div className="scorechip">
-                  <b>{table.avgHomeGoals.toFixed(2)}</b>
-                  <span>主隊進球</span>
-                </div>
-                <div className="scorechip">
-                  <b>{table.avgAwayGoals.toFixed(2)}</b>
-                  <span>客隊進球</span>
-                </div>
-                <div className="scorechip">
-                  <b>{matches.filter(m => m.played).length}</b>
-                  <span>已賽場次</span>
-                </div>
-              </div>
-            </div>
+              </tbody>
+            </table>
           </div>
-        </div>
-      </div>
+        </>
+      )}
     </Layout>
   )
+}
+
+function getTeamColor(id: string): string {
+  const colors: Record<string, string> = {
+    LIV: '#C8102E', MCI: '#6CABDD', ARS: '#EF0107', CHE: '#034694',
+    MUN: '#DA291C', TOT: '#132257', NEW: '#41B6E6', AVL: '#95BFE5',
+    BHA: '#0057B8', BRE: '#e30613', EVE: '#003399', FUL: '#CC0000',
+    BOU: '#B50E12', CRY: '#1B458F', LEI: '#FFCD00', SUN: '#EE2737',
+    WHU: '#7A263A', IPS: '#3a64a3', WOL: '#FDB913', COV: '#0596d4',
+    HUL: '#F18A01', NFO: '#DD0000',
+  }
+  return colors[id] ?? '#22e58a'
 }
