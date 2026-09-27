@@ -1,4 +1,6 @@
 import { useEpl } from '../data/EplData'
+import { TEAMS } from '../data/teams'
+import { Layout } from '../ui/Layout'
 
 const COLUMNS = [
   { key: 'rank', label: '#' },
@@ -16,48 +18,54 @@ const COLUMNS = [
 export default function StandingsPage() {
   const { table, loading } = useEpl()
 
-  if (loading) return <div className="loading-state">載入積分榜中…</div>
+  if (loading) {
+    return (
+      <Layout active="standings">
+        <div className="disclaimer" style={{ textAlign: 'center', padding: '64px 0' }}>載入積分榜中…</div>
+      </Layout>
+    )
+  }
 
   return (
-    <div>
-      <h2 className="section-title">
-        英超積分榜
-        <span className="badge">{table.rows.length} 隊</span>
-      </h2>
-
-      <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
-        <table className="standings-table">
+    <Layout active="standings">
+      <div className="section-title">
+        <h3>英超積分榜</h3>
+        <span>{table.rows.length} 隊</span>
+      </div>
+      <div className="card" style={{ padding: 0, overflowX: 'auto' }}>
+        <table>
           <thead>
             <tr>
               {COLUMNS.map(col => (
-                <th key={col.key}>{col.label}</th>
+                <th key={col.key} className={col.key !== 'name' ? 'num' : ''}>{col.label}</th>
               ))}
             </tr>
           </thead>
           <tbody>
             {table.rows.map(row => (
               <tr key={row.id}>
-                <td className="rank-cell">{row.rank}</td>
-                <td className="team-cell">{row.name}</td>
-                <td>{row.gp}</td>
-                <td>{row.w}</td>
-                <td>{row.d}</td>
-                <td>{row.l}</td>
-                <td>{row.gf}</td>
-                <td>{row.ga}</td>
-                <td className={row.gd > 0 ? 'gd-pos' : row.gd < 0 ? 'gd-neg' : ''}>
+                <td className="pos">{row.rank}</td>
+                <td>
+                  <strong>{row.name}</strong>
+                </td>
+                <td className="num">{row.gp}</td>
+                <td className="num">{row.w}</td>
+                <td className="num">{row.d}</td>
+                <td className="num">{row.l}</td>
+                <td className="num">{row.gf}</td>
+                <td className="num">{row.ga}</td>
+                <td className={`num ${row.gd > 0 ? 'home' : row.gd < 0 ? 'away' : ''}`}>
                   {row.gd > 0 ? `+${row.gd}` : row.gd}
                 </td>
-                <td className="pts-cell">{row.pts}</td>
+                <td className="num" style={{ color: 'var(--gold)', fontWeight: 700 }}>{row.pts}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
-
-      <p className="stats-footer">
+      <p style={{ fontSize: 12, color: 'var(--muted)', marginTop: 12 }}>
         均值：{table.avgGoals.toFixed(2)} 球/場（主 {table.avgHomeGoals.toFixed(2)} / 客 {table.avgAwayGoals.toFixed(2)}）
       </p>
-    </div>
+    </Layout>
   )
 }

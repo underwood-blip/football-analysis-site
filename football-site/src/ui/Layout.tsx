@@ -1,33 +1,28 @@
-import { Link, useLocation } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import '../styles.css'
 
-export default function Layout({ children }: { children: React.ReactNode }) {
-  const location = useLocation()
+export function Layout({ children, active }: { children: React.ReactNode; active: string }) {
   return (
-    <div className="app">
-      <header className="header">
-        <div className="container">
-          <div className="header-inner">
-            <Link to="/" className="logo">英超數據分析</Link>
-            <nav className="nav">
-              <Link to="/" className={location.pathname === '/' || location.hash === '#/' ? 'active' : ''}>賽事預測</Link>
-              <Link to="/standings" className={location.pathname === '/standings' || location.hash === '#/standings' ? 'active' : ''}>積分榜</Link>
-              <Link to="/method" className={location.pathname === '/method' || location.hash === '#/method' ? 'active' : ''}>方法論</Link>
-            </nav>
+    <div className="shell">
+      <header className="topbar">
+        <div className="brand">
+          <div className="logo">λ</div>
+          <div>
+            <h1>大模型買球分析</h1>
+            <p>Poisson · Dixon-Coles 風格 · 英超 2026/27</p>
           </div>
         </div>
+        <nav className="nav">
+          <NavLink to="/" end className={active === 'epl' ? 'active' : ''}>英超 EPL</NavLink>
+          <NavLink to="/standings" className={active === 'standings' ? 'active' : ''}>積分榜</NavLink>
+          <NavLink to="/method" className={active === 'method' ? 'active' : ''}>方法論</NavLink>
+        </nav>
       </header>
-      <main className="main">
-        <div className="container">
-          {children}
-        </div>
-      </main>
-      <footer className="footer">
-        <div className="container">
-          <p className="disclaimer">免責聲明：本站僅供數據研究參考，不構成任何投注建議。足球比賽結果具有不確定性，請理性看待數據分析結果。</p>
-          <p className="copyright">© 2026 英超大模型數據分析站</p>
-        </div>
-      </footer>
+      {children}
+      <p className="disclaimer">
+        賽果與市場賠率來自 football-data.co.uk E0.csv；模型以泊松分佈推 1X2、大小球。
+        服務娛樂與研究，不是即時走地。請理性看待模型輸出，遵守當地法規。
+      </p>
     </div>
   )
 }

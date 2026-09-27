@@ -13,7 +13,7 @@ interface EplContextType {
   predictions: Prediction[]
   loading: boolean
   historyLoading: boolean
-  meta: { current: string; history: string }
+  meta: { current: string; history: string; historySeasons: number; historyMatches: number; played: number }
   focusMatchId: string
 }
 
@@ -42,7 +42,14 @@ export function EplProvider({ children }: { children: ReactNode }) {
       const allMatches = [...current.matches, ...histories.flatMap(h => h.matches)]
       setMatches(current.matches)
       setHistory(allMatches)
-      setMeta(m => ({ ...m, current: current.source, history: histories[0]?.source ?? 'none' }))
+      setMeta(m => ({
+        ...m,
+        current: current.source,
+        history: histories[0]?.source ?? 'none',
+        historySeasons: histories.length,
+        historyMatches: histories.reduce((acc, h) => acc + h.matches.filter(mm => mm.played).length, 0),
+        played: current.matches.filter(mm => mm.played).length,
+      }))
       setLoading(false)
       setHistoryLoading(false)
 
