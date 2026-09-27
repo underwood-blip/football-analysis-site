@@ -28,7 +28,7 @@ export function EplProvider({ children }: { children: ReactNode }) {
   const [predictions, setPredictions] = useState<Prediction[]>([])
   const [loading, setLoading] = useState(true)
   const [historyLoading, setHistoryLoading] = useState(false)
-  const [meta, setMeta] = useState({ current: 'none', history: 'none' })
+  const [meta, setMeta] = useState({ current: 'none', history: 'none', historySeasons: 0, historyMatches: 0, played: 0 })
 
   useEffect(() => {
     let cancelled = false

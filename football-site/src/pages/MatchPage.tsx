@@ -9,9 +9,9 @@ function pct(n: number) {
 
 function fmtStake(stake: string) {
   if (stake === 'high') return '重仓'
-  if (stake === 'medium') return '標準'
-  if (stake === 'low') return '輕倉'
-  return '觀望'
+  if (stake === 'medium') return '标准'
+  if (stake === 'low') return '轻仓'
+  return '观望'
 }
 
 function getTeamColor(id: string): string {
@@ -39,7 +39,7 @@ function ScoreMatrix({ matrix }: { matrix: number[][] }) {
   }
   return (
     <div className="matrix-container">
-      <div className="section-t">比分機率矩陣</div>
+      <div className="section-t">比分概率矩阵</div>
       <table className="score-matrix">
         <thead>
           <tr>
@@ -49,7 +49,7 @@ function ScoreMatrix({ matrix }: { matrix: number[][] }) {
         </thead>
         <tbody>{rows}</tbody>
       </table>
-      <p className="matrix-caption">行 = 主隊進球 · 列 = 客隊進球</p>
+      <p className="matrix-caption">行 = 主队进球 · 列 = 客队进球</p>
     </div>
   )
 }
@@ -136,14 +136,14 @@ export default function MatchPage() {
             <div className="stat-label">信心度</div>
           </div>
           <div className="stat-card">
-            <div className="stat-value" style={{ fontSize: 24, WebkitTextFillColor: 'var(--gold)' }}>{pred.suggestedStake ? fmtStake(pred.suggestedStake) : '觀望'}</div>
-            <div className="stat-label">建議倉位</div>
+            <div className="stat-value" style={{ fontSize: 24, WebkitTextFillColor: 'var(--gold)' }}>              {pred.suggestedStake ? fmtStake(pred.suggestedStake) : '观望'}</div>
+            <div className="stat-label">建议仓位</div>
           </div>
         </div>
       </div>
 
       {/* Probability bars */}
-      <div className="section-t">1X2 機率</div>
+      <div className="section-t">1X2 概率</div>
       <div className="match-card" style={{ cursor: 'default', marginBottom: 24 }}>
         <div className="prob-bar" style={{ height: 48, marginBottom: 12 }}>
           <div className="prob-seg home" style={{ width: `${pred.probHomeWin * 100}%` }}>

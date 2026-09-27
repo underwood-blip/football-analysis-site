@@ -35,7 +35,7 @@ export default function EplPage({ active }: { active?: string }) {
   const playedMatches = matches.filter(m => m.season === currentSeason && m.played)
   const maxRound = Math.max(...playedMatches.map(m => m.round), 0)
   const lastGw = matches.filter(m => m.round === maxRound && m.played)
-  const nextGw = predictions[0]?.matchId?.split('-')[1] ?? '6'
+  const nextGw = predictions[0]?.matchId?.split('-')[0].replace('mw', '') ?? '6'
   const featured = predictions.find(p => p.matchId === 'mw6-liv-mci') ?? predictions[0]
 
   return (
@@ -92,7 +92,7 @@ export default function EplPage({ active }: { active?: string }) {
                   {rec === 'home' ? '主胜' : rec === 'away' ? '客胜' : '平局'}
                 </span>
                 <div className="mc-top">
-                  <span className="mc-round">第 {pred.matchId.split('-')[1]} 轮</span>
+                  <span className="mc-round">第 {pred.matchId.split('-')[0].replace('mw', '')} 轮</span>
                   {confBadge(pred.confidence)}
                 </div>
                 <div className="mc-teams">

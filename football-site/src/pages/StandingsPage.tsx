@@ -4,7 +4,7 @@ import { Layout } from '../ui/Layout'
 
 const COLUMNS = [
   { key: 'rank', label: '#' },
-  { key: 'name', label: '球隊' },
+  { key: 'name', label: '球队' },
   { key: 'gp', label: '赛' },
   { key: 'w', label: '胜' },
   { key: 'd', label: '平' },

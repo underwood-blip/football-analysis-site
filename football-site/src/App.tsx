@@ -1,6 +1,6 @@
 import { HashRouter, Routes, Route } from 'react-router-dom'
 import { EplProvider } from './data/EplData'
-import Layout from './ui/Layout'
+import { Layout } from './ui/Layout'
 import EplPage from './pages/EplPage'
 import MatchPage from './pages/MatchPage'
 import StandingsPage from './pages/StandingsPage'
