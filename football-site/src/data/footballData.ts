@@ -136,7 +136,7 @@ function parseCSV(text: string, season: string): Match[] {
 
 const CURRENT_PLAYED = 50
 const HISTORY_PLAYED_RATIO = 0.95
-const DATA_VERSION = '20240927a'
+const DATA_VERSION = '20240927b'
 const DATA_BASE = import.meta.env.BASE_URL
 
 export async function loadSeasonData(season: string): Promise<{ matches: Match[], source: string }> {

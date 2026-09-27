@@ -208,7 +208,7 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2017-12-30,15:00,Watford,Swansea,M Atkinson,1,2,A,21
 2017-12-31,15:00,Crystal Palace,Man City,J Moss,0,0,D,21
 2017-12-31,15:00,West Brom,Arsenal,M Dean,1,1,D,21
-2018-01-01,15:00,Brighton,Bournemouth,M Oliver,2,2,D,21
+2018-01-01,15:00,Brighton,Bournemouth,M Oliver,2,2,D,22
 2018-01-01,15:00,Burnley,Liverpool,R East,1,2,A,22
 2018-01-01,15:00,Everton,Man United,A Marriner,0,2,A,22
 2018-01-01,15:00,Leicester,Huddersfield,G Scott,3,0,H,22
@@ -218,7 +218,7 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2018-01-02,15:00,Swansea,Tottenham,R Madley,0,2,A,22
 2018-01-02,15:00,West Ham,West Brom,M Jones,2,1,H,22
 2018-01-03,15:00,Arsenal,Chelsea,A Taylor,2,2,D,22
-2018-01-04,15:00,Tottenham,West Ham,M Dean,1,1,D,22
+2018-01-04,15:00,Tottenham,West Ham,M Dean,1,1,D,21
 2018-01-13,15:00,Chelsea,Leicester,M Jones,0,0,D,23
 2018-01-13,15:00,Crystal Palace,Burnley,M Oliver,1,0,H,23
 2018-01-13,15:00,Huddersfield,West Ham,J Moss,1,4,A,23
@@ -303,72 +303,72 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2018-03-17,15:00,Huddersfield,Crystal Palace,M Dean,0,2,A,31
 2018-03-17,15:00,Liverpool,Watford,A Taylor,5,0,H,31
 2018-03-17,15:00,Stoke,Everton,M Atkinson,1,2,A,31
-2018-03-31,15:00,Brighton,Leicester,C Kavanagh,0,2,A,31
-2018-03-31,15:00,Crystal Palace,Liverpool,N Swarbrick,1,2,A,31
-2018-03-31,15:00,Everton,Man City,P Tierney,1,3,A,31
-2018-03-31,15:00,Man United,Swansea,R Madley,2,0,H,31
-2018-03-31,15:00,Newcastle,Huddersfield,M Atkinson,1,0,H,31
-2018-03-31,15:00,Watford,Bournemouth,A Marriner,2,2,D,31
+2018-03-31,15:00,Brighton,Leicester,C Kavanagh,0,2,A,32
+2018-03-31,15:00,Crystal Palace,Liverpool,N Swarbrick,1,2,A,32
+2018-03-31,15:00,Everton,Man City,P Tierney,1,3,A,32
+2018-03-31,15:00,Man United,Swansea,R Madley,2,0,H,32
+2018-03-31,15:00,Newcastle,Huddersfield,M Atkinson,1,0,H,32
+2018-03-31,15:00,Watford,Bournemouth,A Marriner,2,2,D,32
 2018-03-31,15:00,West Brom,Burnley,L Probert,1,2,A,32
 2018-03-31,15:00,West Ham,Southampton,J Moss,3,0,H,32
 2018-04-01,15:00,Arsenal,Stoke,C Pawson,3,0,H,32
 2018-04-01,15:00,Chelsea,Tottenham,A Marriner,1,3,A,32
-2018-04-07,15:00,Bournemouth,Crystal Palace,J Moss,2,2,D,32
-2018-04-07,15:00,Brighton,Huddersfield,A Taylor,1,1,D,32
-2018-04-07,15:00,Everton,Liverpool,M Oliver,0,0,D,32
-2018-04-07,15:00,Leicester,Newcastle,S Attwell,1,2,A,32
-2018-04-07,15:00,Man City,Man United,M Atkinson,2,3,A,32
-2018-04-07,15:00,Stoke,Tottenham,G Scott,1,2,A,32
+2018-04-07,15:00,Bournemouth,Crystal Palace,J Moss,2,2,D,33
+2018-04-07,15:00,Brighton,Huddersfield,A Taylor,1,1,D,33
+2018-04-07,15:00,Everton,Liverpool,M Oliver,0,0,D,33
+2018-04-07,15:00,Leicester,Newcastle,S Attwell,1,2,A,33
+2018-04-07,15:00,Man City,Man United,M Atkinson,2,3,A,33
+2018-04-07,15:00,Stoke,Tottenham,G Scott,1,2,A,33
 2018-04-07,15:00,Watford,Burnley,P Tierney,1,2,A,33
 2018-04-07,15:00,West Brom,Swansea,R East,1,1,D,33
 2018-04-08,15:00,Arsenal,Southampton,A Marriner,3,2,H,33
 2018-04-08,15:00,Chelsea,West Ham,K Friend,1,1,D,33
-2018-04-14,15:00,Burnley,Leicester,M Atkinson,2,1,H,33
-2018-04-14,15:00,Crystal Palace,Brighton,A Marriner,3,2,H,33
-2018-04-14,15:00,Huddersfield,Watford,C Pawson,1,0,H,33
-2018-04-14,15:00,Liverpool,Bournemouth,C Kavanagh,3,0,H,33
-2018-04-14,15:00,Southampton,Chelsea,M Dean,2,3,A,33
-2018-04-14,15:00,Swansea,Everton,L Mason,1,1,D,33
+2018-04-14,15:00,Burnley,Leicester,M Atkinson,2,1,H,34
+2018-04-14,15:00,Crystal Palace,Brighton,A Marriner,3,2,H,34
+2018-04-14,15:00,Huddersfield,Watford,C Pawson,1,0,H,34
+2018-04-14,15:00,Liverpool,Bournemouth,C Kavanagh,3,0,H,34
+2018-04-14,15:00,Southampton,Chelsea,M Dean,2,3,A,34
+2018-04-14,15:00,Swansea,Everton,L Mason,1,1,D,34
 2018-04-14,15:00,Tottenham,Man City,J Moss,1,3,A,34
 2018-04-15,15:00,Man United,West Brom,P Tierney,0,1,A,34
 2018-04-15,15:00,Newcastle,Arsenal,A Taylor,2,1,H,34
 2018-04-16,15:00,West Ham,Stoke,M Oliver,1,1,D,34
-2018-04-17,15:00,Brighton,Tottenham,K Friend,1,1,D,34
-2018-04-18,15:00,Bournemouth,Man United,G Scott,0,2,A,34
-2018-04-19,15:00,Burnley,Chelsea,R Madley,1,2,A,34
-2018-04-19,15:00,Leicester,Southampton,R East,0,0,D,34
-2018-04-21,15:00,Watford,Crystal Palace,C Kavanagh,0,0,D,34
-2018-04-21,15:00,West Brom,Liverpool,S Attwell,2,2,D,34
+2018-04-17,15:00,Brighton,Tottenham,K Friend,1,1,D,35
+2018-04-18,15:00,Bournemouth,Man United,G Scott,0,2,A,35
+2018-04-19,15:00,Burnley,Chelsea,R Madley,1,2,A,31
+2018-04-19,15:00,Leicester,Southampton,R East,0,0,D,35
+2018-04-21,15:00,Watford,Crystal Palace,C Kavanagh,0,0,D,35
+2018-04-21,15:00,West Brom,Liverpool,S Attwell,2,2,D,35
 2018-04-22,15:00,Arsenal,West Ham,L Mason,4,1,H,35
 2018-04-22,15:00,Man City,Swansea,C Pawson,5,0,H,35
 2018-04-22,15:00,Stoke,Burnley,M Dean,1,1,D,35
 2018-04-23,15:00,Everton,Newcastle,R Madley,1,0,H,35
-2018-04-28,15:00,Burnley,Brighton,R East,0,0,D,35
-2018-04-28,15:00,Crystal Palace,Leicester,M Dean,5,0,H,35
-2018-04-28,15:00,Huddersfield,Everton,L Probert,0,2,A,35
-2018-04-28,15:00,Liverpool,Stoke,A Marriner,0,0,D,35
-2018-04-28,15:00,Newcastle,West Brom,D Coote,0,1,A,35
-2018-04-28,15:00,Southampton,Bournemouth,A Taylor,2,1,H,35
+2018-04-28,15:00,Burnley,Brighton,R East,0,0,D,36
+2018-04-28,15:00,Crystal Palace,Leicester,M Dean,5,0,H,36
+2018-04-28,15:00,Huddersfield,Everton,L Probert,0,2,A,36
+2018-04-28,15:00,Liverpool,Stoke,A Marriner,0,0,D,36
+2018-04-28,15:00,Newcastle,West Brom,D Coote,0,1,A,36
+2018-04-28,15:00,Southampton,Bournemouth,A Taylor,2,1,H,36
 2018-04-28,15:00,Swansea,Chelsea,J Moss,0,1,A,36
 2018-04-29,15:00,Man United,Arsenal,K Friend,2,1,H,36
 2018-04-29,15:00,West Ham,Man City,N Swarbrick,1,4,A,36
 2018-04-30,15:00,Tottenham,Watford,M Oliver,2,0,H,36
-2018-05-04,15:00,Brighton,Man United,C Pawson,1,0,H,36
-2018-05-05,15:00,Bournemouth,Swansea,K Friend,1,0,H,36
-2018-05-05,15:00,Everton,Southampton,J Moss,1,1,D,36
-2018-05-05,15:00,Leicester,West Ham,C Kavanagh,0,2,A,36
-2018-05-05,15:00,Stoke,Crystal Palace,M Atkinson,1,2,A,36
-2018-05-05,15:00,Watford,Newcastle,R East,2,1,H,36
+2018-05-04,15:00,Brighton,Man United,C Pawson,1,0,H,37
+2018-05-05,15:00,Bournemouth,Swansea,K Friend,1,0,H,37
+2018-05-05,15:00,Everton,Southampton,J Moss,1,1,D,37
+2018-05-05,15:00,Leicester,West Ham,C Kavanagh,0,2,A,37
+2018-05-05,15:00,Stoke,Crystal Palace,M Atkinson,1,2,A,37
+2018-05-05,15:00,Watford,Newcastle,R East,2,1,H,37
 2018-05-05,15:00,West Brom,Tottenham,M Jones,1,0,H,37
 2018-05-06,15:00,Arsenal,Burnley,A Marriner,5,0,H,37
 2018-05-06,15:00,Chelsea,Liverpool,A Taylor,1,0,H,37
 2018-05-06,15:00,Man City,Huddersfield,M Dean,0,0,D,37
-2018-05-08,15:00,Swansea,Southampton,M Oliver,0,1,A,37
-2018-05-09,15:00,Chelsea,Huddersfield,L Mason,1,1,D,37
-2018-05-09,15:00,Leicester,Arsenal,G Scott,3,1,H,37
-2018-05-09,15:00,Man City,Brighton,P Tierney,3,1,H,37
-2018-05-09,15:00,Tottenham,Newcastle,N Swarbrick,1,0,H,37
-2018-05-10,15:00,West Ham,Man United,J Moss,0,0,D,37
+2018-05-08,15:00,Swansea,Southampton,M Oliver,0,1,A,31
+2018-05-09,15:00,Chelsea,Huddersfield,L Mason,1,1,D,35
+2018-05-09,15:00,Leicester,Arsenal,G Scott,3,1,H,31
+2018-05-09,15:00,Man City,Brighton,P Tierney,3,1,H,31
+2018-05-09,15:00,Tottenham,Newcastle,N Swarbrick,1,0,H,31
+2018-05-10,15:00,West Ham,Man United,J Moss,0,0,D,31
 2018-05-13,15:00,Burnley,Bournemouth,P Tierney,1,2,A,38
 2018-05-13,15:00,Crystal Palace,West Brom,J Moss,2,0,H,38
 2018-05-13,15:00,Huddersfield,Arsenal,M Oliver,0,1,A,38

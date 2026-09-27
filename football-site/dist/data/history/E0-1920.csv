@@ -178,7 +178,7 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2019-12-21,17:30,Man City,Leicester,M Dean,3,1,H,18
 2019-12-22,14:00,Watford,Man United,L Mason,2,0,H,18
 2019-12-22,16:30,Tottenham,Chelsea,A Taylor,0,2,A,18
-2019-12-26,12:30,Tottenham,Brighton,G Scott,2,1,H,18
+2019-12-26,12:30,Tottenham,Brighton,G Scott,2,1,H,19
 2019-12-26,15:00,Aston Villa,Norwich,C Kavanagh,1,0,H,19
 2019-12-26,15:00,Bournemouth,Arsenal,S Attwell,1,1,D,19
 2019-12-26,15:00,Chelsea,Southampton,J Moss,0,2,A,19
@@ -188,7 +188,7 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2019-12-26,17:30,Man United,Newcastle,K Friend,4,1,H,19
 2019-12-26,20:00,Leicester,Liverpool,M Oliver,0,4,A,19
 2019-12-27,19:45,Wolves,Man City,M Atkinson,3,2,H,19
-2019-12-28,12:30,Brighton,Bournemouth,P Tierney,2,0,H,19
+2019-12-28,12:30,Brighton,Bournemouth,P Tierney,2,0,H,20
 2019-12-28,15:00,Newcastle,Everton,L Mason,1,2,A,20
 2019-12-28,15:00,Southampton,Crystal Palace,A Madley,1,1,D,20
 2019-12-28,15:00,Watford,Aston Villa,S Hooper,3,0,H,20
@@ -198,7 +198,7 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2019-12-29,14:00,Arsenal,Chelsea,C Pawson,1,2,A,20
 2019-12-29,16:30,Liverpool,Wolves,A Taylor,1,0,H,20
 2019-12-29,18:00,Man City,Sheffield United,C Kavanagh,2,0,H,20
-2020-01-01,12:30,Brighton,Chelsea,S Attwell,1,1,D,20
+2020-01-01,12:30,Brighton,Chelsea,S Attwell,1,1,D,21
 2020-01-01,12:30,Burnley,Aston Villa,M Oliver,1,2,A,21
 2020-01-01,15:00,Newcastle,Leicester,M Atkinson,0,3,A,21
 2020-01-01,15:00,Southampton,Tottenham,M Dean,1,0,H,21
@@ -208,7 +208,7 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2020-01-01,17:30,West Ham,Bournemouth,G Scott,4,0,H,21
 2020-01-01,20:00,Arsenal,Man United,C Kavanagh,2,0,H,21
 2020-01-02,20:00,Liverpool,Sheffield United,P Tierney,2,0,H,21
-2020-01-10,20:00,Sheffield United,West Ham,M Oliver,1,0,H,21
+2020-01-10,20:00,Sheffield United,West Ham,M Oliver,1,0,H,22
 2020-01-11,12:30,Crystal Palace,Arsenal,P Tierney,1,1,D,22
 2020-01-11,15:00,Chelsea,Burnley,K Friend,3,0,H,22
 2020-01-11,15:00,Everton,Brighton,D Coote,1,0,H,22
@@ -218,7 +218,7 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2020-01-11,17:30,Tottenham,Liverpool,M Atkinson,0,1,A,22
 2020-01-12,14:00,Bournemouth,Watford,M Dean,0,3,A,22
 2020-01-12,16:30,Aston Villa,Man City,J Moss,1,6,A,22
-2020-01-18,12:30,Watford,Tottenham,M Oliver,0,0,D,22
+2020-01-18,12:30,Watford,Tottenham,M Oliver,0,0,D,23
 2020-01-18,15:00,Arsenal,Sheffield United,M Dean,1,1,D,23
 2020-01-18,15:00,Brighton,Aston Villa,A Madley,1,1,D,23
 2020-01-18,15:00,Man City,Crystal Palace,S Scott,2,2,D,23
@@ -228,7 +228,7 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2020-01-18,17:30,Newcastle,Chelsea,C Kavanagh,1,0,H,23
 2020-01-19,14:00,Burnley,Leicester,A Taylor,2,1,H,23
 2020-01-19,16:30,Liverpool,Man United,C Pawson,2,0,H,23
-2020-01-21,19:30,Aston Villa,Watford,M Atkinson,2,1,H,23
+2020-01-21,19:30,Aston Villa,Watford,M Atkinson,2,1,H,24
 2020-01-21,19:30,Bournemouth,Brighton,K Friend,3,1,H,24
 2020-01-21,19:30,Crystal Palace,Southampton,A Marriner,0,2,A,24
 2020-01-21,19:30,Everton,Newcastle,S Hooper,2,2,D,24
@@ -238,7 +238,7 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2020-01-22,19:30,Tottenham,Norwich,C Kavanagh,2,1,H,24
 2020-01-22,20:15,Man United,Burnley,J Moss,0,2,A,24
 2020-01-23,20:00,Wolves,Liverpool,M Oliver,1,2,A,24
-2020-01-29,19:45,West Ham,Liverpool,J Moss,0,2,A,24
+2020-01-29,19:45,West Ham,Liverpool,J Moss,0,2,A,18
 2020-02-01,12:30,Leicester,Chelsea,L Mason,2,2,D,25
 2020-02-01,15:00,Bournemouth,Aston Villa,A Taylor,2,1,H,25
 2020-02-01,15:00,Crystal Palace,Sheffield United,A Madley,0,1,A,25
@@ -277,8 +277,8 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2020-02-29,17:30,Watford,Liverpool,M Oliver,3,0,H,28
 2020-03-01,14:00,Everton,Man United,C Kavanagh,1,1,D,28
 2020-03-01,14:00,Tottenham,Wolves,S Attwell,2,3,A,28
-2020-03-07,12:30,Liverpool,Bournemouth,P Tierney,2,1,H,28
-2020-03-07,15:00,Arsenal,West Ham,M Atkinson,1,0,H,28
+2020-03-07,12:30,Liverpool,Bournemouth,P Tierney,2,1,H,29
+2020-03-07,15:00,Arsenal,West Ham,M Atkinson,1,0,H,29
 2020-03-07,15:00,Crystal Palace,Watford,A Taylor,1,0,H,29
 2020-03-07,15:00,Sheffield United,Norwich,S Hooper,1,0,H,29
 2020-03-07,15:00,Southampton,Newcastle,G Scott,0,1,A,29
@@ -287,8 +287,8 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2020-03-08,14:00,Chelsea,Everton,K Friend,4,0,H,29
 2020-03-08,16:30,Man United,Man City,M Dean,2,0,H,29
 2020-03-09,20:00,Leicester,Aston Villa,M Oliver,4,0,H,29
-2020-06-17,18:00,Aston Villa,Sheffield United,M Oliver,0,0,D,29
-2020-06-17,20:15,Man City,Arsenal,A Taylor,3,0,H,29
+2020-06-17,18:00,Aston Villa,Sheffield United,M Oliver,0,0,D,28
+2020-06-17,20:15,Man City,Arsenal,A Taylor,3,0,H,28
 2020-06-19,18:00,Norwich,Southampton,K Friend,0,3,A,30
 2020-06-19,20:15,Tottenham,Man United,J Moss,1,1,D,30
 2020-06-20,12:30,Watford,Leicester,C Pawson,1,1,D,30

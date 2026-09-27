@@ -249,7 +249,7 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2019-02-03,15:00,Leicester,Man United,M Dean,0,1,A,25
 2019-02-03,15:00,Man City,Arsenal,M Atkinson,3,1,H,25
 2019-02-04,15:00,West Ham,Liverpool,K Friend,1,1,D,25
-2019-02-06,15:00,Everton,Man City,C Pawson,0,2,A,26
+2019-02-06,15:00,Everton,Man City,C Pawson,0,2,A,27
 2019-02-09,15:00,Brighton,Burnley,S Attwell,1,3,A,26
 2019-02-09,15:00,Crystal Palace,West Ham,C Pawson,1,1,D,26
 2019-02-09,15:00,Fulham,Man United,P Tierney,0,3,A,26
@@ -259,7 +259,7 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2019-02-09,15:00,Watford,Everton,L Probert,1,0,H,26
 2019-02-10,15:00,Man City,Chelsea,M Dean,6,0,H,26
 2019-02-10,15:00,Tottenham,Leicester,M Oliver,3,1,H,26
-2019-02-11,15:00,Wolves,Newcastle,G Scott,1,1,D,27
+2019-02-11,15:00,Wolves,Newcastle,G Scott,1,1,D,26
 2019-02-22,15:00,Cardiff,Watford,S Hooper,1,5,A,27
 2019-02-22,15:00,West Ham,Fulham,L Mason,3,1,H,27
 2019-02-23,15:00,Bournemouth,Wolves,R East,1,1,D,27
@@ -268,7 +268,7 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2019-02-23,15:00,Newcastle,Huddersfield,K Friend,2,0,H,27
 2019-02-24,15:00,Arsenal,Southampton,G Scott,2,0,H,27
 2019-02-24,15:00,Man United,Liverpool,M Oliver,0,0,D,27
-2019-02-26,15:00,Cardiff,Everton,K Friend,0,3,A,27
+2019-02-26,15:00,Cardiff,Everton,K Friend,0,3,A,28
 2019-02-26,15:00,Huddersfield,Wolves,D Coote,1,0,H,28
 2019-02-26,15:00,Leicester,Brighton,L Probert,2,1,H,28
 2019-02-26,15:00,Newcastle,Burnley,C Pawson,2,0,H,28
@@ -278,7 +278,7 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2019-02-27,15:00,Liverpool,Watford,G Scott,5,0,H,28
 2019-02-27,15:00,Man City,West Ham,S Attwell,1,0,H,28
 2019-02-27,15:00,Southampton,Fulham,A Taylor,2,0,H,28
-2019-03-02,15:00,Bournemouth,Man City,K Friend,0,1,A,28
+2019-03-02,15:00,Bournemouth,Man City,K Friend,0,1,A,29
 2019-03-02,15:00,Brighton,Huddersfield,M Dean,1,0,H,29
 2019-03-02,15:00,Burnley,Crystal Palace,L Probert,1,3,A,29
 2019-03-02,15:00,Man United,Southampton,S Attwell,3,2,H,29
@@ -288,7 +288,7 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2019-03-03,15:00,Everton,Liverpool,M Atkinson,0,0,D,29
 2019-03-03,15:00,Fulham,Chelsea,G Scott,1,2,A,29
 2019-03-03,15:00,Watford,Leicester,J Moss,2,1,H,29
-2019-03-09,15:00,Cardiff,West Ham,G Scott,2,0,H,29
+2019-03-09,15:00,Cardiff,West Ham,G Scott,2,0,H,30
 2019-03-09,15:00,Crystal Palace,Brighton,C Pawson,1,2,A,30
 2019-03-09,15:00,Huddersfield,Bournemouth,A Taylor,0,2,A,30
 2019-03-09,15:00,Leicester,Fulham,D Coote,3,1,H,30
@@ -298,57 +298,57 @@ Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
 2019-03-10,15:00,Arsenal,Man United,J Moss,2,0,H,30
 2019-03-10,15:00,Chelsea,Wolves,M Oliver,1,1,D,30
 2019-03-10,15:00,Liverpool,Burnley,A Marriner,4,2,H,30
-2019-03-16,15:00,Bournemouth,Newcastle,M Dean,2,2,D,30
+2019-03-16,15:00,Bournemouth,Newcastle,M Dean,2,2,D,31
 2019-03-16,15:00,Burnley,Leicester,M Oliver,1,2,A,31
 2019-03-16,15:00,West Ham,Huddersfield,J Moss,4,3,H,31
 2019-03-17,15:00,Everton,Chelsea,A Taylor,2,0,H,31
 2019-03-17,15:00,Fulham,Liverpool,C Pawson,1,2,A,31
-2019-03-30,15:00,Brighton,Southampton,M Oliver,0,1,A,31
-2019-03-30,15:00,Burnley,Wolves,C Kavanagh,2,0,H,31
-2019-03-30,15:00,Crystal Palace,Huddersfield,L Probert,2,0,H,31
-2019-03-30,15:00,Fulham,Man City,K Friend,0,2,A,31
-2019-03-30,15:00,Leicester,Bournemouth,L Mason,2,0,H,31
-2019-03-30,15:00,Man United,Watford,S Attwell,2,1,H,31
+2019-03-30,15:00,Brighton,Southampton,M Oliver,0,1,A,32
+2019-03-30,15:00,Burnley,Wolves,C Kavanagh,2,0,H,32
+2019-03-30,15:00,Crystal Palace,Huddersfield,L Probert,2,0,H,32
+2019-03-30,15:00,Fulham,Man City,K Friend,0,2,A,32
+2019-03-30,15:00,Leicester,Bournemouth,L Mason,2,0,H,32
+2019-03-30,15:00,Man United,Watford,S Attwell,2,1,H,32
 2019-03-30,15:00,West Ham,Everton,P Tierney,0,2,A,32
 2019-03-31,15:00,Cardiff,Chelsea,C Pawson,1,2,A,32
 2019-03-31,15:00,Liverpool,Tottenham,M Atkinson,2,1,H,32
 2019-04-01,15:00,Arsenal,Newcastle,A Taylor,2,0,H,32
-2019-04-02,15:00,Watford,Fulham,R East,4,1,H,32
-2019-04-02,15:00,Wolves,Man United,M Dean,2,1,H,32
-2019-04-03,15:00,Chelsea,Brighton,G Scott,3,0,H,32
-2019-04-03,15:00,Man City,Cardiff,J Moss,2,0,H,32
-2019-04-03,15:00,Tottenham,Crystal Palace,A Marriner,2,0,H,32
-2019-04-05,15:00,Southampton,Liverpool,P Tierney,1,3,A,32
+2019-04-02,15:00,Watford,Fulham,R East,4,1,H,33
+2019-04-02,15:00,Wolves,Man United,M Dean,2,1,H,33
+2019-04-03,15:00,Chelsea,Brighton,G Scott,3,0,H,27
+2019-04-03,15:00,Man City,Cardiff,J Moss,2,0,H,33
+2019-04-03,15:00,Tottenham,Crystal Palace,A Marriner,2,0,H,31
+2019-04-05,15:00,Southampton,Liverpool,P Tierney,1,3,A,33
 2019-04-06,15:00,Bournemouth,Burnley,M Atkinson,1,3,A,33
 2019-04-06,15:00,Huddersfield,Leicester,D Coote,1,4,A,33
 2019-04-06,15:00,Newcastle,Crystal Palace,S Attwell,0,1,A,33
 2019-04-07,15:00,Everton,Arsenal,K Friend,1,0,H,33
 2019-04-08,15:00,Chelsea,West Ham,C Kavanagh,2,0,H,33
-2019-04-12,15:00,Leicester,Newcastle,C Kavanagh,0,1,A,33
-2019-04-13,15:00,Brighton,Bournemouth,K Friend,0,5,A,33
-2019-04-13,15:00,Burnley,Cardiff,M Dean,2,0,H,33
-2019-04-13,15:00,Fulham,Everton,L Probert,2,0,H,33
-2019-04-13,15:00,Man United,West Ham,G Scott,2,1,H,33
+2019-04-12,15:00,Leicester,Newcastle,C Kavanagh,0,1,A,34
+2019-04-13,15:00,Brighton,Bournemouth,K Friend,0,5,A,34
+2019-04-13,15:00,Burnley,Cardiff,M Dean,2,0,H,34
+2019-04-13,15:00,Fulham,Everton,L Probert,2,0,H,34
+2019-04-13,15:00,Man United,West Ham,G Scott,2,1,H,34
 2019-04-13,15:00,Southampton,Wolves,J Moss,3,1,H,34
 2019-04-13,15:00,Tottenham,Huddersfield,L Mason,4,0,H,34
 2019-04-14,15:00,Crystal Palace,Man City,M Atkinson,1,3,A,34
 2019-04-14,15:00,Liverpool,Chelsea,M Oliver,2,0,H,34
 2019-04-15,15:00,Watford,Arsenal,C Pawson,0,1,A,34
-2019-04-16,15:00,Brighton,Cardiff,A Marriner,0,2,A,34
-2019-04-20,15:00,Bournemouth,Fulham,D Coote,0,1,A,34
-2019-04-20,15:00,Huddersfield,Watford,R East,1,2,A,34
-2019-04-20,15:00,Man City,Tottenham,M Oliver,1,0,H,34
-2019-04-20,15:00,Newcastle,Southampton,A Taylor,3,1,H,34
+2019-04-16,15:00,Brighton,Cardiff,A Marriner,0,2,A,31
+2019-04-20,15:00,Bournemouth,Fulham,D Coote,0,1,A,35
+2019-04-20,15:00,Huddersfield,Watford,R East,1,2,A,35
+2019-04-20,15:00,Man City,Tottenham,M Oliver,1,0,H,35
+2019-04-20,15:00,Newcastle,Southampton,A Taylor,3,1,H,35
 2019-04-20,15:00,West Ham,Leicester,L Probert,2,2,D,35
 2019-04-20,15:00,Wolves,Brighton,C Pawson,0,0,D,35
 2019-04-21,15:00,Arsenal,Crystal Palace,J Moss,2,3,A,35
 2019-04-21,15:00,Cardiff,Liverpool,M Atkinson,0,2,A,35
 2019-04-21,15:00,Everton,Man United,P Tierney,4,0,H,35
 2019-04-22,15:00,Chelsea,Burnley,K Friend,2,2,D,35
-2019-04-23,15:00,Tottenham,Brighton,C Kavanagh,1,0,H,35
-2019-04-23,15:00,Watford,Southampton,M Dean,1,1,D,35
-2019-04-24,15:00,Man United,Man City,A Marriner,0,2,A,35
-2019-04-24,15:00,Wolves,Arsenal,S Attwell,3,1,H,35
+2019-04-23,15:00,Tottenham,Brighton,C Kavanagh,1,0,H,33
+2019-04-23,15:00,Watford,Southampton,M Dean,1,1,D,31
+2019-04-24,15:00,Man United,Man City,A Marriner,0,2,A,31
+2019-04-24,15:00,Wolves,Arsenal,S Attwell,3,1,H,31
 2019-04-26,15:00,Liverpool,Huddersfield,K Friend,5,0,H,36
 2019-04-27,15:00,Brighton,Newcastle,M Dean,1,1,D,36
 2019-04-27,15:00,Crystal Palace,Everton,L Mason,0,0,D,36
