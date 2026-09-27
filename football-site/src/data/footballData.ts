@@ -166,3 +166,4 @@ export async function loadCurrentSeason(): Promise<{ matches: Match[], source: s
   return { matches: generateMockMatches('2627', CURRENT_PLAYED), source: 'builtin' }
 }
 // Build: 1790503989
+const BUILD_TIMESTAMP = '1790504013';
