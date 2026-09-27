@@ -104,6 +104,8 @@ function parseCSV(text: string, season: string): Match[] {
 
 // Current season: assume 6 rounds played (matches 1-120 of 380)
 const CURRENT_PLAYED = 120
+// Historical seasons: 95% played for strength fitting
+const HISTORY_PLAYED_RATIO = 0.95
 
 export async function loadSeasonData(season: string): Promise<{ matches: Match[], source: string }> {
   try {
@@ -116,7 +118,7 @@ export async function loadSeasonData(season: string): Promise<{ matches: Match[]
       }
     }
   } catch {}
-  const played = season === '2627' ? 0 : Math.floor(380 * 0.85)
+  const played = season === '2627' ? 0 : Math.floor(380 * HISTORY_PLAYED_RATIO)
   return { matches: generateMockMatches(season, played), source: 'builtin' }
 }
 
