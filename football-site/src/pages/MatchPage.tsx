@@ -8,7 +8,7 @@ function pct(n: number) {
 }
 
 function fmtStake(stake: string) {
-  if (stake === 'high') return '重倉'
+  if (stake === 'high') return '重仓'
   if (stake === 'medium') return '標準'
   if (stake === 'low') return '輕倉'
   return '觀望'
@@ -61,15 +61,15 @@ export default function MatchPage() {
   if (loading) {
     return (
       <Layout active="epl">
-        <div className="empty-note">載入中…</div>
+        <div className="empty-note">加载中…</div>
       </Layout>
     )
   }
   if (!id) {
     return (
       <Layout active="epl">
-        <Link to="/" className="back">← 返回預測</Link>
-        <div className="empty-note">請選擇一場比賽</div>
+        <Link to="/" className="back">← 返回预测</Link>
+        <div className="empty-note">请选择一场比赛</div>
       </Layout>
     )
   }
@@ -79,8 +79,8 @@ export default function MatchPage() {
   if (!pred || !match) {
     return (
       <Layout active="epl">
-        <Link to="/" className="back">← 返回預測</Link>
-        <div className="empty-note">找不到該場比賽的預測</div>
+        <Link to="/" className="back">← 返回预测</Link>
+        <div className="empty-note">找不到该场比赛的预测</div>
       </Layout>
     )
   }
@@ -92,7 +92,7 @@ export default function MatchPage() {
 
   return (
     <Layout active="epl">
-      <Link to="/" className="back">← 返回第 {match.round} 輪列表</Link>
+        <Link to="/" className="back">← 返回第 {match.round} 轮列表</Link>
 
       {/* Hero */}
       <div className="view-header" style={{ marginBottom: 20 }}>
@@ -100,7 +100,7 @@ export default function MatchPage() {
           {homeName} <em>vs</em> {awayName}
         </h2>
         <p className="view-desc">
-          第 {match.round} 輪 · λ {pred.lambdaHome.toFixed(2)} : {pred.lambdaAway.toFixed(2)}
+          第 {match.round} 轮 · λ {pred.lambdaHome.toFixed(2)} : {pred.lambdaAway.toFixed(2)}
         </p>
       </div>
 
@@ -157,14 +157,14 @@ export default function MatchPage() {
           </div>
         </div>
         <div className="prob-legend" style={{ marginBottom: 0 }}>
-          <span><b>主勝</b> {pct(pred.probHomeWin)}</span>
+          <span><b>主胜</b> {pct(pred.probHomeWin)}</span>
           <span><b>平局</b> {pct(pred.probDraw)}</span>
-          <span><b>客勝</b> {pct(pred.probAwayWin)}</span>
+          <span><b>客胜</b> {pct(pred.probAwayWin)}</span>
         </div>
       </div>
 
       {/* Other markets */}
-      <div className="section-t">其他市場</div>
+      <div className="section-t">其他市场</div>
       <div className="odds-grid" style={{ marginBottom: 24 }}>
         <div>
           <em>大 2.5 球</em>
@@ -175,18 +175,18 @@ export default function MatchPage() {
           <b>{pct(pred.probUnder25)}</b>
         </div>
         <div>
-          <em>兩隊都進球</em>
+          <em>两队都进球</em>
           <b style={{ color: pred.probBTTS > 0.5 ? 'var(--green)' : 'var(--text)' }}>{pct(pred.probBTTS)}</b>
         </div>
         <div>
-          <em>總期望進球</em>
+          <em>总期望进球</em>
           <b>{(pred.lambdaHome + pred.lambdaAway).toFixed(2)}</b>
         </div>
       </div>
 
       {/* Narrative */}
       <div className="match-card" style={{ cursor: 'default', marginBottom: 24 }}>
-        <div className="section-t" style={{ marginTop: 0 }}>預測分析</div>
+        <div className="section-t" style={{ marginTop: 0 }}>预测分析</div>
         <p style={{ color: 'var(--text2)', fontSize: 13, lineHeight: 1.8, margin: 0 }}>{pred.narrative}</p>
       </div>
 

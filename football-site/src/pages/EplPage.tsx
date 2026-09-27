@@ -1,17 +1,17 @@
 import { Link } from 'react-router-dom'
 import { useEpl } from '../data/EplData'
 import { TEAMS } from '../data/teams'
-import { Layout, teamDot } from '../ui/Layout'
+import { Layout } from '../ui/Layout'
 
 function pct(n: number) {
   return `${Math.round(n * 100)}%`
 }
 
 function fmtStake(stake: string) {
-  if (stake === 'high') return '重倉'
-  if (stake === 'medium') return '標準'
-  if (stake === 'low') return '輕倉'
-  return '觀望'
+  if (stake === 'high') return '重仓'
+  if (stake === 'medium') return '标准'
+  if (stake === 'low') return '轻仓'
+  return '观望'
 }
 
 function confBadge(conf: number) {
@@ -26,7 +26,7 @@ export default function EplPage({ active }: { active?: string }) {
   if (loading) {
     return (
       <Layout active={active ?? 'epl'}>
-        <div className="empty-note">正在載入數據…</div>
+        <div className="empty-note">正在加载数据…</div>
       </Layout>
     )
   }
@@ -44,26 +44,26 @@ export default function EplPage({ active }: { active?: string }) {
       <div className="hero">
         <div className="stat-card">
           <div className="stat-value">{table.rows[0]?.pts ?? 0}</div>
-          <div className="stat-label">榜首積分</div>
+          <div className="stat-label">榜首积分</div>
         </div>
         <div className="stat-card">
           <div className="stat-value gold">{table.avgGoals.toFixed(2)}</div>
-          <div className="stat-label">場均總進球</div>
+          <div className="stat-label">场均总进球</div>
         </div>
         <div className="stat-card">
           <div className="stat-value">{predictions.length}</div>
-          <div className="stat-label">本輪場次</div>
+          <div className="stat-label">本轮场次</div>
         </div>
         <div className="stat-card">
           <div className="stat-value">{matches.filter(m => m.played).length}</div>
-          <div className="stat-label">訓練樣本</div>
+          <div className="stat-label">训练样本</div>
         </div>
       </div>
 
       {/* Featured match */}
       {featured && (
         <div className="view-header" style={{ marginTop: 0 }}>
-          <h2>本輪主推 <em>{TEAMS.find(t => t.id === featured.home)?.short ?? featured.home} vs {TEAMS.find(t => t.id === featured.away)?.short ?? featured.away}</em></h2>
+          <h2>本轮主推 <em>{TEAMS.find(t => t.id === featured.home)?.short ?? featured.home} vs {TEAMS.find(t => t.id === featured.away)?.short ?? featured.away}</em></h2>
           <p className="view-desc">
             λ {featured.lambdaHome.toFixed(2)} : {featured.lambdaAway.toFixed(2)} · 信心 {pct(featured.confidence)} · {fmtStake(featured.suggestedStake ?? 'low')}
           </p>
@@ -76,7 +76,7 @@ export default function EplPage({ active }: { active?: string }) {
       </div>
       <div className="cards-grid">
         {predictions.length === 0 ? (
-          <div className="empty-note">暫無預測數據</div>
+          <div className="empty-note">暂无预测数据</div>
         ) : (
           predictions.map(pred => {
             const homeName = TEAMS.find(t => t.id === pred.home)?.short ?? pred.home
@@ -89,10 +89,10 @@ export default function EplPage({ active }: { active?: string }) {
             return (
               <Link to={`/match/${pred.matchId}`} key={pred.matchId} className="match-card">
                 <span className={`rec-tag rec-${rec}`}>
-                  {rec === 'home' ? '主勝' : rec === 'away' ? '客勝' : '平局'}
+                  {rec === 'home' ? '主胜' : rec === 'away' ? '客胜' : '平局'}
                 </span>
                 <div className="mc-top">
-                  <span className="mc-round">第 {pred.matchId.split('-')[1]} 輪</span>
+                  <span className="mc-round">第 {pred.matchId.split('-')[1]} 轮</span>
                   {confBadge(pred.confidence)}
                 </div>
                 <div className="mc-teams">
@@ -122,9 +122,9 @@ export default function EplPage({ active }: { active?: string }) {
                   </div>
                 </div>
                 <div className="prob-legend">
-                  <span><b>主勝</b> {pct(pred.probHomeWin)}</span>
+                  <span><b>主胜</b> {pct(pred.probHomeWin)}</span>
                   <span><b>平</b> {pct(pred.probDraw)}</span>
-                  <span><b>客勝</b> {pct(pred.probAwayWin)}</span>
+                  <span><b>客胜</b> {pct(pred.probAwayWin)}</span>
                 </div>
                 <div className="mc-meta">
                   <span className="chip hl">最可能 {(pred.lambdaHome + pred.lambdaAway).toFixed(1)} 球</span>
@@ -143,14 +143,14 @@ export default function EplPage({ active }: { active?: string }) {
       {/* Last round results */}
       {maxRound > 0 && (
         <>
-          <div className="section-t" style={{ marginTop: 32 }}>上輪賽果 · 第 {maxRound} 輪</div>
+          <div className="section-t" style={{ marginTop: 32 }}>上轮赛果 · 第 {maxRound} 轮</div>
           <div className="table-wrap">
             <table>
               <thead>
                 <tr>
-                  <th>主隊</th>
+                  <th>主队</th>
                   <th className="num">比分</th>
-                  <th>客隊</th>
+                  <th>客队</th>
                 </tr>
               </thead>
               <tbody>

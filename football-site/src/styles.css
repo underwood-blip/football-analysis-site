@@ -269,10 +269,10 @@ tbody tr:hover { background: rgba(255,255,255,.04); }
 
 /* Stake badges */
 .stake { font-size: 11px; padding: 3px 10px; border-radius: 99px; font-weight: 600; }
-.stake.重倉 { background: rgba(34,229,138,.14); color: var(--green); border: 1px solid rgba(34,229,138,.35); }
-.stake.標準 { background: rgba(77,163,255,.13); color: var(--blue); border: 1px solid rgba(77,163,255,.35); }
-.stake.輕倉 { background: rgba(139,149,169,.13); color: var(--gray); border: 1px solid rgba(139,149,169,.3); }
-.stake.觀望 { background: rgba(31,41,55,.6); color: var(--text3); border: 1px solid var(--border); }
+.stake.重仓 { background: rgba(34,229,138,.14); color: var(--green); border: 1px solid rgba(34,229,138,.35); }
+.stake.标准 { background: rgba(77,163,255,.13); color: var(--blue); border: 1px solid rgba(77,163,255,.35); }
+.stake.轻仓 { background: rgba(139,149,169,.13); color: var(--gray); border: 1px solid rgba(139,149,169,.3); }
+.stake.观望 { background: rgba(31,41,55,.6); color: var(--text3); border: 1px solid var(--border); }
 
 /* Back link */
 .back {

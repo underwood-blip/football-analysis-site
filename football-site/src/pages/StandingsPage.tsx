@@ -5,14 +5,14 @@ import { Layout } from '../ui/Layout'
 const COLUMNS = [
   { key: 'rank', label: '#' },
   { key: 'name', label: '球隊' },
-  { key: 'gp', label: '賽' },
-  { key: 'w', label: '勝' },
-  { key: 'd', label: '和' },
-  { key: 'l', label: '負' },
-  { key: 'gf', label: '進' },
+  { key: 'gp', label: '赛' },
+  { key: 'w', label: '胜' },
+  { key: 'd', label: '平' },
+  { key: 'l', label: '负' },
+  { key: 'gf', label: '进' },
   { key: 'ga', label: '失' },
   { key: 'gd', label: '差' },
-  { key: 'pts', label: '點' },
+  { key: 'pts', label: '点' },
 ]
 
 export default function StandingsPage() {
@@ -21,7 +21,7 @@ export default function StandingsPage() {
   if (loading) {
     return (
       <Layout active="standings">
-        <div className="empty-note">載入積分榜中…</div>
+        <div className="empty-note">加载积分榜中…</div>
       </Layout>
     )
   }
@@ -29,8 +29,8 @@ export default function StandingsPage() {
   return (
     <Layout active="standings">
       <div className="view-header">
-        <h2>2026-2027 賽季 <em>積分榜</em></h2>
-        <p className="view-desc">數據截至當前已完賽輪次</p>
+        <h2>2026-2027 赛季 <em>积分榜</em></h2>
+        <p className="view-desc">数据截至当前已完成轮次</p>
       </div>
       <div className="table-wrap">
         <table>

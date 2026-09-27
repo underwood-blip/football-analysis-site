@@ -39,7 +39,7 @@ function generateMockMatches(season: string, playedCount: number): Match[] {
       const date = `${season.slice(0, 2) === '26' ? '2026' : '20' + season.slice(0, 2)}-${String(Math.min(month, 12)).padStart(2, '0')}-${String(day).padStart(2, '0')}`
 
       const isPlayed = matchDay <= playedCount
-      const round = Math.ceil(matchDay / 2)
+      const round = Math.ceil(matchDay / 10)  // 英超每轮10场比赛
 
       let homeGoals: number | undefined, awayGoals: number | undefined
       if (isPlayed) {

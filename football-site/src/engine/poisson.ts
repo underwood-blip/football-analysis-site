@@ -65,7 +65,7 @@ export function predictMatch(
   const homeName = match.home
   const awayName = match.away
   const favorite = maxProb >= 0.45 ? (outcome === 'home' ? homeName : awayName) : '勢均力敵'
-  const narrative = `${homeName} 主場迎戰 ${awayName}。泊松模型顯示 ${homeName} 期望進球 ${lambdaHome.toFixed(2)} 球，${awayName} ${lambdaAway.toFixed(2)} 球。最可能結果為${outcome === 'home' ? '主勝' : outcome === 'away' ? '客勝' : '平局'}，信心度 ${(confidence * 100).toFixed(0)}%。`
+  const narrative = `${homeName} 主场迎战 ${awayName}。泊松模型显示 ${homeName} 期望进球 ${lambdaHome.toFixed(2)} 球，${awayName} ${lambdaAway.toFixed(2)} 球。最可能结果为${outcome === 'home' ? '主胜' : outcome === 'away' ? '客胜' : '平局'}，信心度 ${(confidence * 100).toFixed(0)}%。`
 
   return {
     matchId: match.id,
