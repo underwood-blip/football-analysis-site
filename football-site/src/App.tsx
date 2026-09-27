@@ -19,6 +19,6 @@ export default function App() {
           </Routes>
         </Layout>
       </EplProvider>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
