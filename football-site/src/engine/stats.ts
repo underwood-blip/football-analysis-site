@@ -30,7 +30,7 @@ export function buildTable(matches: Match[]): StandingsTable {
   })
 
   const rows: StandingsRow[] = Object.entries(points).map(([id, r]) => ({
-    id, name: TEAMS.find(t => t.id === id)?.short ?? id, ...r,
+    id, name: TEAMS.find(t => t.id === id)?.cn ?? id, ...r,
     gd: r.gf - r.ga, pts: r.w * 3 + r.d
   })).sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf).map((r, i) => ({ ...r, rank: i + 1 }))
 

@@ -344,6 +344,21 @@ tbody tr:hover { background: rgba(255,255,255,.04); }
   padding: 8px; text-align: center; border: 1px solid var(--border);
 }
 .score-matrix td { padding: 8px; text-align: center; border: 1px solid var(--border); }
+.matrix-corner {
+  width: 20px;
+}
+.matrix-row-label {
+  background: rgba(255,215,0,.12) !important;
+  color: var(--gold) !important;
+  font-weight: 700 !important;
+  font-size: 13px;
+  text-align: center;
+  border: 1px solid var(--border) !important;
+}
+.matrix-col-label {
+  text-align: center;
+  color: var(--text2);
+}
 .cell-home { background: rgba(34,229,138,.12); color: var(--green); }
 .cell-draw { background: rgba(255,201,77,.12); color: var(--gold); }
 .cell-away { background: rgba(77,163,255,.12); color: var(--blue); }

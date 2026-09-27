@@ -20,35 +20,36 @@ function getTeamColor(id: string): string {
     MUN: '#DA291C', TOT: '#132257', NEW: '#41B6E6', AVL: '#95BFE5',
     BHA: '#0057B8', BRE: '#e30613', EVE: '#003399', FUL: '#CC0000',
     BOU: '#B50E12', CRY: '#1B458F', LEI: '#FFCD00', SUN: '#EE2737',
-    WHU: '#7A263A', IPS: '#3a64a3', WOL: '#FDB913', COV: '#0596d4',
-    HUL: '#F18A01', NFO: '#DD0000',
+    WHU: '#7A263A', IPS: '#3a64a3', WOL: '#FDB913',
+    NFO: '#DD0000',
   }
   return colors[id] ?? '#22e58a'
 }
 
 function ScoreMatrix({ matrix }: { matrix: number[][] }) {
-  const rows: JSX.Element[] = []
-  for (let i = 0; i <= 6; i++) {
-    const cells: JSX.Element[] = []
-    for (let j = 0; j <= 6; j++) {
-      const prob = matrix[i]?.[j] ?? 0
-      const cls = i === j ? 'cell-draw' : i > j ? 'cell-home' : 'cell-away'
-      cells.push(<td key={j} className={cls}>{prob > 0 ? (prob * 100).toFixed(1) + '%' : '-'}</td>)
-    }
-    rows.push(<tr key={i}>{cells}</tr>)
-  }
   return (
     <div className="matrix-container">
       <div className="section-t">比分概率矩阵</div>
       <table className="score-matrix">
         <thead>
           <tr>
-            <th></th>
+            <th className="matrix-corner"></th>
             {Array.from({ length: 7 }, (_, i) => <th key={i}>{i}</th>)}
           </tr>
         </thead>
-        <tbody>{rows}</tbody>
-      </table>
+          <tbody>
+            {Array.from({ length: 7 }, (_, i) => (
+              <tr key={i}>
+                <td className="matrix-row-label">{i}</td>
+                {Array.from({ length: 7 }, (_, j) => {
+                  const prob = matrix[i]?.[j] ?? 0
+                  const cls = i === j ? 'cell-draw' : i > j ? 'cell-home' : 'cell-away'
+                  return <td key={j} className={cls}>{prob > 0 ? (prob * 100).toFixed(1) + '%' : '-'}</td>
+                })}
+              </tr>
+            ))}
+          </tbody>
+        </table>
       <p className="matrix-caption">行 = 主队进球 · 列 = 客队进球</p>
     </div>
   )
@@ -85,8 +86,10 @@ export default function MatchPage() {
     )
   }
 
-  const homeName = TEAMS.find(t => t.id === pred.home)?.short ?? pred.home
-  const awayName = TEAMS.find(t => t.id === pred.away)?.short ?? pred.away
+  const homeName = TEAMS.find(t => t.id === pred.home)?.cn ?? pred.home
+  const awayName = TEAMS.find(t => t.id === pred.away)?.cn ?? pred.away
+  const homeAbbr = TEAMS.find(t => t.id === pred.home)?.short ?? pred.home
+  const awayAbbr = TEAMS.find(t => t.id === pred.away)?.short ?? pred.away
   const homeColor = getTeamColor(pred.home)
   const awayColor = getTeamColor(pred.away)
 
@@ -109,7 +112,7 @@ export default function MatchPage() {
         <div className="mc-teams" style={{ marginBottom: 20 }}>
           <div className="mc-team">
             <div className="dot" style={{ background: `linear-gradient(135deg,${homeColor},${homeColor}cc)`, width: 56, height: 56, borderRadius: '50%', margin: '0 auto 10px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 800, font: '18px sans-serif', color: '#04121f' }}>
-              {homeName.slice(-2)}
+              {homeAbbr.slice(-2)}
             </div>
             <div className="name" style={{ fontSize: 16 }}>{homeName}</div>
           </div>
@@ -119,7 +122,7 @@ export default function MatchPage() {
           </div>
           <div className="mc-team">
             <div className="dot" style={{ background: `linear-gradient(135deg,${awayColor},${awayColor}cc)`, width: 56, height: 56, borderRadius: '50%', margin: '0 auto 10px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 800, font: '18px sans-serif', color: '#04121f' }}>
-              {awayName.slice(-2)}
+              {awayAbbr.slice(-2)}
             </div>
             <div className="name" style={{ fontSize: 16 }}>{awayName}</div>
           </div>

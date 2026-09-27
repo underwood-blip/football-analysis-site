@@ -55,7 +55,7 @@ export function EplProvider({ children }: { children: ReactNode }) {
 
       const st = fitStrengths(current.matches, allMatches)
       const fm = computeForm(allMatches)
-      const tb = buildTable(allMatches)
+      const tb = buildTable(matches)
       setStrengths(st)
       setForm(fm)
       setTable(tb)

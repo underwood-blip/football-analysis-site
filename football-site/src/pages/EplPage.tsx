@@ -15,9 +15,9 @@ function fmtStake(stake: string) {
 }
 
 function confBadge(conf: number) {
-  if (conf > 0.65) return '<span class="conf-badge conf-高">高信心</span>'
-  if (conf > 0.45) return '<span class="conf-badge conf-中">中信心</span>'
-  return '<span class="conf-badge conf-低">低信心</span>'
+  if (conf > 0.65) return <span className="conf-badge conf-高">高信心</span>
+  if (conf > 0.45) return <span className="conf-badge conf-中">中信心</span>
+  return <span className="conf-badge conf-低">低信心</span>
 }
 
 export default function EplPage({ active }: { active?: string }) {
@@ -35,8 +35,11 @@ export default function EplPage({ active }: { active?: string }) {
   const playedMatches = matches.filter(m => m.season === currentSeason && m.played)
   const maxRound = Math.max(...playedMatches.map(m => m.round), 0)
   const lastGw = matches.filter(m => m.round === maxRound && m.played)
-  const nextGw = predictions[0]?.matchId?.split('-')[0].replace('lw', '') ?? '6'
-  const featured = predictions.find(p => p.matchId === 'lw19-liv-mci') ?? predictions[0]
+  const nextGw = predictions[0]?.matchId?.split('-')[0].replace('mw', '') ?? '6'
+  const featured = predictions.find(p => {
+    const r = p.matchId.split('-')[0].replace('mw', '')
+    return r === String(maxRound + 1)
+  }) ?? predictions[0]
 
   return (
     <Layout active={active ?? 'epl'}>
@@ -63,7 +66,7 @@ export default function EplPage({ active }: { active?: string }) {
       {/* Featured match */}
       {featured && (
         <div className="view-header" style={{ marginTop: 0 }}>
-          <h2>本轮主推 <em>{TEAMS.find(t => t.id === featured.home)?.short ?? featured.home} vs {TEAMS.find(t => t.id === featured.away)?.short ?? featured.away}</em></h2>
+          <h2>本轮主推 <em>{TEAMS.find(t => t.id === featured.home)?.cn ?? featured.home} vs {TEAMS.find(t => t.id === featured.away)?.cn ?? featured.away}</em></h2>
           <p className="view-desc">
             λ {featured.lambdaHome.toFixed(2)} : {featured.lambdaAway.toFixed(2)} · 信心 {pct(featured.confidence)} · {fmtStake(featured.suggestedStake ?? 'low')}
           </p>
@@ -79,8 +82,10 @@ export default function EplPage({ active }: { active?: string }) {
           <div className="empty-note">暂无预测数据</div>
         ) : (
           predictions.map(pred => {
-            const homeName = TEAMS.find(t => t.id === pred.home)?.short ?? pred.home
-            const awayName = TEAMS.find(t => t.id === pred.away)?.short ?? pred.away
+            const homeName = TEAMS.find(t => t.id === pred.home)?.cn ?? pred.home
+            const awayName = TEAMS.find(t => t.id === pred.away)?.cn ?? pred.away
+            const homeAbbr = TEAMS.find(t => t.id === pred.home)?.short ?? pred.home
+            const awayAbbr = TEAMS.find(t => t.id === pred.away)?.short ?? pred.away
             const homeColor = getTeamColor(pred.home)
             const awayColor = getTeamColor(pred.away)
             const maxProb = Math.max(pred.probHomeWin, pred.probDraw, pred.probAwayWin)
@@ -92,20 +97,20 @@ export default function EplPage({ active }: { active?: string }) {
                   {rec === 'home' ? '主胜' : rec === 'away' ? '客胜' : '平局'}
                 </span>
                 <div className="mc-top">
-                  <span className="mc-round">第 {pred.matchId.split('-')[0].replace('lw', '')} 轮</span>
+                  <span className="mc-round">第 {pred.matchId.split('-')[0].replace('mw', '')} 轮</span>
                   {confBadge(pred.confidence)}
                 </div>
                 <div className="mc-teams">
                   <div className="mc-team">
                     <div className="dot" style={{ background: `linear-gradient(135deg,${homeColor},${homeColor}cc)`, width: 38, height: 38, borderRadius: '50%', margin: '0 auto 8px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 800, fontSize: 14, color: '#04121f' }}>
-                      {homeName.slice(-2)}
+                      {homeAbbr.slice(-2)}
                     </div>
                     <div className="name">{homeName}</div>
                   </div>
                   <div className="mc-vs">VS</div>
                   <div className="mc-team">
                     <div className="dot" style={{ background: `linear-gradient(135deg,${awayColor},${awayColor}cc)`, width: 38, height: 38, borderRadius: '50%', margin: '0 auto 8px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 800, fontSize: 14, color: '#04121f' }}>
-                      {awayName.slice(-2)}
+                      {awayAbbr.slice(-2)}
                     </div>
                     <div className="name">{awayName}</div>
                   </div>
@@ -155,8 +160,8 @@ export default function EplPage({ active }: { active?: string }) {
               </thead>
               <tbody>
                 {lastGw.map(m => {
-                  const homeName = TEAMS.find(t => t.id === m.home)?.short ?? m.home
-                  const awayName = TEAMS.find(t => t.id === m.away)?.short ?? m.away
+                  const homeName = TEAMS.find(t => t.id === m.home)?.cn ?? m.home
+                  const awayName = TEAMS.find(t => t.id === m.away)?.cn ?? m.away
                   const homeGoals = m.homeGoals ?? 0
                   const awayGoals = m.awayGoals ?? 0
                   return (
@@ -182,8 +187,8 @@ function getTeamColor(id: string): string {
     MUN: '#DA291C', TOT: '#132257', NEW: '#41B6E6', AVL: '#95BFE5',
     BHA: '#0057B8', BRE: '#e30613', EVE: '#003399', FUL: '#CC0000',
     BOU: '#B50E12', CRY: '#1B458F', LEI: '#FFCD00', SUN: '#EE2737',
-    WHU: '#7A263A', IPS: '#3a64a3', WOL: '#FDB913', COV: '#0596d4',
-    HUL: '#F18A01', NFO: '#DD0000',
+    WHU: '#7A263A', IPS: '#3a64a3', WOL: '#FDB913',
+    NFO: '#DD0000',
   }
   return colors[id] ?? '#22e58a'
 }
