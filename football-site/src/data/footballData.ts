@@ -3,8 +3,8 @@ import { TEAMS, NAME_TO_ID } from './teams'
 
 const TEAM_IDS = TEAMS.map(t => t.id)
 
-// Pre-defined realistic score patterns for mock data
-const SCORE_PATTERNS: Record<string, { home: number[]; away: number[] }> = {
+// Realistic home/away goal patterns per team
+const SCORE_PROFILES: Record<string, { home: number[]; away: number[] }> = {
   LIV: { home: [2, 3, 1, 2, 4], away: [0, 1, 0, 1, 0] },
   MCI: { home: [3, 2, 1, 2, 3], away: [0, 1, 0, 0, 1] },
   ARS: { home: [2, 3, 1, 2, 1], away: [0, 1, 0, 0, 1] },
@@ -23,47 +23,79 @@ function seededRandom(seed: number): () => number {
   }
 }
 
+/**
+ * Generate a proper double round-robin fixture for N teams (N must be even).
+ * Returns 2*(N-1) rounds, each with N/2 matches. Every pair plays twice
+ * (once home, once away).
+ */
+function generateDoubleRoundRobin(teams: string[]): [string, string][][] {
+  const n = teams.length
+  const halfRounds = n - 1
+  const result: [string, string][][] = []
+
+  // Circle method: fix position[0], rotate positions[1..n-1]
+  const arr = [...teams]
+  for (let round = 0; round < halfRounds; round++) {
+    const pairs: [string, string][] = []
+    for (let i = 0; i < n / 2; i++) {
+      pairs.push([arr[i], arr[n - 1 - i]])
+    }
+    result.push(pairs)
+    // Rotate: move last element to position 1 (keep position 0 fixed)
+    const last = arr.pop()!
+    arr.splice(1, 0, last)
+  }
+
+  const secondHalf = result.map(round =>
+    round.map(([a, b]) => [b, a] as [string, string])
+  )
+
+  return [...result, ...secondHalf]
+}
+
+function getScorePattern(teamId: string, isHome: boolean, rng: () => number): number {
+  const profile = SCORE_PROFILES[teamId] ?? { home: [1, 1, 2, 0, 1], away: [0, 1, 0, 1, 0] }
+  const goals = isHome ? profile.home : profile.away
+  const base = goals[Math.floor(rng() * goals.length)]
+  const variation = rng() > 0.6 ? (rng() > 0.5 ? 1 : 0) : 0
+  return Math.max(0, base + variation)
+}
+
 function generateMockMatches(season: string, playedCount: number): Match[] {
   const matches: Match[] = []
-  const rng = seededRandom(season.split('').reduce((a, c) => a + c.charCodeAt(0), 0))
+  const seed = season.split('').reduce((a, c) => a + c.charCodeAt(0), 0)
+  const rng = seededRandom(seed)
 
-  let matchDay = 1
-  for (let homeIdx = 0; homeIdx < TEAM_IDS.length; homeIdx++) {
-    for (let awayIdx = 0; awayIdx < TEAM_IDS.length; awayIdx++) {
-      if (homeIdx === awayIdx) continue
-      const home = TEAM_IDS[homeIdx]
-      const away = TEAM_IDS[awayIdx]
+  const fixtures = generateDoubleRoundRobin(TEAM_IDS)
+  const year = season.slice(0, 2) === '26' ? 2026 : 2027
 
-      const month = 8 + Math.floor(matchDay / 4)
-      const day = 1 + (matchDay % 4)
-      const date = `${season.slice(0, 2) === '26' ? '2026' : '20' + season.slice(0, 2)}-${String(Math.min(month, 12)).padStart(2, '0')}-${String(day).padStart(2, '0')}`
+  let matchIndex = 0
+  for (let r = 0; r < fixtures.length; r++) {
+    const roundNum = r + 1
+    const month = 8 + Math.floor(r / 4)
+    const day = 1 + (r % 4)
+    const date = `${year}-${String(Math.min(month, 12)).padStart(2, '0')}-${String(Math.min(day, 28)).padStart(2, '0')}`
+    const isPlayed = matchIndex < playedCount
 
-      const isPlayed = matchDay <= playedCount
-      const round = Math.ceil(matchDay / 10)  // 英超每轮10场比赛
-
+    for (const [home, away] of fixtures[r]) {
       let homeGoals: number | undefined, awayGoals: number | undefined
       if (isPlayed) {
-        const sp = SCORE_PATTERNS[home] ?? { home: [1, 1, 2, 0, 1], away: [0, 1, 0, 0, 1] }
-        homeGoals = sp.home[Math.floor(rng() * sp.home.length)]
-        awayGoals = (SCORE_PATTERNS[away] ?? { home: [], away: [0, 1, 0] }).away[Math.floor(rng() * 3)]
-        // Add some randomness
-        if (rng() > 0.7) homeGoals = Math.max(0, homeGoals + (rng() > 0.5 ? 1 : 0))
-        if (rng() > 0.7) awayGoals = Math.max(0, awayGoals + (rng() > 0.5 ? 1 : 0))
+        homeGoals = getScorePattern(home, true, rng)
+        awayGoals = getScorePattern(away, false, rng)
       }
 
-      const matchId = `mw${round}-${home.toLowerCase()}-${away.toLowerCase()}`
       matches.push({
-        id: matchId,
+        id: `mw${roundNum}-${home.toLowerCase()}-${away.toLowerCase()}`,
         season,
         date,
-        round,
+        round: roundNum,
         home,
         away,
         homeGoals,
         awayGoals,
         played: isPlayed,
       })
-      matchDay++
+      matchIndex++
     }
   }
 
@@ -102,9 +134,7 @@ function parseCSV(text: string, season: string): Match[] {
   })
 }
 
-// Current season: assume 6 rounds played (matches 1-120 of 380)
 const CURRENT_PLAYED = 120
-// Historical seasons: 95% played for strength fitting
 const HISTORY_PLAYED_RATIO = 0.95
 
 export async function loadSeasonData(season: string): Promise<{ matches: Match[], source: string }> {
