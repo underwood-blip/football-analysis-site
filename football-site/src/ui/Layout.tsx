@@ -10,9 +10,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="header-inner">
             <Link to="/" className="logo">英超數據分析</Link>
             <nav className="nav">
-              <Link to="/" className={location.pathname === '/' ? 'active' : ''}>預測</Link>
-              <Link to="/standings" className={location.pathname === '/standings' ? 'active' : ''}>積分榜</Link>
-              <Link to="/method" className={location.pathname === '/method' ? 'active' : ''}>方法論</Link>
+              <Link to="/" className={location.pathname === '/' || location.hash === '#/' ? 'active' : ''}>賽事預測</Link>
+              <Link to="/standings" className={location.pathname === '/standings' || location.hash === '#/standings' ? 'active' : ''}>積分榜</Link>
+              <Link to="/method" className={location.pathname === '/method' || location.hash === '#/method' ? 'active' : ''}>方法論</Link>
             </nav>
           </div>
         </div>

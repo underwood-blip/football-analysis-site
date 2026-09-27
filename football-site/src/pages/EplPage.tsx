@@ -69,7 +69,7 @@ export default function EplPage() {
                 </div>
                 <div className="pred-away">
                   <div className="team-name">{awayName}</div>
-                  <div style={{ fontSize: '0.72rem', color: '#64748b', marginTop: 4 }}>
+                  <div className="team-meta">
                     O2.5 {formatPercent(pred.probOver25)} · BTTS {formatPercent(pred.probBTTS)}
                   </div>
                 </div>
@@ -80,18 +80,16 @@ export default function EplPage() {
       </div>
 
       {historyLoading && (
-        <p style={{ fontSize: '0.78rem', color: '#475569', marginTop: 16 }}>
-          歷史數據載入中…
-        </p>
+        <p className="loading-hint">歷史數據載入中…</p>
       )}
 
       {maxRound > 0 && (
-        <div style={{ marginTop: 32 }}>
+        <div className="recent-section">
           <h3 className="section-title" style={{ fontSize: '1.05rem' }}>
             上輪賽果
             <span className="badge">第 {maxRound} 輪</span>
           </h3>
-          <div className="card" style={{ padding: '12px 16px' }}>
+          <div className="card result-card">
             {playedMatches
               .filter(m => m.round === maxRound)
               .map(m => {
@@ -113,7 +111,7 @@ export default function EplPage() {
         </div>
       )}
 
-      <p style={{ fontSize: '0.78rem', color: '#475569', marginTop: 16 }}>
+      <p className="stats-footer">
         聯賽均值：{table.avgGoals.toFixed(2)} 球/場
         （主 {table.avgHomeGoals.toFixed(2)} / 客 {table.avgAwayGoals.toFixed(2)}）
         · 基於 {matches.filter(m => m.played).length} 場已賽數據

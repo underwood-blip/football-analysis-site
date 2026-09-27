@@ -55,7 +55,7 @@ export default function StandingsPage() {
         </table>
       </div>
 
-      <p style={{ fontSize: '0.78rem', color: '#475569', marginTop: 12 }}>
+      <p className="stats-footer">
         均值：{table.avgGoals.toFixed(2)} 球/場（主 {table.avgHomeGoals.toFixed(2)} / 客 {table.avgAwayGoals.toFixed(2)}）
       </p>
     </div>

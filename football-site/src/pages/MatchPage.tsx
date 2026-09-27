@@ -19,7 +19,7 @@ function ScoreMatrix({ matrix }: { matrix: number[][] }) {
         <thead><tr><th></th>{Array.from({ length: 7 }, (_, i) => <th key={i}>{i}</th>)}</tr></thead>
         <tbody>{rows}</tbody>
       </table>
-      <p style={{ fontSize: '0.72rem', color: '#64748b', marginTop: 8, textAlign: 'center' }}>行 = 主隊進球 · 列 = 客隊進球</p>
+      <p className="matrix-caption">行 = 主隊進球 · 列 = 客隊進球</p>
     </div>
   )
 }
@@ -41,18 +41,20 @@ export default function MatchPage() {
 
   return (
     <div>
-      <Link to="/" style={{ fontSize: '0.82rem', color: '#64748b' }}>← 返回預測列表</Link>
-      <div className="card" style={{ marginTop: 16 }}>
+      <Link to="/" className="back-link">← 返回預測列表</Link>
+      <div className="card match-card">
         <div className="match-detail-header">
-          <div className="team-block">
+          <div className="team-block home-team">
+            <div className="team-icon">{homeName.charAt(0)}</div>
             <div className="name">{homeName}</div>
             <div className="venue">{venue}</div>
           </div>
-          <div style={{ textAlign: 'center' }}>
+          <div className="vs-center">
             <div className="vs-label">VS</div>
-            <div style={{ fontSize: '0.78rem', color: '#64748b', marginTop: 4 }}>{match.date}</div>
+            <div className="match-date">{match.date}</div>
           </div>
-          <div className="team-block">
+          <div className="team-block away-team">
+            <div className="team-icon">{awayName.charAt(0)}</div>
             <div className="name">{awayName}</div>
             <div className="venue">客場</div>
           </div>
@@ -77,17 +79,17 @@ export default function MatchPage() {
           ].map(item => (
             <div key={item.label} className="prob-card">
               <div className="label">{item.label}</div>
-              <div className="value" style={{ color: item.val > 0.35 ? '#10b981' : item.val > 0.25 ? '#f59e0b' : '#64748b' }}>
+              <div className="value" style={{ color: item.val > 0.35 ? 'var(--success)' : item.val > 0.25 ? 'var(--warning)' : 'var(--text-muted)' }}>
                 {Math.round(item.val * 100)}%
               </div>
-              <div style={{ fontSize: '0.72rem', color: '#94a3b8' }}>
+              <div className="ev-text">
                 {item.ev != null ? (item.ev > 0 ? '+' : '') + (item.ev * 100).toFixed(1) + '% EV' : '無賠率'}
               </div>
             </div>
           ))}
         </div>
 
-        <div className="prob-grid" style={{ gridTemplateColumns: 'repeat(4, 1fr)' }}>
+        <div className="prob-grid prob-grid-4">
           {[
             { label: '大 2.5 球', val: pred.probOver25 },
             { label: '小 2.5 球', val: pred.probUnder25 },
@@ -102,7 +104,7 @@ export default function MatchPage() {
         </div>
 
         {pred.suggestedStake && (
-          <div style={{ display: 'flex', gap: 12, marginTop: 16, justifyContent: 'center' }}>
+          <div className="stake-row">
             <span className={`stake-badge stake-${pred.suggestedStake}`}>
               建議倉位：{pred.suggestedStake === 'high' ? '高' : pred.suggestedStake === 'medium' ? '中' : '低'}
             </span>
