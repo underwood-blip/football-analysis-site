@@ -1,380 +1,381 @@
-2021-08-11,15:00,Arsenal,Wolves,TBD,2,0,H,1
-2021-08-12,15:00,Aston Villa,West Ham,TBD,1,1,D,1
-2021-08-13,15:00,Bournemouth,Tottenham,TBD,1,1,D,1
-2021-08-14,15:00,Brentford,Southampton,TBD,1,1,D,1
-2021-08-15,15:00,Brighton,Nott'm Forest,TBD,2,1,H,1
-2021-08-16,15:00,Chelsea,Newcastle,TBD,0,1,A,1
-2021-08-17,15:00,Crystal Palace,Man United,TBD,2,0,H,1
-2021-08-18,15:00,Everton,Man City,TBD,0,1,A,1
-2021-08-19,15:00,Fulham,Liverpool,TBD,2,0,H,1
-2021-08-20,15:00,Ipswich,Leicester,TBD,2,2,D,1
-2021-08-18,15:00,Arsenal,West Ham,TBD,1,2,A,2
-2021-08-19,15:00,Wolves,Tottenham,TBD,0,0,D,2
-2021-08-20,15:00,Aston Villa,Southampton,TBD,1,0,H,2
-2021-08-21,15:00,Bournemouth,Nott'm Forest,TBD,1,1,D,2
-2021-08-22,15:00,Brentford,Newcastle,TBD,2,1,H,2
-2021-08-23,15:00,Brighton,Man United,TBD,1,1,D,2
-2021-08-24,15:00,Chelsea,Man City,TBD,0,1,A,2
-2021-08-25,15:00,Crystal Palace,Liverpool,TBD,0,2,A,2
-2021-08-26,15:00,Everton,Leicester,TBD,1,2,A,2
-2021-08-27,15:00,Fulham,Ipswich,TBD,1,1,D,2
-2021-08-25,15:00,Arsenal,Tottenham,TBD,0,2,A,3
-2021-08-26,15:00,West Ham,Southampton,TBD,1,0,H,3
-2021-08-27,15:00,Wolves,Nott'm Forest,TBD,0,1,A,3
-2021-08-28,15:00,Aston Villa,Newcastle,TBD,0,1,A,3
-2021-08-29,15:00,Bournemouth,Man United,TBD,1,0,H,3
-2021-08-30,15:00,Brentford,Man City,TBD,0,2,A,3
-2021-08-31,15:00,Brighton,Liverpool,TBD,0,1,A,3
-2021-09-01,15:00,Chelsea,Leicester,TBD,1,0,H,3
-2021-09-02,15:00,Crystal Palace,Ipswich,TBD,1,1,D,3
-2021-09-03,15:00,Everton,Fulham,TBD,1,1,D,3
-2021-09-01,15:00,Arsenal,Southampton,TBD,1,2,A,4
-2021-09-02,15:00,Tottenham,Nott'm Forest,TBD,2,0,H,4
-2021-09-03,15:00,West Ham,Newcastle,TBD,2,1,H,4
-2021-09-04,15:00,Wolves,Man United,TBD,1,1,D,4
-2021-09-05,15:00,Aston Villa,Man City,TBD,0,1,A,4
-2021-09-06,15:00,Bournemouth,Liverpool,TBD,2,2,D,4
-2021-09-07,15:00,Brentford,Leicester,TBD,2,0,H,4
-2021-09-08,15:00,Brighton,Ipswich,TBD,0,1,A,4
-2021-09-09,15:00,Chelsea,Fulham,TBD,1,1,D,4
-2021-09-10,15:00,Crystal Palace,Everton,TBD,0,0,D,4
-2021-09-08,15:00,Arsenal,Nott'm Forest,TBD,3,0,H,5
-2021-09-09,15:00,Southampton,Newcastle,TBD,1,1,D,5
-2021-09-10,15:00,Tottenham,Man United,TBD,1,1,D,5
-2021-09-11,15:00,West Ham,Man City,TBD,1,2,A,5
-2021-09-12,15:00,Wolves,Liverpool,TBD,2,0,H,5
-2021-09-13,15:00,Aston Villa,Leicester,TBD,1,1,D,5
-2021-09-14,15:00,Bournemouth,Ipswich,TBD,1,1,D,5
-2021-09-15,15:00,Brentford,Fulham,TBD,0,0,D,5
-2021-09-16,15:00,Brighton,Everton,TBD,2,1,H,5
-2021-09-17,15:00,Chelsea,Crystal Palace,TBD,0,2,A,5
-2021-09-15,15:00,Arsenal,Newcastle,TBD,1,1,D,6
-2021-09-16,15:00,Nott'm Forest,Man United,TBD,1,2,A,6
-2021-09-17,15:00,Southampton,Man City,TBD,1,0,H,6
-2021-09-18,15:00,Tottenham,Liverpool,TBD,0,1,A,6
-2021-09-19,15:00,West Ham,Leicester,TBD,0,1,A,6
-2021-09-20,15:00,Wolves,Ipswich,TBD,2,0,H,6
-2021-09-21,15:00,Aston Villa,Fulham,TBD,0,0,D,6
-2021-09-22,15:00,Bournemouth,Everton,TBD,2,1,H,6
-2021-09-23,15:00,Brentford,Crystal Palace,TBD,2,1,H,6
-2021-09-24,15:00,Brighton,Chelsea,TBD,1,0,H,6
-2021-09-22,15:00,Arsenal,Man United,TBD,0,1,A,7
-2021-09-23,15:00,Newcastle,Man City,TBD,2,1,H,7
-2021-09-24,15:00,Nott'm Forest,Liverpool,TBD,1,1,D,7
-2021-09-25,15:00,Southampton,Leicester,TBD,2,0,H,7
-2021-09-26,15:00,Tottenham,Ipswich,TBD,1,0,H,7
-2021-09-27,15:00,West Ham,Fulham,TBD,0,1,A,7
-2021-09-28,15:00,Wolves,Everton,TBD,3,2,H,7
-2021-09-29,15:00,Aston Villa,Crystal Palace,TBD,0,2,A,7
-2021-09-30,15:00,Bournemouth,Chelsea,TBD,2,1,H,7
-2021-10-01,15:00,Brentford,Brighton,TBD,1,1,D,7
-2021-09-29,15:00,Arsenal,Man City,TBD,2,0,H,8
-2021-09-30,15:00,Man United,Liverpool,TBD,2,0,H,8
-2021-10-01,15:00,Newcastle,Leicester,TBD,1,0,H,8
-2021-10-02,15:00,Nott'm Forest,Ipswich,TBD,1,0,H,8
-2021-10-03,15:00,Southampton,Fulham,TBD,1,2,A,8
-2021-10-04,15:00,Tottenham,Everton,TBD,0,4,A,8
-2021-10-05,15:00,West Ham,Crystal Palace,TBD,0,0,D,8
-2021-10-06,15:00,Wolves,Chelsea,TBD,1,1,D,8
-2021-10-07,15:00,Aston Villa,Brighton,TBD,1,2,A,8
-2021-10-08,15:00,Bournemouth,Brentford,TBD,0,1,A,8
-2021-10-06,15:00,Arsenal,Liverpool,TBD,2,1,H,9
-2021-10-07,15:00,Man City,Leicester,TBD,1,0,H,9
-2021-10-08,15:00,Man United,Ipswich,TBD,0,1,A,9
-2021-10-09,15:00,Newcastle,Fulham,TBD,1,0,H,9
-2021-10-10,15:00,Nott'm Forest,Everton,TBD,1,0,H,9
-2021-10-11,15:00,Southampton,Crystal Palace,TBD,2,0,H,9
-2021-10-12,15:00,Tottenham,Chelsea,TBD,1,0,H,9
-2021-10-13,15:00,West Ham,Brighton,TBD,0,1,A,9
-2021-10-14,15:00,Wolves,Brentford,TBD,0,1,A,9
-2021-10-15,15:00,Aston Villa,Bournemouth,TBD,1,0,H,9
-2021-10-13,15:00,Arsenal,Leicester,TBD,0,1,A,10
-2021-10-14,15:00,Liverpool,Ipswich,TBD,0,2,A,10
-2021-10-15,15:00,Man City,Fulham,TBD,0,0,D,10
-2021-10-16,15:00,Man United,Everton,TBD,1,2,A,10
-2021-10-17,15:00,Newcastle,Crystal Palace,TBD,1,0,H,10
-2021-10-18,15:00,Nott'm Forest,Chelsea,TBD,2,2,D,10
-2021-10-19,15:00,Southampton,Brighton,TBD,0,0,D,10
-2021-10-20,15:00,Tottenham,Brentford,TBD,1,2,A,10
-2021-10-21,15:00,West Ham,Bournemouth,TBD,1,0,H,10
-2021-10-22,15:00,Wolves,Aston Villa,TBD,1,0,H,10
-2021-10-20,15:00,Arsenal,Ipswich,TBD,0,1,A,11
-2021-10-21,15:00,Leicester,Fulham,TBD,1,1,D,11
-2021-10-22,15:00,Liverpool,Everton,TBD,1,1,D,11
-2021-10-23,15:00,Man City,Crystal Palace,TBD,0,1,A,11
-2021-10-24,15:00,Man United,Chelsea,TBD,4,1,H,11
-2021-10-25,15:00,Newcastle,Brighton,TBD,2,0,H,11
-2021-10-26,15:00,Nott'm Forest,Brentford,TBD,0,3,A,11
-2021-10-27,15:00,Southampton,Bournemouth,TBD,1,2,A,11
-2021-10-28,15:00,Tottenham,Aston Villa,TBD,1,0,H,11
-2021-10-29,15:00,West Ham,Wolves,TBD,0,0,D,11
-2021-10-27,15:00,Arsenal,Fulham,TBD,2,1,H,12
-2021-10-28,15:00,Ipswich,Everton,TBD,1,0,H,12
-2021-10-29,15:00,Leicester,Crystal Palace,TBD,1,1,D,12
-2021-10-30,15:00,Liverpool,Chelsea,TBD,1,2,A,12
-2021-10-31,15:00,Man City,Brighton,TBD,2,2,D,12
-2021-11-01,15:00,Man United,Brentford,TBD,1,1,D,12
-2021-11-02,15:00,Newcastle,Bournemouth,TBD,0,1,A,12
-2021-11-03,15:00,Nott'm Forest,Aston Villa,TBD,1,1,D,12
-2021-11-04,15:00,Southampton,Wolves,TBD,1,0,H,12
-2021-11-05,15:00,Tottenham,West Ham,TBD,0,0,D,12
-2021-11-03,15:00,Arsenal,Everton,TBD,1,1,D,13
-2021-11-04,15:00,Fulham,Crystal Palace,TBD,0,1,A,13
-2021-11-05,15:00,Ipswich,Chelsea,TBD,1,1,D,13
-2021-11-06,15:00,Leicester,Brighton,TBD,1,1,D,13
-2021-11-07,15:00,Liverpool,Brentford,TBD,0,0,D,13
-2021-11-08,15:00,Man City,Bournemouth,TBD,1,1,D,13
-2021-11-09,15:00,Man United,Aston Villa,TBD,1,1,D,13
-2021-11-10,15:00,Newcastle,Wolves,TBD,1,0,H,13
-2021-11-11,15:00,Nott'm Forest,West Ham,TBD,1,1,D,13
-2021-11-12,15:00,Southampton,Tottenham,TBD,2,2,D,13
-2021-11-10,15:00,Arsenal,Crystal Palace,TBD,0,1,A,14
-2021-11-11,15:00,Everton,Chelsea,TBD,0,0,D,14
-2021-11-12,15:00,Fulham,Brighton,TBD,3,1,H,14
-2021-11-13,15:00,Ipswich,Brentford,TBD,2,1,H,14
-2021-11-14,15:00,Leicester,Bournemouth,TBD,0,1,A,14
-2021-11-15,15:00,Liverpool,Aston Villa,TBD,1,2,A,14
-2021-11-16,15:00,Man City,Wolves,TBD,0,0,D,14
-2021-11-17,15:00,Man United,West Ham,TBD,1,0,H,14
-2021-11-18,15:00,Newcastle,Tottenham,TBD,2,1,H,14
-2021-11-19,15:00,Nott'm Forest,Southampton,TBD,0,2,A,14
-2021-11-17,15:00,Arsenal,Chelsea,TBD,0,1,A,15
-2021-11-18,15:00,Crystal Palace,Brighton,TBD,0,0,D,15
-2021-11-19,15:00,Everton,Brentford,TBD,0,1,A,15
-2021-11-20,15:00,Fulham,Bournemouth,TBD,0,0,D,15
-2021-11-21,15:00,Ipswich,Aston Villa,TBD,0,1,A,15
-2021-11-22,15:00,Leicester,Wolves,TBD,0,0,D,15
-2021-11-23,15:00,Liverpool,West Ham,TBD,1,2,A,15
-2021-11-24,15:00,Man City,Tottenham,TBD,1,0,H,15
-2021-11-25,15:00,Man United,Southampton,TBD,1,1,D,15
-2021-11-26,15:00,Newcastle,Nott'm Forest,TBD,1,0,H,15
-2021-11-24,15:00,Arsenal,Brighton,TBD,0,2,A,16
-2021-11-25,15:00,Chelsea,Brentford,TBD,1,1,D,16
-2021-11-26,15:00,Crystal Palace,Bournemouth,TBD,0,1,A,16
-2021-11-27,15:00,Everton,Aston Villa,TBD,0,0,D,16
-2021-11-28,15:00,Fulham,Wolves,TBD,2,1,H,16
-2021-11-29,15:00,Ipswich,West Ham,TBD,1,1,D,16
-2021-11-30,15:00,Leicester,Tottenham,TBD,0,0,D,16
-2021-12-01,15:00,Liverpool,Southampton,TBD,2,1,H,16
-2021-12-02,15:00,Man City,Nott'm Forest,TBD,1,0,H,16
-2021-12-03,15:00,Man United,Newcastle,TBD,1,2,A,16
-2021-12-01,15:00,Arsenal,Brentford,TBD,1,0,H,17
-2021-12-02,15:00,Brighton,Bournemouth,TBD,1,1,D,17
-2021-12-03,15:00,Chelsea,Aston Villa,TBD,0,0,D,17
-2021-12-04,15:00,Crystal Palace,Wolves,TBD,2,1,H,17
-2021-12-05,15:00,Everton,West Ham,TBD,1,1,D,17
-2021-12-06,15:00,Fulham,Tottenham,TBD,1,2,A,17
-2021-12-07,15:00,Ipswich,Southampton,TBD,0,0,D,17
-2021-12-08,15:00,Leicester,Nott'm Forest,TBD,0,1,A,17
-2021-12-09,15:00,Liverpool,Newcastle,TBD,1,1,D,17
-2021-12-10,15:00,Man City,Man United,TBD,0,2,A,17
-2021-12-08,15:00,Arsenal,Bournemouth,TBD,0,1,A,18
-2021-12-09,15:00,Brentford,Aston Villa,TBD,3,0,H,18
-2021-12-10,15:00,Brighton,Wolves,TBD,0,1,A,18
-2021-12-11,15:00,Chelsea,West Ham,TBD,0,1,A,18
-2021-12-12,15:00,Crystal Palace,Tottenham,TBD,0,1,A,18
-2021-12-13,15:00,Everton,Southampton,TBD,2,2,D,18
-2021-12-14,15:00,Fulham,Nott'm Forest,TBD,0,0,D,18
-2021-12-15,15:00,Ipswich,Newcastle,TBD,1,1,D,18
-2021-12-16,15:00,Leicester,Man United,TBD,2,0,H,18
-2021-12-17,15:00,Liverpool,Man City,TBD,2,0,H,18
-2021-12-15,15:00,Arsenal,Aston Villa,TBD,2,0,H,19
-2021-12-16,15:00,Bournemouth,Wolves,TBD,1,0,H,19
-2021-12-17,15:00,Brentford,West Ham,TBD,0,1,A,19
-2021-12-18,15:00,Brighton,Tottenham,TBD,0,2,A,19
-2021-12-19,15:00,Chelsea,Southampton,TBD,0,2,A,19
-2021-12-20,15:00,Crystal Palace,Nott'm Forest,TBD,0,2,A,19
-2021-12-21,15:00,Everton,Newcastle,TBD,2,0,H,19
-2021-12-22,15:00,Fulham,Man United,TBD,1,1,D,19
-2021-12-23,15:00,Ipswich,Man City,TBD,2,1,H,19
-2021-12-24,15:00,Leicester,Liverpool,TBD,1,1,D,19
-2021-12-22,15:00,Wolves,Arsenal,TBD,2,0,H,20
-2021-12-23,15:00,West Ham,Aston Villa,TBD,0,0,D,20
-2021-12-24,15:00,Tottenham,Bournemouth,TBD,1,0,H,20
-2021-12-25,15:00,Southampton,Brentford,TBD,3,1,H,20
-2021-12-26,15:00,Nott'm Forest,Brighton,TBD,2,2,D,20
-2021-12-27,15:00,Newcastle,Chelsea,TBD,1,0,H,20
-2021-12-28,15:00,Man United,Crystal Palace,TBD,0,1,A,20
-2021-12-29,15:00,Man City,Everton,TBD,2,1,H,20
-2021-12-30,15:00,Liverpool,Fulham,TBD,1,1,D,20
-2021-12-31,15:00,Leicester,Ipswich,TBD,2,0,H,20
-2021-12-29,15:00,West Ham,Arsenal,TBD,0,0,D,21
-2021-12-30,15:00,Tottenham,Wolves,TBD,1,1,D,21
-2021-12-31,15:00,Southampton,Aston Villa,TBD,1,1,D,21
-2022-01-01,15:00,Nott'm Forest,Bournemouth,TBD,2,2,D,21
-2022-01-02,15:00,Newcastle,Brentford,TBD,2,0,H,21
-2022-01-03,15:00,Man United,Brighton,TBD,1,2,A,21
-2022-01-04,15:00,Man City,Chelsea,TBD,1,2,A,21
-2022-01-05,15:00,Liverpool,Crystal Palace,TBD,2,1,H,21
-2022-01-06,15:00,Leicester,Everton,TBD,2,0,H,21
-2022-01-07,15:00,Ipswich,Fulham,TBD,1,2,A,21
-2022-01-05,15:00,Tottenham,Arsenal,TBD,1,0,H,22
-2022-01-06,15:00,Southampton,West Ham,TBD,1,0,H,22
-2022-01-07,15:00,Nott'm Forest,Wolves,TBD,2,1,H,22
-2022-01-08,15:00,Newcastle,Aston Villa,TBD,2,1,H,22
-2022-01-09,15:00,Man United,Bournemouth,TBD,0,0,D,22
-2022-01-10,15:00,Man City,Brentford,TBD,0,0,D,22
-2022-01-11,15:00,Liverpool,Brighton,TBD,1,1,D,22
-2022-01-12,15:00,Leicester,Chelsea,TBD,2,2,D,22
-2022-01-13,15:00,Ipswich,Crystal Palace,TBD,1,3,A,22
-2022-01-14,15:00,Fulham,Everton,TBD,2,0,H,22
-2022-01-12,15:00,Southampton,Arsenal,TBD,0,0,D,23
-2022-01-13,15:00,Nott'm Forest,Tottenham,TBD,1,1,D,23
-2022-01-14,15:00,Newcastle,West Ham,TBD,0,0,D,23
-2022-01-15,15:00,Man United,Wolves,TBD,0,1,A,23
-2022-01-16,15:00,Man City,Aston Villa,TBD,1,1,D,23
-2022-01-17,15:00,Liverpool,Bournemouth,TBD,0,2,A,23
-2022-01-18,15:00,Leicester,Brentford,TBD,1,1,D,23
-2022-01-19,15:00,Ipswich,Brighton,TBD,2,0,H,23
-2022-01-20,15:00,Fulham,Chelsea,TBD,0,0,D,23
-2022-01-21,15:00,Everton,Crystal Palace,TBD,0,1,A,23
-2022-01-19,15:00,Nott'm Forest,Arsenal,TBD,1,0,H,24
-2022-01-20,15:00,Newcastle,Southampton,TBD,0,1,A,24
-2022-01-21,15:00,Man United,Tottenham,TBD,1,0,H,24
-2022-01-22,15:00,Man City,West Ham,TBD,2,0,H,24
-2022-01-23,15:00,Liverpool,Wolves,TBD,1,1,D,24
-2022-01-24,15:00,Leicester,Aston Villa,TBD,1,1,D,24
-2022-01-25,15:00,Ipswich,Bournemouth,TBD,1,1,D,24
-2022-01-26,15:00,Fulham,Brentford,TBD,0,0,D,24
-2022-01-27,15:00,Everton,Brighton,TBD,2,2,D,24
-2022-01-28,15:00,Crystal Palace,Chelsea,TBD,1,1,D,24
-2022-01-26,15:00,Newcastle,Arsenal,TBD,1,0,H,25
-2022-01-27,15:00,Man United,Nott'm Forest,TBD,1,1,D,25
-2022-01-28,15:00,Man City,Southampton,TBD,1,0,H,25
-2022-01-29,15:00,Liverpool,Tottenham,TBD,1,0,H,25
-2022-01-30,15:00,Leicester,West Ham,TBD,1,1,D,25
-2022-01-31,15:00,Ipswich,Wolves,TBD,2,1,H,25
-2022-02-01,15:00,Fulham,Aston Villa,TBD,2,0,H,25
-2022-02-02,15:00,Everton,Bournemouth,TBD,0,1,A,25
-2022-02-03,15:00,Crystal Palace,Brentford,TBD,2,0,H,25
-2022-02-04,15:00,Chelsea,Brighton,TBD,1,1,D,25
-2022-02-02,15:00,Man United,Arsenal,TBD,0,2,A,26
-2022-02-03,15:00,Man City,Newcastle,TBD,1,2,A,26
-2022-02-04,15:00,Liverpool,Nott'm Forest,TBD,2,0,H,26
-2022-02-05,15:00,Leicester,Southampton,TBD,1,0,H,26
-2022-02-06,15:00,Ipswich,Tottenham,TBD,0,1,A,26
-2022-02-07,15:00,Fulham,West Ham,TBD,0,2,A,26
-2022-02-08,15:00,Everton,Wolves,TBD,1,1,D,26
-2022-02-09,15:00,Crystal Palace,Aston Villa,TBD,1,0,H,26
-2022-02-10,15:00,Chelsea,Bournemouth,TBD,0,1,A,26
-2022-02-11,15:00,Brighton,Brentford,TBD,1,2,A,26
-2022-02-09,15:00,Man City,Arsenal,TBD,1,1,D,27
-2022-02-10,15:00,Liverpool,Man United,TBD,0,1,A,27
-2022-02-11,15:00,Leicester,Newcastle,TBD,1,0,H,27
-2022-02-12,15:00,Ipswich,Nott'm Forest,TBD,0,1,A,27
-2022-02-13,15:00,Fulham,Southampton,TBD,1,0,H,27
-2022-02-14,15:00,Everton,Tottenham,TBD,0,0,D,27
-2022-02-15,15:00,Crystal Palace,West Ham,TBD,2,1,H,27
-2022-02-16,15:00,Chelsea,Wolves,TBD,1,2,A,27
-2022-02-17,15:00,Brighton,Aston Villa,TBD,0,2,A,27
-2022-02-18,15:00,Brentford,Bournemouth,TBD,1,0,H,27
-2022-02-16,15:00,Liverpool,Arsenal,TBD,0,0,D,28
-2022-02-17,15:00,Leicester,Man City,TBD,1,1,D,28
-2022-02-18,15:00,Ipswich,Man United,TBD,0,0,D,28
-2022-02-19,15:00,Fulham,Newcastle,TBD,0,0,D,28
-2022-02-20,15:00,Everton,Nott'm Forest,TBD,1,1,D,28
-2022-02-21,15:00,Crystal Palace,Southampton,TBD,0,0,D,28
-2022-02-22,15:00,Chelsea,Tottenham,TBD,0,0,D,28
-2022-02-23,15:00,Brighton,West Ham,TBD,0,0,D,28
-2022-02-24,15:00,Brentford,Wolves,TBD,0,1,A,28
-2022-02-25,15:00,Bournemouth,Aston Villa,TBD,0,1,A,28
-2022-02-23,15:00,Leicester,Arsenal,TBD,0,2,A,29
-2022-02-24,15:00,Ipswich,Liverpool,TBD,2,0,H,29
-2022-02-25,15:00,Fulham,Man City,TBD,0,1,A,29
-2022-02-26,15:00,Everton,Man United,TBD,1,0,H,29
-2022-02-27,15:00,Crystal Palace,Newcastle,TBD,0,2,A,29
-2022-02-28,15:00,Chelsea,Nott'm Forest,TBD,0,1,A,29
-2022-03-01,15:00,Brighton,Southampton,TBD,1,1,D,29
-2022-03-02,15:00,Brentford,Tottenham,TBD,2,0,H,29
-2022-03-03,15:00,Bournemouth,West Ham,TBD,1,1,D,29
-2022-03-04,15:00,Aston Villa,Wolves,TBD,0,2,A,29
-2022-03-02,15:00,Ipswich,Arsenal,TBD,0,0,D,30
-2022-03-03,15:00,Fulham,Leicester,TBD,0,0,D,30
-2022-03-04,15:00,Everton,Liverpool,TBD,3,1,H,30
-2022-03-05,15:00,Crystal Palace,Man City,TBD,0,0,D,30
-2022-03-06,15:00,Chelsea,Man United,TBD,1,0,H,30
-2022-03-07,15:00,Brighton,Newcastle,TBD,1,0,H,30
-2022-03-08,15:00,Brentford,Nott'm Forest,TBD,1,1,D,30
-2022-03-09,15:00,Bournemouth,Southampton,TBD,0,1,A,30
-2022-03-10,15:00,Aston Villa,Tottenham,TBD,0,0,D,30
-2022-03-11,15:00,Wolves,West Ham,TBD,2,0,H,30
-2022-03-09,15:00,Fulham,Arsenal,TBD,2,2,D,31
-2022-03-10,15:00,Everton,Ipswich,TBD,0,0,D,31
-2022-03-11,15:00,Crystal Palace,Leicester,TBD,0,1,A,31
-2022-03-12,15:00,Chelsea,Liverpool,TBD,1,0,H,31
-2022-03-13,15:00,Brighton,Man City,TBD,1,0,H,31
-2022-03-14,15:00,Brentford,Man United,TBD,1,1,D,31
-2022-03-15,15:00,Bournemouth,Newcastle,TBD,1,0,H,31
-2022-03-16,15:00,Aston Villa,Nott'm Forest,TBD,1,0,H,31
-2022-03-17,15:00,Wolves,Southampton,TBD,1,0,H,31
-2022-03-18,15:00,West Ham,Tottenham,TBD,1,1,D,31
-2022-03-16,15:00,Everton,Arsenal,TBD,0,1,A,32
-2022-03-17,15:00,Crystal Palace,Fulham,TBD,1,1,D,32
-2022-03-18,15:00,Chelsea,Ipswich,TBD,1,1,D,32
-2022-03-19,15:00,Brighton,Leicester,TBD,1,1,D,32
-2022-03-20,15:00,Brentford,Liverpool,TBD,1,1,D,32
-2022-03-21,15:00,Bournemouth,Man City,TBD,1,1,D,32
-2022-03-22,15:00,Aston Villa,Man United,TBD,1,1,D,32
-2022-03-23,15:00,Wolves,Newcastle,TBD,1,3,A,32
-2022-03-24,15:00,West Ham,Nott'm Forest,TBD,2,0,H,32
-2022-03-25,15:00,Tottenham,Southampton,TBD,0,2,A,32
-2022-03-23,15:00,Crystal Palace,Arsenal,TBD,0,1,A,33
-2022-03-24,15:00,Chelsea,Everton,TBD,1,1,D,33
-2022-03-25,15:00,Brighton,Fulham,TBD,1,1,D,33
-2022-03-26,15:00,Brentford,Ipswich,TBD,1,2,A,33
-2022-03-27,15:00,Bournemouth,Leicester,TBD,0,1,A,33
-2022-03-28,15:00,Aston Villa,Liverpool,TBD,2,0,H,33
-2022-03-29,15:00,Wolves,Man City,TBD,0,1,A,33
-2022-03-30,15:00,West Ham,Man United,TBD,0,0,D,33
-2022-03-31,15:00,Tottenham,Newcastle,TBD,0,1,A,33
-2022-04-01,15:00,Southampton,Nott'm Forest,TBD,2,1,H,33
-2022-03-30,15:00,Chelsea,Arsenal,TBD,0,1,A,34
-2022-03-31,15:00,Brighton,Crystal Palace,TBD,1,0,H,34
-2022-04-01,15:00,Brentford,Everton,TBD,0,1,A,34
-2022-04-02,15:00,Bournemouth,Fulham,TBD,0,0,D,34
-2022-04-03,15:00,Aston Villa,Ipswich,TBD,3,1,H,34
-2022-04-04,15:00,Wolves,Leicester,TBD,2,1,H,34
-2022-04-05,15:00,West Ham,Liverpool,TBD,1,1,D,34
-2022-04-06,15:00,Tottenham,Man City,TBD,0,1,A,34
-2022-04-07,15:00,Southampton,Man United,TBD,0,1,A,34
-2022-04-08,15:00,Nott'm Forest,Newcastle,TBD,2,1,H,34
-2022-04-06,15:00,Brighton,Arsenal,TBD,1,1,D,35
-2022-04-07,15:00,Brentford,Chelsea,TBD,2,1,H,35
-2022-04-08,15:00,Bournemouth,Crystal Palace,TBD,1,2,A,35
-2022-04-09,15:00,Aston Villa,Everton,TBD,2,0,H,35
-2022-04-10,15:00,Wolves,Fulham,TBD,3,0,H,35
-2022-04-11,15:00,West Ham,Ipswich,TBD,0,2,A,35
-2022-04-12,15:00,Tottenham,Leicester,TBD,1,1,D,35
-2022-04-13,15:00,Southampton,Liverpool,TBD,0,0,D,35
-2022-04-14,15:00,Nott'm Forest,Man City,TBD,2,0,H,35
-2022-04-15,15:00,Newcastle,Man United,TBD,0,1,A,35
-2022-04-13,15:00,Brentford,Arsenal,TBD,2,1,H,36
-2022-04-14,15:00,Bournemouth,Brighton,TBD,0,1,A,36
-2022-04-15,15:00,Aston Villa,Chelsea,TBD,0,1,A,36
-2022-04-16,15:00,Wolves,Crystal Palace,TBD,1,3,A,36
-2022-04-17,15:00,West Ham,Everton,TBD,0,1,A,36
-2022-04-18,15:00,Tottenham,Fulham,TBD,0,0,D,36
-2022-04-19,15:00,Southampton,Ipswich,TBD,1,0,H,36
-2022-04-20,15:00,Nott'm Forest,Leicester,TBD,1,0,H,36
-2022-04-21,15:00,Newcastle,Liverpool,TBD,1,1,D,36
-2022-04-22,15:00,Man United,Man City,TBD,1,1,D,36
-2022-04-20,15:00,Bournemouth,Arsenal,TBD,3,1,H,37
-2022-04-21,15:00,Aston Villa,Brentford,TBD,2,0,H,37
-2022-04-22,15:00,Wolves,Brighton,TBD,0,1,A,37
-2022-04-23,15:00,West Ham,Chelsea,TBD,2,0,H,37
-2022-04-24,15:00,Tottenham,Crystal Palace,TBD,0,2,A,37
-2022-04-25,15:00,Southampton,Everton,TBD,0,2,A,37
-2022-04-26,15:00,Nott'm Forest,Fulham,TBD,0,0,D,37
-2022-04-27,15:00,Newcastle,Ipswich,TBD,1,0,H,37
-2022-04-28,15:00,Man United,Leicester,TBD,2,1,H,37
-2022-04-29,15:00,Man City,Liverpool,TBD,1,1,D,37
-2022-04-27,15:00,Aston Villa,Arsenal,TBD,0,1,A,38
-2022-04-28,15:00,Wolves,Bournemouth,TBD,2,0,H,38
-2022-04-29,15:00,West Ham,Brentford,TBD,0,1,A,38
-2022-04-30,15:00,Tottenham,Brighton,TBD,1,0,H,38
-2022-05-01,15:00,Southampton,Chelsea,TBD,2,2,D,38
-2022-05-02,15:00,Nott'm Forest,Crystal Palace,TBD,1,1,D,38
-2022-05-03,15:00,Newcastle,Everton,TBD,1,1,D,38
-2022-05-04,15:00,Man United,Fulham,TBD,1,0,H,38
-2022-05-05,15:00,Man City,Ipswich,TBD,1,0,H,38
-2022-05-06,15:00,Liverpool,Leicester,TBD,1,2,A,38
+Date,Time,HomeTeam,AwayTeam,Referee,FTHG,FTAG,FTR,Round
+2021-08-13,20:00,Brentford,Arsenal,M Oliver,2,0,H,1
+2021-08-14,12:30,Man United,Leeds,P Tierney,5,1,H,1
+2021-08-14,15:00,Burnley,Brighton,D Coote,1,2,A,1
+2021-08-14,15:00,Chelsea,Crystal Palace,J Moss,3,0,H,1
+2021-08-14,15:00,Everton,Southampton,A Madley,3,1,H,1
+2021-08-14,15:00,Leicester,Wolves,C Pawson,1,0,H,1
+2021-08-14,15:00,Watford,Aston Villa,M Dean,3,2,H,1
+2021-08-14,17:30,Norwich,Liverpool,A Marriner,0,3,A,1
+2021-08-15,14:00,Newcastle,West Ham,M Atkinson,2,4,A,1
+2021-08-15,16:30,Tottenham,Man City,A Taylor,1,0,H,1
+2021-08-21,12:30,Liverpool,Burnley,M Dean,2,0,H,2
+2021-08-21,15:00,Aston Villa,Newcastle,D Coote,2,0,H,2
+2021-08-21,15:00,Crystal Palace,Brentford,M Atkinson,0,0,D,2
+2021-08-21,15:00,Leeds,Everton,D England,2,2,D,2
+2021-08-21,15:00,Man City,Norwich,G Scott,5,0,H,2
+2021-08-21,17:30,Brighton,Watford,A Taylor,2,0,H,2
+2021-08-22,14:00,Southampton,Man United,C Pawson,1,1,D,2
+2021-08-22,14:00,Wolves,Tottenham,S Attwell,0,1,A,2
+2021-08-22,16:30,Arsenal,Chelsea,P Tierney,0,2,A,2
+2021-08-23,20:00,West Ham,Leicester,M Oliver,4,1,H,2
+2021-08-28,12:30,Man City,Arsenal,M Atkinson,5,0,H,3
+2021-08-28,15:00,Aston Villa,Brentford,P Bankes,1,1,D,3
+2021-08-28,15:00,Brighton,Everton,J Moss,0,2,A,3
+2021-08-28,15:00,Newcastle,Southampton,P Tierney,2,2,D,3
+2021-08-28,15:00,Norwich,Leicester,R Jones,1,2,A,3
+2021-08-28,15:00,West Ham,Crystal Palace,S Attwell,2,2,D,3
+2021-08-28,17:30,Liverpool,Chelsea,A Taylor,1,1,D,3
+2021-08-29,14:00,Burnley,Leeds,M Oliver,1,1,D,3
+2021-08-29,14:00,Tottenham,Watford,A Marriner,1,0,H,3
+2021-08-29,16:30,Wolves,Man United,M Dean,0,1,A,3
+2021-09-11,12:30,Crystal Palace,Tottenham,J Moss,3,0,H,4
+2021-09-11,15:00,Arsenal,Norwich,M Oliver,1,0,H,4
+2021-09-11,15:00,Brentford,Brighton,G Scott,0,1,A,4
+2021-09-11,15:00,Leicester,Man City,P Tierney,0,1,A,4
+2021-09-11,15:00,Man United,Newcastle,A Taylor,4,1,H,4
+2021-09-11,15:00,Southampton,West Ham,D Coote,0,0,D,4
+2021-09-11,15:00,Watford,Wolves,P Bankes,0,2,A,4
+2021-09-11,17:30,Chelsea,Aston Villa,S Attwell,3,0,H,4
+2021-09-12,16:30,Leeds,Liverpool,C Pawson,0,3,A,4
+2021-09-13,20:00,Everton,Burnley,M Atkinson,3,1,H,4
+2021-09-17,20:00,Newcastle,Leeds,M Dean,1,1,D,5
+2021-09-18,12:30,Wolves,Brentford,D England,0,2,A,5
+2021-09-18,15:00,Burnley,Arsenal,A Taylor,0,1,A,5
+2021-09-18,15:00,Liverpool,Crystal Palace,A Madley,3,0,H,5
+2021-09-18,15:00,Man City,Southampton,J Moss,0,0,D,5
+2021-09-18,15:00,Norwich,Watford,R Jones,1,3,A,5
+2021-09-18,17:30,Aston Villa,Everton,C Pawson,3,0,H,5
+2021-09-19,14:00,Brighton,Leicester,S Attwell,2,1,H,5
+2021-09-19,14:00,West Ham,Man United,M Atkinson,1,2,A,5
+2021-09-19,16:30,Tottenham,Chelsea,P Tierney,0,3,A,5
+2021-09-25,12:30,Chelsea,Man City,M Oliver,0,1,A,6
+2021-09-25,12:30,Man United,Aston Villa,M Dean,0,1,A,6
+2021-09-25,15:00,Everton,Norwich,D Coote,2,0,H,6
+2021-09-25,15:00,Leeds,West Ham,K Friend,1,2,A,6
+2021-09-25,15:00,Leicester,Burnley,C Kavanagh,2,2,D,6
+2021-09-25,15:00,Watford,Newcastle,J Gillett,1,1,D,6
+2021-09-25,17:30,Brentford,Liverpool,S Attwell,3,3,D,6
+2021-09-26,14:00,Southampton,Wolves,A Madley,0,1,A,6
+2021-09-26,16:30,Arsenal,Tottenham,C Pawson,3,1,H,6
+2021-09-27,20:00,Crystal Palace,Brighton,A Marriner,1,1,D,6
+2021-10-02,12:30,Man United,Everton,M Oliver,1,1,D,7
+2021-10-02,15:00,Burnley,Norwich,K Friend,0,0,D,7
+2021-10-02,15:00,Chelsea,Southampton,M Atkinson,3,1,H,7
+2021-10-02,15:00,Leeds,Watford,S Hooper,1,0,H,7
+2021-10-02,15:00,Wolves,Newcastle,G Scott,2,1,H,7
+2021-10-02,17:30,Brighton,Arsenal,J Moss,0,0,D,7
+2021-10-03,14:00,Crystal Palace,Leicester,A Taylor,2,2,D,7
+2021-10-03,14:00,Tottenham,Aston Villa,C Kavanagh,2,1,H,7
+2021-10-03,14:00,West Ham,Brentford,P Bankes,1,2,A,7
+2021-10-03,16:30,Liverpool,Man City,P Tierney,2,2,D,7
+2021-10-16,12:30,Watford,Liverpool,J Moss,0,5,A,8
+2021-10-16,15:00,Aston Villa,Wolves,M Oliver,2,3,A,8
+2021-10-16,15:00,Leicester,Man United,C Pawson,4,2,H,8
+2021-10-16,15:00,Man City,Burnley,M Atkinson,2,0,H,8
+2021-10-16,15:00,Norwich,Brighton,P Bankes,0,0,D,8
+2021-10-16,15:00,Southampton,Leeds,D Coote,1,0,H,8
+2021-10-16,17:30,Brentford,Chelsea,A Taylor,0,1,A,8
+2021-10-17,14:00,Everton,West Ham,S Attwell,0,1,A,8
+2021-10-17,16:30,Newcastle,Tottenham,A Marriner,2,3,A,8
+2021-10-18,20:00,Arsenal,Crystal Palace,M Dean,2,2,D,8
+2021-10-22,20:00,Arsenal,Aston Villa,C Pawson,3,1,H,9
+2021-10-23,12:30,Chelsea,Norwich,A Madley,7,0,H,9
+2021-10-23,15:00,Crystal Palace,Newcastle,D England,1,1,D,9
+2021-10-23,15:00,Everton,Watford,G Scott,2,5,A,9
+2021-10-23,15:00,Leeds,Wolves,R Jones,1,1,D,9
+2021-10-23,15:00,Southampton,Burnley,C Kavanagh,2,2,D,9
+2021-10-23,17:30,Brighton,Man City,K Friend,1,4,A,9
+2021-10-24,14:00,Brentford,Leicester,S Hooper,1,2,A,9
+2021-10-24,14:00,West Ham,Tottenham,P Tierney,1,0,H,9
+2021-10-24,16:30,Man United,Liverpool,A Taylor,0,5,A,9
+2021-10-30,12:30,Leicester,Arsenal,M Oliver,0,2,A,10
+2021-10-30,15:00,Burnley,Brentford,J Moss,3,1,H,10
+2021-10-30,15:00,Liverpool,Brighton,M Dean,2,2,D,10
+2021-10-30,15:00,Man City,Crystal Palace,A Marriner,0,2,A,10
+2021-10-30,15:00,Newcastle,Chelsea,P Tierney,0,3,A,10
+2021-10-30,15:00,Watford,Southampton,P Bankes,0,1,A,10
+2021-10-30,17:30,Tottenham,Man United,S Attwell,0,3,A,10
+2021-10-31,14:00,Norwich,Leeds,A Taylor,1,2,A,10
+2021-10-31,16:30,Aston Villa,West Ham,C Kavanagh,1,4,A,10
+2021-11-01,20:00,Wolves,Everton,M Atkinson,2,1,H,10
+2021-11-05,20:00,Southampton,Aston Villa,A Madley,1,0,H,11
+2021-11-06,12:30,Man United,Man City,M Oliver,0,2,A,11
+2021-11-06,15:00,Brentford,Norwich,J Gillett,1,2,A,11
+2021-11-06,15:00,Chelsea,Burnley,A Marriner,1,1,D,11
+2021-11-06,15:00,Crystal Palace,Wolves,G Scott,2,0,H,11
+2021-11-06,17:30,Brighton,Newcastle,D Coote,1,1,D,11
+2021-11-07,14:00,Arsenal,Watford,K Friend,1,0,H,11
+2021-11-07,14:00,Everton,Tottenham,C Kavanagh,0,0,D,11
+2021-11-07,14:00,Leeds,Leicester,D England,1,1,D,11
+2021-11-07,16:30,West Ham,Liverpool,C Pawson,3,2,H,11
+2021-11-20,12:30,Leicester,Chelsea,P Tierney,0,3,A,12
+2021-11-20,15:00,Aston Villa,Brighton,A Taylor,2,0,H,12
+2021-11-20,15:00,Burnley,Crystal Palace,S Hooper,3,3,D,12
+2021-11-20,15:00,Newcastle,Brentford,R Jones,3,3,D,12
+2021-11-20,15:00,Norwich,Southampton,M Atkinson,2,1,H,12
+2021-11-20,15:00,Watford,Man United,J Moss,4,1,H,12
+2021-11-20,15:00,Wolves,West Ham,M Dean,1,0,H,12
+2021-11-20,17:30,Liverpool,Arsenal,M Oliver,4,0,H,12
+2021-11-21,14:00,Man City,Everton,S Attwell,3,0,H,12
+2021-11-21,16:30,Tottenham,Leeds,A Marriner,2,1,H,12
+2021-11-27,12:30,Arsenal,Newcastle,S Attwell,2,0,H,13
+2021-11-27,15:00,Crystal Palace,Aston Villa,M Salisbury,1,2,A,13
+2021-11-27,15:00,Liverpool,Southampton,A Marriner,4,0,H,13
+2021-11-27,15:00,Norwich,Wolves,S Hooper,0,0,D,13
+2021-11-27,17:30,Brighton,Leeds,C Pawson,0,0,D,13
+2021-11-28,14:00,Brentford,Everton,D England,1,0,H,13
+2021-11-28,14:00,Leicester,Watford,A Madley,4,2,H,13
+2021-11-28,14:00,Man City,West Ham,M Oliver,2,1,H,13
+2021-11-28,16:30,Chelsea,Man United,A Taylor,1,1,D,13
+2021-11-30,19:30,Newcastle,Norwich,A Madley,1,1,D,13
+2021-11-30,20:15,Leeds,Crystal Palace,K Friend,1,0,H,14
+2021-12-01,19:30,Southampton,Leicester,R Jones,2,2,D,14
+2021-12-01,19:30,Watford,Chelsea,D Coote,1,2,A,14
+2021-12-01,19:30,West Ham,Brighton,C Kavanagh,1,1,D,14
+2021-12-01,19:30,Wolves,Burnley,J Brooks,0,0,D,14
+2021-12-01,20:15,Aston Villa,Man City,M Dean,1,2,A,14
+2021-12-01,20:15,Everton,Liverpool,P Tierney,1,4,A,14
+2021-12-02,19:30,Tottenham,Brentford,J Moss,2,0,H,14
+2021-12-02,20:15,Man United,Arsenal,M Atkinson,3,2,H,14
+2021-12-04,12:30,West Ham,Chelsea,A Marriner,3,2,H,14
+2021-12-04,15:00,Newcastle,Burnley,P Tierney,1,0,H,15
+2021-12-04,15:00,Southampton,Brighton,A Taylor,1,1,D,15
+2021-12-04,15:00,Wolves,Liverpool,C Kavanagh,0,1,A,15
+2021-12-04,17:30,Watford,Man City,S Hooper,1,3,A,15
+2021-12-05,14:00,Leeds,Brentford,D Coote,2,2,D,15
+2021-12-05,14:00,Man United,Crystal Palace,C Pawson,1,0,H,15
+2021-12-05,14:00,Tottenham,Norwich,J Gillett,3,0,H,15
+2021-12-05,16:30,Aston Villa,Leicester,M Oliver,2,1,H,15
+2021-12-06,20:00,Everton,Arsenal,M Dean,2,1,H,15
+2021-12-10,20:00,Brentford,Watford,M Oliver,2,1,H,15
+2021-12-11,12:30,Man City,Wolves,J Moss,1,0,H,16
+2021-12-11,15:00,Arsenal,Southampton,J Gillett,3,0,H,16
+2021-12-11,15:00,Chelsea,Leeds,C Kavanagh,3,2,H,16
+2021-12-11,15:00,Liverpool,Aston Villa,S Attwell,1,0,H,16
+2021-12-11,17:30,Norwich,Man United,D England,0,1,A,16
+2021-12-12,14:00,Burnley,West Ham,G Scott,0,0,D,16
+2021-12-12,14:00,Leicester,Newcastle,P Bankes,4,0,H,16
+2021-12-12,16:30,Crystal Palace,Everton,A Madley,3,1,H,16
+2021-12-14,19:45,Norwich,Aston Villa,D Coote,0,2,A,16
+2021-12-14,20:00,Man City,Leeds,P Tierney,7,0,H,16
+2021-12-15,19:30,Brighton,Wolves,T Harrington,0,1,A,17
+2021-12-15,19:30,Crystal Palace,Southampton,S Hooper,2,2,D,17
+2021-12-15,20:00,Arsenal,West Ham,A Taylor,2,0,H,17
+2021-12-16,19:45,Chelsea,Everton,M Oliver,1,1,D,17
+2021-12-16,20:00,Liverpool,Newcastle,M Dean,3,1,H,17
+2021-12-18,17:30,Leeds,Arsenal,A Marriner,1,4,A,17
+2021-12-19,14:00,Newcastle,Man City,M Atkinson,0,4,A,17
+2021-12-19,14:00,Wolves,Chelsea,D Coote,0,0,D,17
+2021-12-19,16:30,Tottenham,Liverpool,P Tierney,2,2,D,17
+2021-12-26,15:00,Man City,Leicester,C Kavanagh,6,3,H,17
+2021-12-26,15:00,Norwich,Arsenal,G Scott,0,5,A,18
+2021-12-26,15:00,Tottenham,Crystal Palace,J Moss,3,0,H,18
+2021-12-26,15:00,West Ham,Southampton,K Friend,2,3,A,18
+2021-12-26,17:30,Aston Villa,Chelsea,M Atkinson,1,3,A,18
+2021-12-26,20:00,Brighton,Brentford,D England,2,0,H,18
+2021-12-27,20:00,Newcastle,Man United,C Pawson,1,1,D,18
+2021-12-28,15:00,Crystal Palace,Norwich,P Tierney,3,0,H,18
+2021-12-28,15:00,Southampton,Tottenham,A Taylor,1,1,D,18
+2021-12-28,15:00,Watford,West Ham,D England,1,4,A,18
+2021-12-28,20:00,Leicester,Liverpool,M Oliver,1,0,H,18
+2021-12-29,19:30,Chelsea,Brighton,M Dean,1,1,D,19
+2021-12-29,20:15,Brentford,Man City,D Coote,0,1,A,19
+2021-12-30,20:15,Man United,Burnley,J Moss,3,1,H,19
+2022-01-01,12:30,Arsenal,Man City,S Attwell,1,2,A,19
+2022-01-01,15:00,Watford,Tottenham,R Jones,0,1,A,19
+2022-01-01,17:30,Crystal Palace,West Ham,D England,2,3,A,19
+2022-01-02,14:00,Brentford,Aston Villa,C Pawson,2,1,H,19
+2022-01-02,14:00,Everton,Brighton,J Brooks,2,3,A,19
+2022-01-02,14:00,Leeds,Burnley,P Tierney,3,1,H,19
+2022-01-02,16:30,Chelsea,Liverpool,A Taylor,2,2,D,19
+2022-01-03,17:30,Man United,Wolves,M Dean,0,1,A,20
+2022-01-11,19:45,Southampton,Brentford,S Attwell,4,1,H,20
+2022-01-12,19:45,West Ham,Norwich,S Hooper,2,0,H,20
+2022-01-14,20:00,Brighton,Crystal Palace,R Jones,1,1,D,20
+2022-01-15,12:30,Man City,Chelsea,C Pawson,1,0,H,20
+2022-01-15,15:00,Newcastle,Watford,P Tierney,1,1,D,20
+2022-01-15,15:00,Norwich,Everton,A Madley,2,1,H,20
+2022-01-15,15:00,Wolves,Southampton,M Salisbury,3,1,H,20
+2022-01-15,17:30,Aston Villa,Man United,D Coote,2,2,D,20
+2022-01-16,14:00,Liverpool,Brentford,J Moss,3,0,H,20
+2022-01-16,14:00,West Ham,Leeds,M Dean,2,3,A,21
+2022-01-18,20:00,Brighton,Chelsea,K Friend,1,1,D,21
+2022-01-19,19:30,Leicester,Tottenham,J Moss,2,3,A,21
+2022-01-19,20:00,Brentford,Man United,A Marriner,1,3,A,21
+2022-01-21,20:00,Watford,Norwich,M Dean,0,3,A,21
+2022-01-22,12:30,Everton,Aston Villa,C Pawson,0,1,A,21
+2022-01-22,15:00,Brentford,Wolves,P Bankes,1,2,A,21
+2022-01-22,15:00,Leeds,Newcastle,C Kavanagh,0,1,A,21
+2022-01-22,15:00,Man United,West Ham,J Moss,1,0,H,21
+2022-01-22,17:30,Southampton,Man City,S Hooper,1,1,D,21
+2022-01-23,14:00,Arsenal,Burnley,D Coote,0,0,D,22
+2022-01-23,14:00,Crystal Palace,Liverpool,K Friend,1,3,A,22
+2022-01-23,14:00,Leicester,Brighton,M Atkinson,1,1,D,22
+2022-01-23,16:30,Chelsea,Tottenham,P Tierney,2,0,H,22
+2022-02-05,18:00,Burnley,Watford,C Pawson,0,0,D,22
+2022-02-08,19:45,Newcastle,Everton,A Taylor,3,1,H,22
+2022-02-08,19:45,West Ham,Watford,M Atkinson,1,0,H,22
+2022-02-08,20:00,Burnley,Man United,M Dean,1,1,D,22
+2022-02-09,19:45,Man City,Brentford,D England,2,0,H,22
+2022-02-09,19:45,Norwich,Crystal Palace,P Tierney,1,1,D,22
+2022-02-09,19:45,Tottenham,Southampton,D Coote,2,3,A,23
+2022-02-09,20:00,Aston Villa,Leeds,J Gillett,3,3,D,23
+2022-02-10,19:45,Liverpool,Leicester,C Kavanagh,2,0,H,23
+2022-02-10,19:45,Wolves,Arsenal,M Oliver,0,1,A,23
+2022-02-12,12:30,Man United,Southampton,S Attwell,1,1,D,23
+2022-02-12,15:00,Brentford,Crystal Palace,S Hooper,0,0,D,23
+2022-02-12,15:00,Everton,Leeds,G Scott,3,0,H,23
+2022-02-12,15:00,Watford,Brighton,J Moss,0,2,A,23
+2022-02-12,17:30,Norwich,Man City,A Marriner,0,4,A,23
+2022-02-13,14:00,Burnley,Liverpool,M Atkinson,0,1,A,23
+2022-02-13,14:00,Newcastle,Aston Villa,C Pawson,1,0,H,24
+2022-02-13,14:00,Tottenham,Wolves,K Friend,0,2,A,24
+2022-02-13,16:30,Leicester,West Ham,M Oliver,2,2,D,24
+2022-02-15,20:15,Man United,Brighton,P Bankes,2,0,H,24
+2022-02-19,12:30,West Ham,Newcastle,C Kavanagh,1,1,D,24
+2022-02-19,15:00,Arsenal,Brentford,J Moss,2,1,H,24
+2022-02-19,15:00,Aston Villa,Watford,R Jones,0,1,A,24
+2022-02-19,15:00,Brighton,Burnley,K Friend,0,3,A,24
+2022-02-19,15:00,Crystal Palace,Chelsea,D Coote,0,1,A,24
+2022-02-19,15:00,Liverpool,Norwich,M Dean,3,1,H,24
+2022-02-19,15:00,Southampton,Everton,A Madley,2,0,H,25
+2022-02-19,17:30,Man City,Tottenham,A Taylor,2,3,A,25
+2022-02-20,14:00,Leeds,Man United,P Tierney,2,4,A,25
+2022-02-20,16:30,Wolves,Leicester,C Pawson,2,1,H,25
+2022-02-23,19:30,Burnley,Tottenham,G Scott,1,0,H,25
+2022-02-23,19:30,Watford,Crystal Palace,A Marriner,1,4,A,25
+2022-02-23,19:45,Liverpool,Leeds,M Oliver,6,0,H,25
+2022-02-24,19:45,Arsenal,Wolves,M Atkinson,2,1,H,25
+2022-02-25,20:00,Southampton,Norwich,S Hooper,2,0,H,25
+2022-02-26,12:30,Leeds,Tottenham,C Pawson,0,4,A,25
+2022-02-26,15:00,Brentford,Newcastle,M Dean,0,2,A,26
+2022-02-26,15:00,Crystal Palace,Burnley,J Moss,1,1,D,26
+2022-02-26,15:00,Man United,Watford,K Friend,0,0,D,26
+2022-02-26,15:30,Brighton,Aston Villa,J Brooks,0,2,A,26
+2022-02-26,17:30,Everton,Man City,P Tierney,0,1,A,26
+2022-02-27,14:00,West Ham,Wolves,A Taylor,1,0,H,26
+2022-03-01,19:45,Burnley,Leicester,C Kavanagh,0,2,A,26
+2022-03-05,12:30,Leicester,Leeds,D Coote,1,0,H,26
+2022-03-05,15:00,Aston Villa,Southampton,P Bankes,4,0,H,26
+2022-03-05,15:00,Burnley,Chelsea,A Marriner,0,4,A,26
+2022-03-05,15:00,Newcastle,Brighton,M Atkinson,2,1,H,27
+2022-03-05,15:00,Norwich,Brentford,A Taylor,1,3,A,27
+2022-03-05,15:00,Wolves,Crystal Palace,A Madley,0,2,A,27
+2022-03-05,17:30,Liverpool,West Ham,J Moss,1,0,H,27
+2022-03-06,14:00,Watford,Arsenal,C Pawson,2,3,A,27
+2022-03-06,16:30,Man City,Man United,M Oliver,4,1,H,27
+2022-03-07,20:00,Tottenham,Everton,S Attwell,5,0,H,27
+2022-03-10,19:30,Norwich,Chelsea,M Atkinson,1,3,A,27
+2022-03-10,19:30,Southampton,Newcastle,K Friend,1,2,A,27
+2022-03-10,19:30,Wolves,Watford,D England,4,0,H,27
+2022-03-10,19:45,Leeds,Aston Villa,S Hooper,0,3,A,28
+2022-03-12,12:30,Brighton,Liverpool,M Dean,0,2,A,28
+2022-03-12,15:00,Brentford,Burnley,P Tierney,2,0,H,28
+2022-03-12,17:30,Man United,Tottenham,J Moss,3,2,H,28
+2022-03-13,14:00,Chelsea,Newcastle,D Coote,1,0,H,28
+2022-03-13,14:00,Everton,Wolves,M Oliver,0,1,A,28
+2022-03-13,14:00,Leeds,Norwich,S Attwell,2,1,H,28
+2022-03-13,14:00,Southampton,Watford,G Scott,1,2,A,28
+2022-03-13,14:00,West Ham,Aston Villa,J Gillett,2,1,H,28
+2022-03-13,16:30,Arsenal,Leicester,A Taylor,2,0,H,28
+2022-03-14,20:00,Crystal Palace,Man City,M Atkinson,0,0,D,29
+2022-03-16,19:30,Brighton,Tottenham,R Jones,0,2,A,29
+2022-03-16,20:15,Arsenal,Liverpool,A Marriner,0,2,A,29
+2022-03-17,19:45,Everton,Newcastle,C Pawson,1,0,H,29
+2022-03-18,20:00,Wolves,Leeds,K Friend,2,3,A,29
+2022-03-19,12:30,Aston Villa,Arsenal,A Madley,0,1,A,29
+2022-03-20,14:00,Leicester,Brentford,D England,2,1,H,29
+2022-03-20,16:30,Tottenham,West Ham,A Taylor,3,1,H,29
+2022-04-02,12:30,Liverpool,Watford,S Attwell,2,0,H,29
+2022-04-02,15:00,Brighton,Norwich,S Hooper,0,0,D,29
+2022-04-02,15:00,Burnley,Man City,C Pawson,0,2,A,30
+2022-04-02,15:00,Chelsea,Brentford,A Madley,1,4,A,30
+2022-04-02,15:00,Leeds,Southampton,A Taylor,1,1,D,30
+2022-04-02,15:00,Wolves,Aston Villa,D England,2,1,H,30
+2022-04-02,17:30,Man United,Leicester,A Marriner,1,1,D,30
+2022-04-03,14:00,West Ham,Everton,M Oliver,2,1,H,30
+2022-04-03,16:30,Tottenham,Newcastle,M Atkinson,5,1,H,30
+2022-04-04,20:00,Crystal Palace,Arsenal,P Tierney,3,0,H,30
+2022-04-06,19:30,Burnley,Everton,M Dean,3,2,H,30
+2022-04-08,20:00,Newcastle,Wolves,P Bankes,1,0,H,30
+2022-04-09,12:30,Everton,Man United,J Moss,1,0,H,31
+2022-04-09,15:00,Arsenal,Brighton,D Coote,1,2,A,31
+2022-04-09,15:00,Southampton,Chelsea,K Friend,0,6,A,31
+2022-04-09,15:00,Watford,Leeds,A Marriner,0,3,A,31
+2022-04-09,17:30,Aston Villa,Tottenham,G Scott,0,4,A,31
+2022-04-10,14:00,Brentford,West Ham,M Atkinson,2,0,H,31
+2022-04-10,14:00,Leicester,Crystal Palace,R Jones,2,1,H,31
+2022-04-10,14:00,Norwich,Burnley,M Oliver,2,0,H,31
+2022-04-10,16:30,Man City,Liverpool,A Taylor,2,2,D,31
+2022-04-16,12:30,Tottenham,Brighton,C Pawson,0,1,A,31
+2022-04-16,15:00,Man United,Norwich,A Madley,3,2,H,32
+2022-04-16,15:00,Southampton,Arsenal,P Bankes,1,0,H,32
+2022-04-16,15:00,Watford,Brentford,S Hooper,1,2,A,32
+2022-04-17,14:15,Newcastle,Leicester,J Gillett,2,1,H,32
+2022-04-17,14:15,West Ham,Burnley,P Tierney,1,1,D,32
+2022-04-19,20:00,Liverpool,Man United,M Atkinson,4,0,H,32
+2022-04-20,19:45,Chelsea,Arsenal,J Moss,2,4,A,32
+2022-04-20,19:45,Everton,Leicester,D Coote,1,1,D,32
+2022-04-20,19:45,Newcastle,Crystal Palace,T Harrington,1,0,H,32
+2022-04-20,20:00,Man City,Brighton,M Dean,3,0,H,32
+2022-04-21,19:45,Burnley,Southampton,S Attwell,2,0,H,33
+2022-04-23,12:30,Arsenal,Man United,C Pawson,3,1,H,33
+2022-04-23,15:00,Leicester,Aston Villa,A Madley,0,0,D,33
+2022-04-23,15:00,Man City,Watford,K Friend,5,1,H,33
+2022-04-23,15:00,Norwich,Newcastle,C Kavanagh,0,3,A,33
+2022-04-23,17:30,Brentford,Tottenham,M Atkinson,0,0,D,33
+2022-04-24,14:00,Brighton,Southampton,R Jones,2,2,D,33
+2022-04-24,14:00,Burnley,Wolves,A Taylor,1,0,H,33
+2022-04-24,14:00,Chelsea,West Ham,M Oliver,1,0,H,33
+2022-04-24,16:30,Liverpool,Everton,S Attwell,2,0,H,33
+2022-04-25,20:00,Crystal Palace,Leeds,D England,0,0,D,34
+2022-04-28,19:45,Man United,Chelsea,M Dean,1,1,D,34
+2022-04-30,12:30,Newcastle,Liverpool,A Marriner,0,1,A,34
+2022-04-30,15:00,Aston Villa,Norwich,J Brooks,2,0,H,34
+2022-04-30,15:00,Southampton,Crystal Palace,J Gillett,1,2,A,34
+2022-04-30,15:00,Watford,Burnley,C Pawson,1,2,A,34
+2022-04-30,15:00,Wolves,Brighton,S Hooper,0,3,A,34
+2022-04-30,17:30,Leeds,Man City,P Tierney,0,4,A,34
+2022-05-01,14:00,Everton,Chelsea,K Friend,1,0,H,34
+2022-05-01,14:00,Tottenham,Leicester,J Moss,3,1,H,34
+2022-05-01,16:30,West Ham,Arsenal,M Dean,1,2,A,35
+2022-05-02,20:00,Man United,Brentford,C Kavanagh,3,0,H,35
+2022-05-07,15:00,Brentford,Southampton,M Salisbury,3,0,H,35
+2022-05-07,15:00,Burnley,Aston Villa,D Coote,1,3,A,35
+2022-05-07,15:00,Chelsea,Wolves,P Bankes,2,2,D,35
+2022-05-07,15:00,Crystal Palace,Watford,G Scott,1,0,H,35
+2022-05-07,17:30,Brighton,Man United,A Madley,4,0,H,35
+2022-05-07,19:45,Liverpool,Tottenham,M Oliver,1,1,D,35
+2022-05-08,14:00,Arsenal,Leeds,C Kavanagh,2,1,H,35
+2022-05-08,14:00,Leicester,Everton,C Pawson,1,2,A,35
+2022-05-08,14:00,Norwich,West Ham,R Jones,0,4,A,36
+2022-05-08,16:30,Man City,Newcastle,S Attwell,5,0,H,36
+2022-05-10,20:00,Aston Villa,Liverpool,J Moss,1,2,A,36
+2022-05-11,19:30,Leeds,Chelsea,A Taylor,0,3,A,36
+2022-05-11,19:45,Leicester,Norwich,S Hooper,3,0,H,36
+2022-05-11,19:45,Watford,Everton,M Dean,0,0,D,36
+2022-05-11,20:15,Wolves,Man City,M Atkinson,1,5,A,36
+2022-05-12,19:45,Tottenham,Arsenal,P Tierney,3,0,H,36
+2022-05-15,12:00,Tottenham,Burnley,K Friend,1,0,H,36
+2022-05-15,14:00,Aston Villa,Crystal Palace,C Kavanagh,1,1,D,36
+2022-05-15,14:00,Leeds,Brighton,M Dean,1,1,D,37
+2022-05-15,14:00,Watford,Leicester,J Gillett,1,5,A,37
+2022-05-15,14:00,West Ham,Man City,A Taylor,2,2,D,37
+2022-05-15,14:00,Wolves,Norwich,T Harrington,1,1,D,37
+2022-05-15,16:30,Everton,Brentford,M Oliver,2,3,A,37
+2022-05-16,20:00,Newcastle,Arsenal,D England,2,0,H,37
+2022-05-17,19:45,Southampton,Liverpool,M Atkinson,1,2,A,37
+2022-05-19,19:45,Everton,Crystal Palace,A Taylor,3,2,H,37
+2022-05-19,20:00,Aston Villa,Burnley,P Tierney,1,1,D,37
+2022-05-19,20:00,Chelsea,Leicester,S Attwell,1,1,D,37
+2022-05-22,16:00,Arsenal,Everton,A Marriner,5,1,H,38
+2022-05-22,16:00,Brentford,Leeds,P Tierney,1,2,A,38
+2022-05-22,16:00,Brighton,West Ham,K Friend,3,1,H,38
+2022-05-22,16:00,Burnley,Newcastle,C Pawson,1,2,A,38
+2022-05-22,16:00,Chelsea,Watford,M Dean,2,1,H,38
+2022-05-22,16:00,Crystal Palace,Man United,M Atkinson,1,0,H,38
+2022-05-22,16:00,Leicester,Southampton,J Moss,4,1,H,38
+2022-05-22,16:00,Liverpool,Wolves,A Taylor,3,1,H,38
+2022-05-22,16:00,Man City,Aston Villa,M Oliver,3,2,H,38
+2022-05-22,16:00,Norwich,Tottenham,C Kavanagh,0,5,A,38

@@ -136,10 +136,12 @@ function parseCSV(text: string, season: string): Match[] {
 
 const CURRENT_PLAYED = 50
 const HISTORY_PLAYED_RATIO = 0.95
+const DATA_VERSION = '20240927a'
+const DATA_BASE = import.meta.env.BASE_URL
 
 export async function loadSeasonData(season: string): Promise<{ matches: Match[], source: string }> {
   try {
-    const resp = await fetch(`/data/history/E0-${season}.csv`)
+    const resp = await fetch(`${DATA_BASE}data/history/E0-${season}.csv?v=${DATA_VERSION}`, { cache: 'no-store' })
     if (resp.ok) {
       const text = await resp.text()
       const matches = parseCSV(text, season)
@@ -154,7 +156,7 @@ export async function loadSeasonData(season: string): Promise<{ matches: Match[]
 
 export async function loadCurrentSeason(): Promise<{ matches: Match[], source: string }> {
   try {
-    const resp = await fetch('/data/E0-2627.csv')
+    const resp = await fetch(`${DATA_BASE}data/E0-2627.csv?v=${DATA_VERSION}`, { cache: 'no-store' })
     if (resp.ok) {
       const text = await resp.text()
       const matches = parseCSV(text, '2627')
@@ -165,5 +167,3 @@ export async function loadCurrentSeason(): Promise<{ matches: Match[], source: s
   } catch {}
   return { matches: generateMockMatches('2627', CURRENT_PLAYED), source: 'builtin' }
 }
-// Build: 1790503989
-const BUILD_TIMESTAMP = '1790504013';
