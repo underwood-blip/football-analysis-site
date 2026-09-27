@@ -134,7 +134,7 @@ function parseCSV(text: string, season: string): Match[] {
   })
 }
 
-const CURRENT_PLAYED = 110
+const CURRENT_PLAYED = 50
 const HISTORY_PLAYED_RATIO = 0.95
 
 export async function loadSeasonData(season: string): Promise<{ matches: Match[], source: string }> {
