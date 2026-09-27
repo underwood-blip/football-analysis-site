@@ -75,7 +75,7 @@ export default function EplPage({ active }: { active?: string }) {
 
       {/* Predictions grid */}
       <div className="view-header">
-        <h2>第 <em>{nextGw}</em> 轮比赛预测</h2>
+        <h2>第 <em>{String(maxRound + 1)}</em> 轮比赛预测</h2>
       </div>
       <div className="cards-grid">
         {predictions.length === 0 ? (
