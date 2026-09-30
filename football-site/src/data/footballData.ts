@@ -116,8 +116,8 @@ function parseCSV(text: string, season: string): Match[] {
     const row = Object.fromEntries(headers.map((h, i) => [h, vals[i] ?? '']))
     const home = row['HomeTeam'] ?? ''
     const away = row['AwayTeam'] ?? ''
-    const homeId = Object.values(NAME_TO_ID).find(k => home.includes(k) || k.toLowerCase() === home.toLowerCase()) ?? home
-    const awayId = Object.values(NAME_TO_ID).find(k => away.includes(k) || k.toLowerCase() === away.toLowerCase()) ?? away
+    const homeId = Object.keys(NAME_TO_ID).find(k => home === k || home.toLowerCase() === k.toLowerCase()) ?? home
+    const awayId = Object.keys(NAME_TO_ID).find(k => away === k || away.toLowerCase() === k.toLowerCase()) ?? away
     const date = row['Date'] ?? ''
     const played = !!row['FTHG'] && row['FTHG'] !== ''
     return {
@@ -136,7 +136,7 @@ function parseCSV(text: string, season: string): Match[] {
 
 const CURRENT_PLAYED = 50
 const HISTORY_PLAYED_RATIO = 0.95
-const DATA_VERSION = '20240927b'
+const DATA_VERSION = '20260930a'
 const DATA_BASE = import.meta.env.BASE_URL
 
 export async function loadSeasonData(season: string): Promise<{ matches: Match[], source: string }> {
