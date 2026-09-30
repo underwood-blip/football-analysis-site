@@ -1,0 +1,46 @@
+﻿Div,Date,Time,HomeTeam,AwayTeam,FTHG,FTAG,FTR,HTHG,HTAG,HTR,HxG,AxG,B365H,B365D,B365A
+D1,28/08/2026,19:30,Bayern Munich,Stuttgart,5,1,H,,,,,,1.22,7,10
+D1,29/08/2026,14:30,Elversberg,Leverkusen,3,2,H,,,,,,5,4.5,1.57
+D1,29/08/2026,14:30,FC Koln,Hoffenheim,3,2,H,,,,,,2.88,3.75,2.25
+D1,29/08/2026,14:30,Mainz,Paderborn,0,0,D,,,,,,1.65,4,5
+D1,29/08/2026,14:30,RB Leipzig,M'gladbach,3,0,H,,,,,,1.57,4.5,5.25
+D1,29/08/2026,14:30,Union Berlin,Ein Frankfurt,3,3,D,,,,,,2.6,3.6,2.6
+D1,29/08/2026,17:30,Dortmund,Hamburg,2,0,H,,,,,,1.3,5.75,9
+D1,30/08/2026,14:30,Freiburg,Werder Bremen,4,1,H,,,,,,1.91,3.6,4
+D1,30/08/2026,16:30,Augsburg,Schalke 04,3,0,H,,,,,,2.15,3.7,3.1
+D1,04/09/2026,19:30,Stuttgart,FC Koln,4,1,H,,,,,,1.48,5,5.5
+D1,05/09/2026,14:30,Hoffenheim,Dortmund,2,3,A,,,,,,2.88,3.9,2.2
+D1,05/09/2026,14:30,Leverkusen,Union Berlin,4,0,H,,,,,,1.44,4.75,6.25
+D1,05/09/2026,14:30,M'gladbach,Elversberg,3,4,A,,,,,,1.9,3.75,3.8
+D1,05/09/2026,14:30,Paderborn,Freiburg,0,1,A,,,,,,3.6,3.6,1.95
+D1,05/09/2026,14:30,Werder Bremen,RB Leipzig,3,1,H,,,,,,4.33,4,1.73
+D1,05/09/2026,17:30,Schalke 04,Bayern Munich,0,0,D,,,,,,15,7.5,1.17
+D1,06/09/2026,14:30,Hamburg,Mainz,0,5,A,,,,,,2.88,3.5,2.4
+D1,06/09/2026,16:30,Ein Frankfurt,Augsburg,1,4,A,,,,,,1.91,3.9,3.6
+D1,11/09/2026,19:30,Union Berlin,Schalke 04,1,3,A,,,,,,2.45,3.5,2.8
+D1,12/09/2026,14:30,Augsburg,Leverkusen,2,2,D,,,,,,4.1,4.1,1.8
+D1,12/09/2026,14:30,Dortmund,Paderborn,3,0,H,,,,,,1.25,6.5,10
+D1,12/09/2026,14:30,Freiburg,M'gladbach,5,0,H,,,,,,1.67,4.33,4.5
+D1,12/09/2026,14:30,Hoffenheim,Stuttgart,2,1,H,,,,,,2.35,4,2.63
+D1,12/09/2026,14:30,Mainz,Ein Frankfurt,1,3,A,,,,,,1.95,4,3.4
+D1,12/09/2026,17:30,FC Koln,Werder Bremen,1,1,D,,,,,,2.05,3.8,3.3
+D1,13/09/2026,14:30,RB Leipzig,Hamburg,5,0,H,,,,,,1.36,5,8
+D1,13/09/2026,16:30,Elversberg,Bayern Munich,1,2,A,,,,,,13,9,1.17
+D1,18/09/2026,19:30,Bayern Munich,Union Berlin,7,0,H,,,,,,1.04,19,29
+D1,19/09/2026,14:30,Ein Frankfurt,Freiburg,2,2,D,,,,,,2.4,3.9,2.63
+D1,19/09/2026,14:30,Hamburg,FC Koln,2,1,H,,,,,,2.7,3.6,2.45
+D1,19/09/2026,14:30,M'gladbach,Mainz,3,4,A,,,,,,3,3.7,2.2
+D1,19/09/2026,14:30,Werder Bremen,Augsburg,3,2,H,,,,,,2.3,3.8,2.8
+D1,19/09/2026,17:30,Stuttgart,Dortmund,0,1,A,,,,,,2.4,3.75,2.75
+D1,20/09/2026,14:30,Leverkusen,RB Leipzig,2,0,H,,,,,,1.95,4.2,3.25
+D1,20/09/2026,16:30,Schalke 04,Elversberg,0,0,D,,,,,,2,3.7,3.5
+D1,20/09/2026,18:30,Paderborn,Hoffenheim,3,1,H,,,,,,4.33,4.5,1.67
+D1,22/09/2026,19:45,Elversberg,Mainz,,,,,,,,,2.05,4.59,2.32
+D1,23/09/2026,16:15,Union Berlin,Hamburg,,,,,,,,,1.92,2.7,4.09
+D1,24/09/2026,19:45,M'gladbach,Ein Frankfurt,,,,,,,,,2.0,3.51,2.85
+D1,22/09/2026,16:15,Freiburg,FC Koln,,,,,,,,,2.15,4.71,2.18
+D1,23/09/2026,19:45,Hoffenheim,Werder Bremen,,,,,,,,,1.95,3.99,2.68
+D1,24/09/2026,16:15,Schalke 04,RB Leipzig,,,,,,,,,3.93,5.0,1.47
+D1,22/09/2026,19:45,Paderborn,Bayern Munich,,,,,,,,,3.37,5.43,1.52
+D1,23/09/2026,16:15,Stuttgart,Leverkusen,,,,,,,,,1.94,4.38,2.54
+D1,24/09/2026,19:45,Dortmund,Augsburg,,,,,,,,,3.67,5.92,1.44
